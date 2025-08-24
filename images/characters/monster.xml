@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+--><TextureAtlas imagePath="Neo_Monster.png" width="4700" height="5246">
+	<SubTexture name="Monster Right instance 10000" x="0" y="792" width="787" height="721" frameX="-25" frameY="-0" frameWidth="822" frameHeight="740"/>
+	<SubTexture name="Monster Right instance 10001" x="787" y="792" width="787" height="721" frameX="-25" frameY="-0" frameWidth="822" frameHeight="740"/>
+	<SubTexture name="Monster Right instance 10002" x="2211" y="792" width="788" height="710" frameX="-0" frameY="-11" frameWidth="822" frameHeight="740"/>
+	<SubTexture name="Monster Right instance 10003" x="1426" y="0" width="710" height="788" rotated="true" frameX="-0" frameY="-11" frameWidth="822" frameHeight="740"/>
+	<SubTexture name="Monster Right instance 10004" x="0" y="0" width="713" height="792" rotated="true" frameX="-3" frameY="-8" frameWidth="822" frameHeight="740"/>
+	<SubTexture name="Monster Right instance 10005" x="713" y="0" width="713" height="792" rotated="true" frameX="-3" frameY="-8" frameWidth="822" frameHeight="740"/>
+	<SubTexture name="Monster Right instance 10006" x="0" y="1513" width="791" height="710" frameX="-0" frameY="-11" frameWidth="822" frameHeight="740"/>
+	<SubTexture name="Monster down instance 10000" x="1879" y="5453" width="609" height="559" rotated="true" frameX="-19" frameY="-23" frameWidth="596" frameHeight="642"/>
+	<SubTexture name="Monster down instance 10001" x="1320" y="5453" width="559" height="609" frameX="-19" frameY="-23" frameWidth="596" frameHeight="642"/>
+	<SubTexture name="Monster down instance 10002" x="2488" y="5453" width="617" height="549" rotated="true" frameX="-23" frameY="-15" frameWidth="596" frameHeight="642"/>
+	<SubTexture name="Monster down instance 10003" x="0" y="6074" width="617" height="549" rotated="true" frameX="-23" frameY="-15" frameWidth="596" frameHeight="642"/>
+	<SubTexture name="Monster down instance 10004" x="2820" y="4187" width="539" height="629" frameX="-34" frameY="-3" frameWidth="596" frameHeight="642"/>
+	<SubTexture name="Monster down instance 10005" x="0" y="4824" width="539" height="629" frameX="-34" frameY="-3" frameWidth="596" frameHeight="642"/>
+	<SubTexture name="Monster down instance 10006" x="1246" y="6074" width="629" height="542" rotated="true" frameX="-30" frameY="-3" frameWidth="596" frameHeight="642"/>
+	<SubTexture name="Monster down instance 10007" x="1875" y="6074" width="629" height="542" rotated="true" frameX="-30" frameY="-3" frameWidth="596" frameHeight="642"/>
+	<SubTexture name="Monster down instance 10008" x="617" y="6074" width="629" height="544" rotated="true" frameX="-28" frameY="-3" frameWidth="596" frameHeight="642"/>
+	<SubTexture name="Monster idle instance 10000" x="2699" y="1513" width="640" height="662" rotated="true" frameX="-9" frameY="-32" frameWidth="677" frameHeight="675"/>
+	<SubTexture name="Monster idle instance 10001" x="0" y="2223" width="640" height="662" rotated="true" frameX="-9" frameY="-32" frameWidth="677" frameHeight="675"/>
+	<SubTexture name="Monster idle instance 10002" x="1951" y="3536" width="644" height="639" frameX="-17" frameY="-32" frameWidth="677" frameHeight="675"/>
+	<SubTexture name="Monster idle instance 10003" x="2595" y="3536" width="644" height="639" frameX="-17" frameY="-32" frameWidth="677" frameHeight="675"/>
+	<SubTexture name="Monster idle instance 10004" x="653" y="3536" width="649" height="640" rotated="true" frameX="-20" frameY="-22" frameWidth="677" frameHeight="675"/>
+	<SubTexture name="Monster idle instance 10005" x="1302" y="3536" width="649" height="640" rotated="true" frameX="-20" frameY="-22" frameWidth="677" frameHeight="675"/>
+	<SubTexture name="Monster idle instance 10006" x="0" y="2885" width="649" height="651" frameX="-16" frameY="-20" frameWidth="677" frameHeight="675"/>
+	<SubTexture name="Monster idle instance 10007" x="649" y="2885" width="649" height="651" frameX="-16" frameY="-20" frameWidth="677" frameHeight="675"/>
+	<SubTexture name="Monster idle instance 10008" x="1911" y="2223" width="651" height="653" frameX="-16" frameY="-18" frameWidth="677" frameHeight="675"/>
+	<SubTexture name="Monster idle instance 10009" x="2562" y="2223" width="651" height="653" frameX="-16" frameY="-18" frameWidth="677" frameHeight="675"/>
+	<SubTexture name="Monster idle instance 10010" x="1298" y="2885" width="653" height="651" rotated="true" frameX="-16" frameY="-18" frameWidth="677" frameHeight="675"/>
+	<SubTexture name="Monster idle instance 10011" x="1951" y="2885" width="658" height="651" rotated="true" frameX="-16" frameY="-13" frameWidth="677" frameHeight="675"/>
+	<SubTexture name="Monster idle instance 10012" x="2609" y="2885" width="642" height="651" rotated="true" frameX="-16" frameY="-29" frameWidth="677" frameHeight="675"/>
+	<SubTexture name="Monster idle instance 10013" x="1260" y="2223" width="651" height="656" frameX="-16" frameY="-15" frameWidth="677" frameHeight="675"/>
+	<SubTexture name="Monster idle instance 10014" x="0" y="3536" width="653" height="651" rotated="true" frameX="-16" frameY="-18" frameWidth="677" frameHeight="675"/>
+	<SubTexture name="Monster left instance 10000" x="640" y="2223" width="620" height="657" rotated="true" frameX="-3" frameY="-4" frameWidth="696" frameHeight="640"/>
+	<SubTexture name="Monster left instance 10001" x="663" y="5453" width="657" height="620" frameX="-3" frameY="-4" frameWidth="696" frameHeight="640"/>
+	<SubTexture name="Monster left instance 10002" x="539" y="4824" width="663" height="621" frameX="-7" frameY="-3" frameWidth="696" frameHeight="640"/>
+	<SubTexture name="Monster left instance 10003" x="1202" y="4824" width="663" height="621" frameX="-7" frameY="-3" frameWidth="696" frameHeight="640"/>
+	<SubTexture name="Monster left instance 10004" x="1865" y="4824" width="662" height="621" frameX="-10" frameY="-3" frameWidth="696" frameHeight="640"/>
+	<SubTexture name="Monster left instance 10005" x="2527" y="4824" width="662" height="621" frameX="-10" frameY="-3" frameWidth="696" frameHeight="640"/>
+	<SubTexture name="Monster left instance 10006" x="0" y="5453" width="663" height="621" frameX="-8" frameY="-3" frameWidth="696" frameHeight="640"/>
+	<SubTexture name="Monster up instance 10000" x="2136" y="0" width="619" height="733" frameX="-38" frameY="-0" frameWidth="676" frameHeight="760"/>
+	<SubTexture name="Monster up instance 10001" x="2755" y="0" width="619" height="733" frameX="-38" frameY="-0" frameWidth="676" frameHeight="760"/>
+	<SubTexture name="Monster up instance 10002" x="1574" y="792" width="637" height="717" frameX="-18" frameY="-16" frameWidth="676" frameHeight="760"/>
+	<SubTexture name="Monster up instance 10003" x="0" y="4187" width="717" height="637" rotated="true" frameX="-18" frameY="-16" frameWidth="676" frameHeight="760"/>
+	<SubTexture name="Monster up instance 10004" x="1418" y="4187" width="701" height="635" rotated="true" frameX="-20" frameY="-32" frameWidth="676" frameHeight="760"/>
+	<SubTexture name="Monster up instance 10005" x="2119" y="4187" width="701" height="635" rotated="true" frameX="-20" frameY="-32" frameWidth="676" frameHeight="760"/>
+	<SubTexture name="Monster up instance 10006" x="791" y="1513" width="636" height="701" frameX="-19" frameY="-32" frameWidth="676" frameHeight="760"/>
+	<SubTexture name="Monster up instance 10007" x="1427" y="1513" width="636" height="701" frameX="-19" frameY="-32" frameWidth="676" frameHeight="760"/>
+	<SubTexture name="Monster up instance 10008" x="2063" y="1513" width="636" height="701" frameX="-19" frameY="-32" frameWidth="676" frameHeight="760"/>
+	<SubTexture name="Monster up instance 10009" x="717" y="4187" width="701" height="636" rotated="true" frameX="-19" frameY="-32" frameWidth="676" frameHeight="760"/>
+</TextureAtlas>

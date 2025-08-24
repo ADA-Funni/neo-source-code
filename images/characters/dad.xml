@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="NEO_DAD.png" width="5073" height="5035">
+	<SubTexture name="Dad down instance 10000" x="4125" y="4526" width="807" height="489" rotated="true" frameX="-1" frameY="-15" frameWidth="494" frameHeight="824"/>
+	<SubTexture name="Dad down instance 10001" x="4174" y="3307" width="807" height="489" rotated="true" frameX="-1" frameY="-15" frameWidth="494" frameHeight="824"/>
+	<SubTexture name="Dad down instance 10002" x="1655" y="4535" width="821" height="488" rotated="true" frameX="-6" frameY="-1" frameWidth="494" frameHeight="824"/>
+	<SubTexture name="Dad down instance 10003" x="2479" y="4535" width="821" height="488" rotated="true" frameX="-6" frameY="-1" frameWidth="494" frameHeight="824"/>
+	<SubTexture name="Dad down instance 10004" x="3349" y="3386" width="822" height="484" rotated="true" frameX="-8" frameY="-0" frameWidth="494" frameHeight="824"/>
+	<SubTexture name="Dad down instance 10005" x="3830" y="2482" width="484" height="822" frameX="-8" frameY="-0" frameWidth="494" frameHeight="824"/>
+	<SubTexture name="Dad down instance 10006" x="1" y="4550" width="822" height="484" rotated="true" frameX="-8" frameY="-0" frameWidth="494" frameHeight="824"/>
+	<SubTexture name="Dad down instance 10007" x="3303" y="4534" width="819" height="488" rotated="true" frameX="-6" frameY="-3" frameWidth="494" frameHeight="824"/>
+	<SubTexture name="Dad down instance 10008" x="4584" y="1" width="488" height="819" frameX="-6" frameY="-3" frameWidth="494" frameHeight="824"/>
+	<SubTexture name="Dad down instance 10009" x="4584" y="823" width="488" height="819" frameX="-6" frameY="-3" frameWidth="494" frameHeight="824"/>
+	<SubTexture name="Dad down instance 10010" x="4144" y="1655" width="488" height="819" frameX="-6" frameY="-3" frameWidth="494" frameHeight="824"/>
+	<SubTexture name="Dad down instance 10011" x="4584" y="823" width="488" height="819" frameX="-6" frameY="-3" frameWidth="494" frameHeight="824"/>
+	<SubTexture name="Dad down instance 10012" x="4584" y="823" width="488" height="819" frameX="-6" frameY="-3" frameWidth="494" frameHeight="824"/>
+	<SubTexture name="Dad idle instance 10000" x="3303" y="1" width="429" height="836" frameX="-0" frameY="-6" frameWidth="430" frameHeight="846"/>
+	<SubTexture name="Dad idle instance 10001" x="2961" y="2547" width="430" height="836" frameX="-0" frameY="-6" frameWidth="430" frameHeight="846"/>
+	<SubTexture name="Dad idle instance 10002" x="1655" y="4114" width="823" height="418" rotated="true" frameX="-4" frameY="-20" frameWidth="430" frameHeight="846"/>
+	<SubTexture name="Dad idle instance 10003" x="2481" y="4113" width="823" height="418" rotated="true" frameX="-4" frameY="-20" frameWidth="430" frameHeight="846"/>
+	<SubTexture name="Dad idle instance 10004" x="3307" y="4113" width="823" height="410" rotated="true" frameX="-6" frameY="-21" frameWidth="430" frameHeight="846"/>
+	<SubTexture name="Dad idle instance 10005" x="4171" y="1" width="410" height="823" frameX="-6" frameY="-21" frameWidth="430" frameHeight="846"/>
+	<SubTexture name="Dad idle instance 10006" x="2963" y="1699" width="402" height="826" frameX="-6" frameY="-19" frameWidth="430" frameHeight="846"/>
+	<SubTexture name="Dad idle instance 10007" x="3303" y="840" width="402" height="826" frameX="-6" frameY="-19" frameWidth="430" frameHeight="846"/>
+	<SubTexture name="Dad idle instance 10008" x="1695" y="3268" width="838" height="406" rotated="true" frameX="-6" frameY="-7" frameWidth="430" frameHeight="846"/>
+	<SubTexture name="Dad idle instance 10009" x="2552" y="2547" width="406" height="838" frameX="-6" frameY="-7" frameWidth="430" frameHeight="846"/>
+	<SubTexture name="Dad idle instance 10010" x="1" y="3268" width="844" height="409" rotated="true" frameX="-6" frameY="-1" frameWidth="430" frameHeight="846"/>
+	<SubTexture name="Dad idle instance 10011" x="848" y="3268" width="844" height="408" rotated="true" frameX="-6" frameY="-1" frameWidth="430" frameHeight="846"/>
+	<SubTexture name="Dad idle instance 10012" x="2552" y="1699" width="408" height="845" frameX="-6" frameY="-0" frameWidth="430" frameHeight="846"/>
+	<SubTexture name="Dad idle instance 10013" x="1" y="2857" width="845" height="408" rotated="true" frameX="-6" frameY="-0" frameWidth="430" frameHeight="846"/>
+	<SubTexture name="Dad idle instance 10014" x="849" y="2857" width="845" height="408" rotated="true" frameX="-6" frameY="-0" frameWidth="430" frameHeight="846"/>
+	<SubTexture name="Dad idle instance 10015" x="1699" y="2851" width="845" height="409" rotated="true" frameX="-6" frameY="-0" frameWidth="430" frameHeight="846"/>
+	<SubTexture name="Dad idle instance 10016" x="849" y="2857" width="845" height="408" rotated="true" frameX="-6" frameY="-0" frameWidth="430" frameHeight="846"/>
+	<SubTexture name="Dad idle instance 10017" x="849" y="2857" width="845" height="408" rotated="true" frameX="-6" frameY="-0" frameWidth="430" frameHeight="846"/>
+	<SubTexture name="Dad idle instance 10018" x="849" y="2857" width="845" height="408" rotated="true" frameX="-6" frameY="-0" frameWidth="430" frameHeight="846"/>
+	<SubTexture name="Dad left instance 10000" x="1" y="3680" width="825" height="431" rotated="true" frameX="-0" frameY="-0" frameWidth="443" frameHeight="826"/>
+	<SubTexture name="Dad left instance 10001" x="829" y="3680" width="825" height="431" rotated="true" frameX="-0" frameY="-0" frameWidth="443" frameHeight="826"/>
+	<SubTexture name="Dad left instance 10002" x="1695" y="3677" width="824" height="433" rotated="true" frameX="-7" frameY="-1" frameWidth="443" frameHeight="826"/>
+	<SubTexture name="Dad left instance 10003" x="2522" y="3677" width="824" height="433" rotated="true" frameX="-7" frameY="-1" frameWidth="443" frameHeight="826"/>
+	<SubTexture name="Dad left instance 10004" x="3735" y="1" width="433" height="824" frameX="-9" frameY="-1" frameWidth="443" frameHeight="826"/>
+	<SubTexture name="Dad left instance 10005" x="3735" y="828" width="433" height="824" frameX="-9" frameY="-1" frameWidth="443" frameHeight="826"/>
+	<SubTexture name="Dad left instance 10006" x="3708" y="1655" width="433" height="824" frameX="-9" frameY="-1" frameWidth="443" frameHeight="826"/>
+	<SubTexture name="Dad left instance 10007" x="3394" y="2482" width="433" height="824" frameX="-7" frameY="-1" frameWidth="443" frameHeight="826"/>
+	<SubTexture name="Dad left instance 10008" x="1" y="4114" width="824" height="433" rotated="true" frameX="-7" frameY="-1" frameWidth="443" frameHeight="826"/>
+	<SubTexture name="Dad left instance 10009" x="828" y="4114" width="824" height="433" rotated="true" frameX="-7" frameY="-1" frameWidth="443" frameHeight="826"/>
+	<SubTexture name="Dad left instance 10010" x="1" y="4114" width="824" height="433" rotated="true" frameX="-7" frameY="-1" frameWidth="443" frameHeight="826"/>
+	<SubTexture name="Dad left instance 10011" x="1" y="4114" width="824" height="433" rotated="true" frameX="-7" frameY="-1" frameWidth="443" frameHeight="826"/>
+	<SubTexture name="Dad right instance 10000" x="1" y="1816" width="848" height="516" rotated="true" frameX="-0" frameY="-0" frameWidth="521" frameHeight="849"/>
+	<SubTexture name="Dad right instance 10001" x="852" y="1816" width="848" height="516" rotated="true" frameX="-0" frameY="-0" frameWidth="521" frameHeight="849"/>
+	<SubTexture name="Dad right instance 10002" x="2259" y="1" width="518" height="846" frameX="-1" frameY="-2" frameWidth="521" frameHeight="849"/>
+	<SubTexture name="Dad right instance 10003" x="2259" y="850" width="518" height="846" frameX="-1" frameY="-2" frameWidth="521" frameHeight="849"/>
+	<SubTexture name="Dad right instance 10004" x="1703" y="1806" width="846" height="519" rotated="true" frameX="-1" frameY="-2" frameWidth="521" frameHeight="849"/>
+	<SubTexture name="Dad right instance 10005" x="1" y="2335" width="846" height="519" rotated="true" frameX="-1" frameY="-2" frameWidth="521" frameHeight="849"/>
+	<SubTexture name="Dad right instance 10006" x="850" y="2335" width="846" height="519" rotated="true" frameX="-1" frameY="-2" frameWidth="521" frameHeight="849"/>
+	<SubTexture name="Dad right instance 10007" x="1703" y="2328" width="846" height="520" rotated="true" frameX="-1" frameY="-2" frameWidth="521" frameHeight="849"/>
+	<SubTexture name="Dad right instance 10008" x="2780" y="1" width="520" height="846" frameX="-1" frameY="-2" frameWidth="521" frameHeight="849"/>
+	<SubTexture name="Dad right instance 10009" x="2780" y="850" width="520" height="846" frameX="-1" frameY="-2" frameWidth="521" frameHeight="849"/>
+	<SubTexture name="Dad right instance 10010" x="2780" y="1" width="520" height="846" frameX="-1" frameY="-2" frameWidth="521" frameHeight="849"/>
+	<SubTexture name="Dad right instance 10011" x="2780" y="1" width="520" height="846" frameX="-1" frameY="-2" frameWidth="521" frameHeight="849"/>
+	<SubTexture name="Dad up instance 10000" x="1" y="1" width="443" height="902" frameX="-2" frameY="-0" frameWidth="454" frameHeight="903"/>
+	<SubTexture name="Dad up instance 10001" x="447" y="1" width="443" height="902" frameX="-2" frameY="-0" frameWidth="454" frameHeight="903"/>
+	<SubTexture name="Dad up instance 10002" x="893" y="1" width="452" height="890" frameX="-0" frameY="-10" frameWidth="454" frameHeight="903"/>
+	<SubTexture name="Dad up instance 10003" x="1" y="906" width="890" height="452" rotated="true" frameX="-0" frameY="-10" frameWidth="454" frameHeight="903"/>
+	<SubTexture name="Dad up instance 10004" x="894" y="1349" width="888" height="454" rotated="true" frameX="-0" frameY="-12" frameWidth="454" frameHeight="903"/>
+	<SubTexture name="Dad up instance 10005" x="1803" y="1" width="453" height="888" frameX="-0" frameY="-12" frameWidth="454" frameHeight="903"/>
+	<SubTexture name="Dad up instance 10006" x="1803" y="892" width="453" height="888" frameX="-0" frameY="-12" frameWidth="454" frameHeight="903"/>
+	<SubTexture name="Dad up instance 10007" x="1348" y="1" width="452" height="890" frameX="-0" frameY="-10" frameWidth="454" frameHeight="903"/>
+	<SubTexture name="Dad up instance 10008" x="894" y="894" width="890" height="452" rotated="true" frameX="-0" frameY="-10" frameWidth="454" frameHeight="903"/>
+	<SubTexture name="Dad up instance 10009" x="1" y="1361" width="890" height="452" rotated="true" frameX="-0" frameY="-10" frameWidth="454" frameHeight="903"/>
+	<SubTexture name="Dad up instance 10010" x="894" y="894" width="890" height="452" rotated="true" frameX="-0" frameY="-10" frameWidth="454" frameHeight="903"/>
+	<SubTexture name="Dad up instance 10011" x="894" y="894" width="890" height="452" rotated="true" frameX="-0" frameY="-10" frameWidth="454" frameHeight="903"/>
+</TextureAtlas>

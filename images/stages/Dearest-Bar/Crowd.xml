@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="Crowd.png" width="4925" height="5071">
+	<SubTexture name="chairs instance 10000" x="1" y="1" width="694" height="2236" rotated="true" frameX="-0" frameY="-72" frameWidth="2236" frameHeight="767"/>
+	<SubTexture name="chairs instance 10001" x="698" y="1" width="694" height="2236" rotated="true" frameX="-0" frameY="-72" frameWidth="2236" frameHeight="767"/>
+	<SubTexture name="chairs instance 10002" x="1395" y="1" width="701" height="2236" rotated="true" frameX="-0" frameY="-65" frameWidth="2236" frameHeight="767"/>
+	<SubTexture name="chairs instance 10003" x="2099" y="1" width="701" height="2236" rotated="true" frameX="-0" frameY="-65" frameWidth="2236" frameHeight="767"/>
+	<SubTexture name="chairs instance 10004" x="1" y="2240" width="2236" height="704" frameX="-0" frameY="-62" frameWidth="2236" frameHeight="767"/>
+	<SubTexture name="chairs instance 10005" x="2803" y="1" width="704" height="2236" rotated="true" frameX="-0" frameY="-62" frameWidth="2236" frameHeight="767"/>
+	<SubTexture name="chairs instance 10006" x="1" y="2947" width="2236" height="706" frameX="-0" frameY="-61" frameWidth="2236" frameHeight="767"/>
+	<SubTexture name="chairs instance 10007" x="3510" y="1" width="706" height="2236" rotated="true" frameX="-0" frameY="-61" frameWidth="2236" frameHeight="767"/>
+	<SubTexture name="chairs instance 10008" x="1" y="3656" width="2236" height="706" frameX="-0" frameY="-61" frameWidth="2236" frameHeight="767"/>
+	<SubTexture name="chairs instance 10009" x="4219" y="1" width="705" height="2236" rotated="true" frameX="-0" frameY="-61" frameWidth="2236" frameHeight="767"/>
+	<SubTexture name="chairs instance 10010" x="2240" y="2240" width="2236" height="705" frameX="-0" frameY="-61" frameWidth="2236" frameHeight="767"/>
+	<SubTexture name="chairs instance 10011" x="2240" y="2948" width="2236" height="705" frameX="-0" frameY="-61" frameWidth="2236" frameHeight="767"/>
+	<SubTexture name="chairs instance 10012" x="2240" y="3656" width="2236" height="705" frameX="-0" frameY="-61" frameWidth="2236" frameHeight="767"/>
+	<SubTexture name="chairs instance 10013" x="1" y="4365" width="2236" height="705" frameX="-0" frameY="-61" frameWidth="2236" frameHeight="767"/>
+	<SubTexture name="chairs instance 10014" x="2240" y="4364" width="2236" height="705" frameX="-0" frameY="-61" frameWidth="2236" frameHeight="767"/>
+</TextureAtlas>

@@ -1,0 +1,15 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "gf",
+	"difficulties": [
+		"hard",
+		"normal"
+	],
+	"color": "#9271FD",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Tutorial",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 100
+}

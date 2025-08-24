@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+--><TextureAtlas imagePath="bf and gf date.png" width="1395" height="1412">
+	<SubTexture name="loop0001" x="0" y="0" width="695" height="468" frameX="-0" frameY="-12" frameWidth="695" frameHeight="480"/>
+	<SubTexture name="loop0002" x="0" y="0" width="695" height="468" frameX="-0" frameY="-12" frameWidth="695" frameHeight="480"/>
+	<SubTexture name="loop0003" x="0" y="0" width="695" height="468" frameX="-0" frameY="-12" frameWidth="695" frameHeight="480"/>
+	<SubTexture name="loop0004" x="0" y="0" width="695" height="468" frameX="-0" frameY="-12" frameWidth="695" frameHeight="480"/>
+	<SubTexture name="loop0005" x="0" y="468" width="695" height="468" frameX="-0" frameY="-12" frameWidth="695" frameHeight="480"/>
+	<SubTexture name="loop0006" x="0" y="468" width="695" height="468" frameX="-0" frameY="-12" frameWidth="695" frameHeight="480"/>
+	<SubTexture name="loop0007" x="0" y="468" width="695" height="468" frameX="-0" frameY="-12" frameWidth="695" frameHeight="480"/>
+	<SubTexture name="loop0008" x="0" y="468" width="695" height="468" frameX="-0" frameY="-12" frameWidth="695" frameHeight="480"/>
+	<SubTexture name="loop0009" x="0" y="936" width="695" height="468" frameX="-0" frameY="-12" frameWidth="695" frameHeight="480"/>
+	<SubTexture name="loop0010" x="0" y="936" width="695" height="468" frameX="-0" frameY="-12" frameWidth="695" frameHeight="480"/>
+	<SubTexture name="loop0011" x="0" y="936" width="695" height="468" frameX="-0" frameY="-12" frameWidth="695" frameHeight="480"/>
+	<SubTexture name="loop0012" x="0" y="936" width="695" height="468" frameX="-0" frameY="-12" frameWidth="695" frameHeight="480"/>
+	<SubTexture name="loop0013" x="0" y="1404" width="695" height="468" frameX="-0" frameY="-12" frameWidth="695" frameHeight="480"/>
+	<SubTexture name="loop0014" x="0" y="1404" width="695" height="468" frameX="-0" frameY="-12" frameWidth="695" frameHeight="480"/>
+	<SubTexture name="loop0015" x="0" y="1872" width="695" height="468" frameX="-0" frameY="-12" frameWidth="695" frameHeight="480"/>
+</TextureAtlas>

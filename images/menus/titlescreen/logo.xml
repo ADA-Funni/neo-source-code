@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?><TextureAtlas imagePath="logo pulse.png">
+	<!-- Created with Adobe Animate version 23.0.1.70 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="logo bump instance 10000" x="0" y="0" width="467" height="488"/>
+	<SubTexture name="logo bump instance 10001" x="0" y="488" width="467" height="488"/>
+	<SubTexture name="logo bump instance 10002" x="0" y="976" width="467" height="488"/>
+	<SubTexture name="logo bump instance 10003" x="0" y="1464" width="467" height="488"/>
+	<SubTexture name="logo bump instance 10004" x="0" y="1952" width="467" height="488"/>
+	<SubTexture name="logo bump instance 10005" x="0" y="2440" width="467" height="488"/>
+	<SubTexture name="logo bump instance 10006" x="0" y="2928" width="467" height="488"/>
+	<SubTexture name="logo bump instance 10007" x="0" y="3416" width="467" height="488"/>
+	<SubTexture name="logo bump instance 10008" x="0" y="3904" width="467" height="488"/>
+	<SubTexture name="logo bump instance 10009" x="0" y="4392" width="467" height="488"/>
+	<SubTexture name="logo bump instance 10010" x="0" y="4880" width="467" height="488"/>
+	<SubTexture name="logo bump instance 10011" x="0" y="5368" width="467" height="488"/>
+	<SubTexture name="logo bump instance 10012" x="0" y="5856" width="467" height="488"/>
+	<SubTexture name="logo bump instance 10013" x="0" y="6344" width="467" height="488"/>
+	<SubTexture name="logo bump instance 10014" x="0" y="6832" width="467" height="488"/>
+</TextureAtlas>
