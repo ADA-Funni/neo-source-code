@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character icon="dad" color="#AF66CE" holdTime="6.1">
+<character color="#FF00FF" holdTime="6.1">
 	<anim name="idle" anim="Dad idle instance 1"/>
 	<anim name="singUP" anim="Dad up instance 1" x="-15" y="48"/>
 	<anim name="singLEFT" anim="Dad left instance 1" x="44" y="-19"/>

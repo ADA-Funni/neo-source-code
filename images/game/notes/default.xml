@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
--->
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
 <TextureAtlas imagePath="NEO_Notes.png" width="993" height="991">
 	<SubTexture name="arrowDOWN0000" x="680" y="177" width="148" height="172" frameX="-0" frameY="-0" frameWidth="152" frameHeight="175"/>
 	<SubTexture name="arrowLEFT0000" x="1" y="667" width="173" height="148" frameX="-0" frameY="-0" frameWidth="176" frameHeight="152"/>

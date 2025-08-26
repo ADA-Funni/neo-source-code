@@ -1,9 +1,9 @@
 <!DOCTYPE codename-engine-stage>
-<stage zoom="0.85" name="Dearest Bar" folder="stages/Dearest-Bar/" startCamPosY="600" startCamPosX="1000">
-	<sprite name="bg"               x="-580" y="-175"   sprite="main stage"	scroll="0.95" />
-	<girlfriend x="165" y="240" scale="0.85"/>
-	<dad x="-10" y="160" scale="0.85"/>
-	<boyfriend x="570" y="195" scale="0.85"/>
-	<sprite name="stageCurtains"    x="-700" y="-300"   sprite="Lights"	scroll="1.3" />
-	<sprite name="Crowd"    x="-550" y="680"   sprite="Crowd"   scroll="0.85" />
+<stage startCamPosX="1000" startCamPosY="600" folder="stages/Dearest-Bar/" zoom="0.85" name="Dearest Bar">
+	<sprite x="-580" scroll="0.95" sprite="main stage" y="-175" name="bg"/>
+	<girlfriend scale="0.85" x="165" y="240"/>
+	<dad scale="0.85" x="-10" y="160"/>
+	<boyfriend scale="0.85" x="570" y="195"/>
+	<sprite x="-550" sprite="Crowd" y="680" type="beat" scrollx="0.85" name="Crowd"/>
+	<sprite scrolly="0.8" x="-585" sprite="Lights" y="-292" scrollx="1.05" name="Lights"/>
 </stage>

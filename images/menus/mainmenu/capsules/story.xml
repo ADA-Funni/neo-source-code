@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+<TextureAtlas imagePath="story.png" width="894" height="126">
+	<SubTexture name="story capsule0000" x="1" y="1" width="445" height="124" frameX="-0" frameY="-0" frameWidth="445" frameHeight="124"/>
+	<SubTexture name="story select0000" x="449" y="1" width="444" height="124" frameX="-0" frameY="-0" frameWidth="444" frameHeight="135"/>
+	<SubTexture name="story select0001" x="449" y="1" width="444" height="124" frameX="-0" frameY="-0" frameWidth="444" frameHeight="135"/>
+	<SubTexture name="story select0002" x="449" y="1" width="444" height="124" frameX="-0" frameY="-11" frameWidth="444" frameHeight="135"/>
+	<SubTexture name="story select0003" x="449" y="1" width="444" height="124" frameX="-0" frameY="-11" frameWidth="444" frameHeight="135"/>
+	<SubTexture name="story select0004" x="449" y="1" width="444" height="124" frameX="-0" frameY="-8" frameWidth="444" frameHeight="135"/>
+</TextureAtlas>

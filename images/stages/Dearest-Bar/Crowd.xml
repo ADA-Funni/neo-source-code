@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
--->
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
 <TextureAtlas imagePath="Crowd.png" width="4925" height="5071">
 	<SubTexture name="chairs instance 10000" x="1" y="1" width="694" height="2236" rotated="true" frameX="-0" frameY="-72" frameWidth="2236" frameHeight="767"/>
 	<SubTexture name="chairs instance 10001" x="698" y="1" width="694" height="2236" rotated="true" frameX="-0" frameY="-72" frameWidth="2236" frameHeight="767"/>

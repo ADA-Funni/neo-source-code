@@ -45,8 +45,25 @@ function create() {
     start.screenCenter(FlxAxes.X);
 }
 
+var trans:Bool = false;
+
 function update(elapsed) {
-    if (controls.ACCEPT) FlxG.switchState(new MainMenuState()); //IMPORTANT: Make Trans
+    if (controls.ACCEPT) {
+        if (!trans) { //no trans???
+            trans = true; // nvm yes trans
+            CoolUtil.playMenuSFX(1);
+            FlxG.camera.flash(FlxG.random.bool(50) ? 0xFFFF00FF : 0xFF00FFFF);
+            FlxTween.tween(FlxG.camera, {zoom: 5}, 1.5, {startDelay: 1.3, ease: FlxEase.cubicInOut});
+            new FlxTimer().start(1.75, function() {
+                FlxG.camera.fade(FlxColor.BLACK, 0.75);
+            });
+            new FlxTimer().start(2.8, function() {
+                FlxG.switchState(new MainMenuState());
+            });
+        } else {
+            FlxG.switchState(new MainMenuState());
+        }
+    }
 }
 
 function beatHit() {

@@ -1,5 +1,5 @@
 import funkin.backend.utils.WindowUtils;
 
 function preStateSwitch() {
-    WindowUtils.title = "Friday Night Funkin' - Neo";
+    WindowUtils.setWindow("Friday Night Funkin' - Neo", "icon");
 }
