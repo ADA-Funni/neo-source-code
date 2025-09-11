@@ -1,0 +1,396 @@
+{
+	"events": [
+		{
+			"params": [
+				1
+			],
+			"time": 0,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1,
+				"intro",
+				true
+			],
+			"name": "Play Animation",
+			"time": 13384.6153846154
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 19384.6153846154,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 30153.8461538462,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1,
+				"marvin shucks",
+				0,
+				true
+			],
+			"time": 39384.6153846154,
+			"name": "Change Character"
+		},
+		{
+			"params": [
+				1,
+				"idle",
+				true
+			],
+			"time": 39384.6153846154,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				0,
+				"dbtgAppear",
+				0,
+				true
+			],
+			"name": "Change Character",
+			"time": 39384.6153846154
+		},
+		{
+			"params": [
+				false,
+				-1,
+				2,
+				"camHUD"
+			],
+			"time": 39384.6153846154,
+			"name": "Camera Flash"
+		},
+		{
+			"params": [
+				0,
+				"dbtg",
+				0,
+				true
+			],
+			"name": "Change Character",
+			"time": 44307.6923076923
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 49230.7692307692
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 49230.7692307692,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 64000
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 64000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 173538.461538462,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0,
+				"dbtgHuh",
+				0,
+				false
+			],
+			"time": 174153.846153846,
+			"name": "Change Character"
+		},
+		{
+			"params": [
+				0,
+				"tf",
+				true
+			],
+			"time": 174153.846153846,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				2
+			],
+			"time": 181846.153846154,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 187076.923076923,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 187076.923076923
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 191692.307692308,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0,
+				"return",
+				true
+			],
+			"name": "Play Animation",
+			"time": 191692.307692308
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 192000
+		},
+		{
+			"params": [
+				0,
+				"dbtgShut",
+				0,
+				false
+			],
+			"time": 192000,
+			"name": "Change Character"
+		},
+		{
+			"params": [
+				2,
+				"roseShut",
+				0,
+				false
+			],
+			"time": 192000,
+			"name": "Change Character"
+		},
+		{
+			"params": [
+				1,
+				"marvinShut",
+				0,
+				false
+			],
+			"time": 192000,
+			"name": "Change Character"
+		},
+		{
+			"params": [
+				1,
+				"shut",
+				true
+			],
+			"time": 192000,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				2,
+				"shut",
+				true
+			],
+			"time": 192000,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 192000
+		},
+		{
+			"params": [
+				2,
+				"idle",
+				true
+			],
+			"time": 211692.307692308,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 211692.307692308,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0,
+				"dbtg bloody",
+				0,
+				false
+			],
+			"time": 211692.307692308,
+			"name": "Change Character"
+		},
+		{
+			"params": [
+				1,
+				"marvin shucks bloody",
+				0,
+				false
+			],
+			"time": 211692.307692308,
+			"name": "Change Character"
+		},
+		{
+			"params": [
+				2,
+				"rose shucks bloody",
+				0,
+				false
+			],
+			"time": 211692.307692308,
+			"name": "Change Character"
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 211692.307692308
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 236615.384615385
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 236615.384615385,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 239076.923076923
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 239076.923076923,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 241538.461538462,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"name": "Camera Movement",
+			"time": 241538.461538462
+		},
+		{
+			"params": [
+				0,
+				"idle",
+				true
+			],
+			"time": 270153.846153846,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				2,
+				"idle",
+				true
+			],
+			"time": 270153.846153846,
+			"name": "Play Animation"
+		},
+		{
+			"params": [
+				1,
+				"marvin shucks chair",
+				0,
+				false
+			],
+			"name": "Change Character",
+			"time": 270153.846153846
+		},
+		{
+			"params": [
+				false,
+				-327680,
+				4,
+				"camHUD"
+			],
+			"name": "Camera Flash",
+			"time": 270153.846153846
+		},
+		{
+			"params": [
+				1
+			],
+			"name": "Camera Movement",
+			"time": 270153.846153846
+		},
+		{
+			"params": [
+				0,
+				"chairsaw",
+				0,
+				true
+			],
+			"time": 270153.846153846,
+			"name": "Change Character"
+		},
+		{
+			"params": [
+				2,
+				"dbtg chair",
+				0,
+				true
+			],
+			"time": 270153.846153846,
+			"name": "Change Character"
+		}
+	]
+}

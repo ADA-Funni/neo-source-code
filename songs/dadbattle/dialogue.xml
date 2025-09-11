@@ -1,0 +1,56 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="default">
+	<!-- All characters -->
+	<char name="dad" char="dad" position="left" />
+	<char name="girlfriend" char="girlfriend" position="middle" />
+	<char name="boyfriend" char="boyfriend" position="right" />
+
+	<!-- Lines -->
+	<line char="dad">
+		Damn it i can't let this green haired kid with pronouns embarrass in front of all these people. I gotta think of something to beat him and fast. Well, well well would ya... look at that quite a crowd gathered to watch me slaughter you. Just like a deer caught in the headlights of an oncoming semi truck. You won't know what hit ya. Until it obliterates the shit out of you
+	</line>
+
+	<line char="boyfriend">
+		oh what's wrong? Is the illustrious daddy dearest scared of losing a rap battle to little old me? How adorable. And here i thought you were fearless. Let me guess you bribed all your previous opponents to lose on purpose to save you the embarrassment of a humiliating defeat?
+	</line>
+
+	<line char="dad">
+		Let me guess? You're about to go super rockstar? You have some hidden ability that makes your voice bearable to listen to? I don't give a shit. Let's just get this battle over with.
+	</line>
+
+	<line char="dad">
+		Be warned boy. Nobody's and i mean not one single individual has ever beaten me when i'm at my peak.
+	</line>
+
+	<line char="boyfriend">
+		First time for everything. Hope your wife prepared a way to recover that fragile pride of yours. Because i'm about to show you the animal i have become!
+	</line>
+
+	<line char="girlfriend">
+		You're an animal in bed alright~
+	</line>
+
+	<line char="boyfriend">
+		GF!!!
+	</line>
+
+	<line char="girlfriend">
+		Hehehehe~
+	</line>
+
+	<line char="dad">
+		Hope you're ready for a beatdown from the one and only greatest rockstar in the world!
+	</line>
+
+	<line char="dad">
+		DADDY!
+	</line>
+
+	<line char="dad">
+		FUCKING!
+	</line>
+
+	<line char="dad">
+		DEAREST!
+	</line>
+</dialogue>

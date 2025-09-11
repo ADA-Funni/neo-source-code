@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="speakerbutourple.png">
+	<!-- Created with Adobe Animate version 22.0.5.191 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="right speaker instance 10000" x="0" y="0" width="270" height="437"/>
+	<SubTexture name="right speaker instance 10001" x="270" y="0" width="270" height="437"/>
+	<SubTexture name="right speaker instance 10002" x="540" y="0" width="270" height="437"/>
+	<SubTexture name="right speaker instance 10003" x="810" y="0" width="270" height="437"/>
+	<SubTexture name="right speaker instance 10004" x="1080" y="0" width="270" height="437"/>
+	<SubTexture name="right speaker instance 10005" x="1350" y="0" width="270" height="437"/>
+	<SubTexture name="right speaker instance 10006" x="1620" y="0" width="270" height="437"/>
+	<SubTexture name="right speaker instance 10007" x="0" y="437" width="270" height="437"/>
+	<SubTexture name="right speaker instance 10008" x="270" y="437" width="270" height="437"/>
+	<SubTexture name="right speaker instance 10009" x="540" y="437" width="270" height="437"/>
+	<SubTexture name="right speaker instance 10010" x="810" y="437" width="270" height="437"/>
+	<SubTexture name="right speaker instance 10011" x="1080" y="437" width="270" height="437"/>
+	<SubTexture name="right speaker instance 10012" x="1350" y="437" width="270" height="437"/>
+	<SubTexture name="right speaker instance 10013" x="1620" y="437" width="270" height="437"/>
+</TextureAtlas>

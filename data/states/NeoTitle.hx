@@ -53,7 +53,7 @@ function update(elapsed) {
             trans = true; // nvm yes trans
             CoolUtil.playMenuSFX(1);
             FlxG.camera.flash(FlxG.random.bool(50) ? 0xFFFF00FF : 0xFF00FFFF);
-            FlxTween.tween(FlxG.camera, {zoom: 5}, 1.5, {startDelay: 1.3, ease: FlxEase.cubicInOut});
+            FlxTween.tween(FlxG.camera, {zoom: 5}, 1.5, {startDelay: 1.3, ease: FlxEase.expoInOut});
             new FlxTimer().start(1.75, function() {
                 FlxG.camera.fade(FlxColor.BLACK, 0.75);
             });

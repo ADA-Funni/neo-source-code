@@ -1,0 +1,15 @@
+{
+	"customValues": {},
+	"color": "#F3932F",
+	"opponentModeAllowed": false,
+	"difficulties": [
+		"HARD"
+	],
+	"icon": "dbtg",
+	"coopAllowed": false,
+	"stepsPerBeat": 4,
+	"displayName": "shucks-old",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 195
+}

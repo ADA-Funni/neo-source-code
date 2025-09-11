@@ -15,4 +15,8 @@
 	<anim name="pre-attack" anim="bf pre attack" x="-22" y="-48"/>
 	<anim name="attack" anim="boyfriend attack" x="289" y="257"/>
 	<anim name="dodge" anim="boyfriend dodge" x="12" y="-10"/>
+	<anim name="singUP-alt" anim="up alt" x="-20" y="85"/>
+	<anim name="singDOWN-alt" anim="down alt" x="57" y="-20"/>
+	<anim name="singLEFT-alt" anim="left alt" x="161" y="4"/>
+	<anim name="singRIGHT-alt" anim="right alt" x="-6" y="18"/>
 </character>
