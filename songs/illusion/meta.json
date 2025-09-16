@@ -1,0 +1,14 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "monster",
+	"difficulties": [
+		"hard"
+	],
+	"color": "#9271FD",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Illusion",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 180
+}

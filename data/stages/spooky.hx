@@ -5,13 +5,17 @@ function create() {
 }
 
 function postUpdate(elapsed) {
-    crowd.y = lerp(crowd.y, crowdYDefault, 0.1);
-    crowd.skew.x = lerp(crowd.skew.x, 0, 0.1);
+    crowd.y = lerp(crowd.y, crowdYDefault, 0.12);
+    crowd.angle = lerp(crowd.angle, 0, 0.12);
 }
+
+var danceLeft:Bool = true;
 
 function beatHit() {
     if (curBeat % 4 == 0) {
-        crowd.y += 35;
-        crowd.skew.x = 2;
+        danceLeft = !danceLeft;
+
+        crowd.y += 30;
+        crowd.angle = danceLeft ? 0.5 : -0.5;
     }
 }

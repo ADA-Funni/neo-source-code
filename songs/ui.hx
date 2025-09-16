@@ -16,7 +16,7 @@ function postCreate() {
     var leftColor:Int = dad != null && dad.iconColor != null && Options.colorHealthBar ? dad.iconColor : (opponentMode ? 0xFF66FF33 : 0xFFFF0000);
 	var rightColor:Int = boyfriend != null && boyfriend.iconColor != null && Options.colorHealthBar ? boyfriend.iconColor : (opponentMode ? 0xFFFF0000 : 0xFF66FF33);
 
-    for (fuckyou in [healthBar, healthBarBG]) fuckyou.kill();
+    for (fuckyou in [healthBar, healthBarBG]) fuckyou.visible = false;
 
     healthBarBG = insert(PlayState.instance.members.indexOf(iconP1), new FunkinSprite(0, FlxG.height * 0.78, Paths.image("game/neoHealthBarBG")));
     healthBarBG.setGraphicSize(healthBarBG.width * 0.68);

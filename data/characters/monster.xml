@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character color="#FF0054">
+	<anim name="idle" anim="Monster idle instance 1"/>
+	<anim name="singDOWN" anim="Monster down instance 1" x="80" y="-42"/>
+	<anim name="singRIGHT" anim="Monster Right instance 1" x="11" y="55"/>
+	<anim name="singLEFT" anim="Monster left instance 1" x="-5" y="-50"/>
+	<anim name="singUP" anim="Monster up instance 1" x="43" y="60"/>
+</character>

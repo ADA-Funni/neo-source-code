@@ -7,7 +7,7 @@
 	<sprite x="1158" sprite="speakerbutourple" y="-261" type="beat" scale="2.05" name="speakerr"/>
 	<girlfriend x="60.6506151503005" y="-313.611454560962"/>
 	<dad x="-388" camyoffset="180" y="-437"/>
-	<boyfriend camxoffset="-25" x="759" y="-382"/>
+	<boyfriend camxoffset="-25" x="650" y="-382"/>
 	<sprite x="-304" sprite="stage thingy" y="-350" type="none" scale="2.32" name="poles"/>
 	<sprite x="1221.31731142791" scroll="0.8" sprite="web" y="-106.290903284814" type="none" scale="2.15" name="webs"/>
 	<sprite x="-709.51927944407" sprite="grass" y="-401.306079955346" skewx="0.000350753335470699" scalex="1.65503262348925" scaley="1.65504015282261" name="grass"/>

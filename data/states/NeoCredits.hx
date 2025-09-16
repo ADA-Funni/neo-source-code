@@ -35,8 +35,6 @@ function beatHit() {
         bleh = !bleh;
         FlxG.camera.zoom += 0.025;
         FlxG.camera.angle += bleh ? 0.5 : -0.5;
-
-        trace(bleh);
     }
 }
 
