@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="grass.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Grass instance 10000" x="5" y="5" width="1922" height="1027"/>
+	<SubTexture name="Grass instance 10001" x="5" y="5" width="1922" height="1027"/>
+	<SubTexture name="Grass instance 10002" x="5" y="5" width="1922" height="1027"/>
+	<SubTexture name="Grass instance 10003" x="5" y="5" width="1922" height="1027"/>
+	<SubTexture name="Grass instance 10004" x="1932" y="5" width="1922" height="1027"/>
+	<SubTexture name="Grass instance 10005" x="1932" y="5" width="1922" height="1027"/>
+	<SubTexture name="Grass instance 10006" x="5" y="1037" width="1922" height="1027"/>
+	<SubTexture name="Grass instance 10007" x="5" y="1037" width="1922" height="1027"/>
+	<SubTexture name="Grass instance 10008" x="1932" y="1037" width="1922" height="1027"/>
+	<SubTexture name="Grass instance 10009" x="1932" y="1037" width="1922" height="1027"/>
+	<SubTexture name="Grass instance 10010" x="1932" y="1037" width="1922" height="1027"/>
+	<SubTexture name="Grass instance 10011" x="1932" y="1037" width="1922" height="1027"/>
+	<SubTexture name="Grass instance 10012" x="5" y="2069" width="1922" height="1027"/>
+	<SubTexture name="Grass instance 10013" x="5" y="2069" width="1922" height="1027"/>
+	<SubTexture name="Grass instance 10014" x="1932" y="2069" width="1922" height="1027"/>
+	<SubTexture name="Grass instance 10015" x="1932" y="2069" width="1922" height="1027"/>
+</TextureAtlas>

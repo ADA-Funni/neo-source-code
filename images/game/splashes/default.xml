@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="default.png">
+	<!-- Created with Adobe Animate version 22.0.3.179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Left pulse instance 10000" x="5" y="5" width="184" height="160" frameX="-16" frameY="-13" frameWidth="217" frameHeight="186"/>
+	<SubTexture name="Left pulse instance 10001" x="194" y="5" width="203" height="176" frameX="-7" frameY="-5" frameWidth="217" frameHeight="186"/>
+	<SubTexture name="Left pulse instance 10002" x="402" y="5" width="209" height="180" frameX="-4" frameY="-3" frameWidth="217" frameHeight="186"/>
+	<SubTexture name="Left pulse instance 10003" x="616" y="5" width="212" height="183" frameX="-2" frameY="-2" frameWidth="217" frameHeight="186"/>
+	<SubTexture name="Left pulse instance 10004" x="833" y="5" width="214" height="184" frameX="-1" frameY="-1" frameWidth="217" frameHeight="186"/>
+	<SubTexture name="Left pulse instance 10005" x="1052" y="5" width="215" height="186" frameX="-1" frameY="0" frameWidth="217" frameHeight="186"/>
+	<SubTexture name="Left pulse instance 10006" x="1272" y="5" width="216" height="186" frameX="0" frameY="0" frameWidth="217" frameHeight="186"/>
+	<SubTexture name="Left pulse instance 10007" x="1493" y="5" width="216" height="186" frameX="0" frameY="0" frameWidth="217" frameHeight="186"/>
+	<SubTexture name="Left pulse instance 10008" x="1714" y="5" width="216" height="186" frameX="0" frameY="0" frameWidth="217" frameHeight="186"/>
+	<SubTexture name="Left pulse instance 10009" x="5" y="196" width="217" height="186"/>
+	<SubTexture name="Up pulse instance 10000" x="227" y="196" width="160" height="185" frameX="-14" frameY="-16" frameWidth="187" frameHeight="217"/>
+	<SubTexture name="Up pulse instance 10001" x="392" y="196" width="175" height="203" frameX="-6" frameY="-7" frameWidth="187" frameHeight="217"/>
+	<SubTexture name="Up pulse instance 10002" x="572" y="196" width="180" height="209" frameX="-4" frameY="-4" frameWidth="187" frameHeight="217"/>
+	<SubTexture name="Up pulse instance 10003" x="757" y="196" width="183" height="211" frameX="-2" frameY="-3" frameWidth="187" frameHeight="217"/>
+	<SubTexture name="Up pulse instance 10004" x="945" y="196" width="183" height="214" frameX="-2" frameY="-2" frameWidth="187" frameHeight="217"/>
+	<SubTexture name="Up pulse instance 10005" x="1133" y="196" width="185" height="215" frameX="-1" frameY="-1" frameWidth="187" frameHeight="217"/>
+	<SubTexture name="Up pulse instance 10006" x="1323" y="196" width="186" height="215" frameX="-1" frameY="-1" frameWidth="187" frameHeight="217"/>
+	<SubTexture name="Up pulse instance 10007" x="1514" y="196" width="186" height="215" frameX="-1" frameY="-1" frameWidth="187" frameHeight="217"/>
+	<SubTexture name="Up pulse instance 10008" x="1705" y="196" width="187" height="217"/>
+	<SubTexture name="Up pulse instance 10009" x="1705" y="196" width="187" height="217"/>
+	<SubTexture name="down pulse instance 10000" x="5" y="418" width="159" height="184" frameX="-14" frameY="-16" frameWidth="187" frameHeight="216"/>
+	<SubTexture name="down pulse instance 10001" x="169" y="418" width="175" height="203" frameX="-6" frameY="-6" frameWidth="187" frameHeight="216"/>
+	<SubTexture name="down pulse instance 10002" x="349" y="418" width="181" height="209" frameX="-3" frameY="-3" frameWidth="187" frameHeight="216"/>
+	<SubTexture name="down pulse instance 10003" x="535" y="418" width="183" height="212" frameX="-2" frameY="-2" frameWidth="187" frameHeight="216"/>
+	<SubTexture name="down pulse instance 10004" x="723" y="418" width="185" height="214" frameX="-1" frameY="-1" frameWidth="187" frameHeight="216"/>
+	<SubTexture name="down pulse instance 10005" x="913" y="418" width="185" height="215" frameX="-1" frameY="0" frameWidth="187" frameHeight="216"/>
+	<SubTexture name="down pulse instance 10006" x="1103" y="418" width="186" height="216" frameX="0" frameY="0" frameWidth="187" frameHeight="216"/>
+	<SubTexture name="down pulse instance 10007" x="1294" y="418" width="187" height="216"/>
+	<SubTexture name="down pulse instance 10008" x="1486" y="418" width="187" height="216"/>
+	<SubTexture name="down pulse instance 10009" x="1486" y="418" width="187" height="216"/>
+	<SubTexture name="right pulse instance 10000" x="1678" y="418" width="185" height="160" frameX="-16" frameY="-13" frameWidth="217" frameHeight="186"/>
+	<SubTexture name="right pulse instance 10001" x="5" y="639" width="203" height="176" frameX="-7" frameY="-5" frameWidth="217" frameHeight="186"/>
+	<SubTexture name="right pulse instance 10002" x="213" y="639" width="209" height="180" frameX="-4" frameY="-3" frameWidth="217" frameHeight="186"/>
+	<SubTexture name="right pulse instance 10003" x="427" y="639" width="212" height="183" frameX="-2" frameY="-2" frameWidth="217" frameHeight="186"/>
+	<SubTexture name="right pulse instance 10004" x="644" y="639" width="214" height="184" frameX="-1" frameY="-1" frameWidth="217" frameHeight="186"/>
+	<SubTexture name="right pulse instance 10005" x="863" y="639" width="215" height="186" frameX="-1" frameY="0" frameWidth="217" frameHeight="186"/>
+	<SubTexture name="right pulse instance 10006" x="1083" y="639" width="216" height="186" frameX="0" frameY="0" frameWidth="217" frameHeight="186"/>
+	<SubTexture name="right pulse instance 10007" x="1304" y="639" width="216" height="186" frameX="0" frameY="0" frameWidth="217" frameHeight="186"/>
+	<SubTexture name="right pulse instance 10008" x="1525" y="639" width="217" height="186"/>
+	<SubTexture name="right pulse instance 10009" x="1747" y="639" width="217" height="186"/>
+</TextureAtlas>

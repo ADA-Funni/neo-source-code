@@ -626,35 +626,44 @@
 		{
 			"params": [
 				true,
-				1.85,
+				0.5,
 				"camGame",
-				10,
-				"sine",
-				"InOut",
+				4,
+				"linear",
+				"In",
 				"direct",
-				false
+				true
 			],
 			"time": 74666.6666666667,
 			"name": "Camera Zoom"
 		},
 		{
 			"params": [
-				0
+				false,
+				-1,
+				4,
+				"camHUD"
 			],
-			"time": 80000,
-			"name": "Camera Movement"
+			"time": 85333.3333333333,
+			"name": "Camera Flash"
 		},
 		{
 			"params": [
-				1
+				false,
+				-16777216,
+				9999,
+				"camGame"
 			],
-			"time": 82666.6666666667,
-			"name": "Camera Movement"
+			"time": 85333.3333333333,
+			"name": "Camera Flash"
 		}
 	],
+	"codenameChart": true,
 	"strumLines": [
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "dad",
 			"notes": [
 				{
 					"id": 2,
@@ -1545,23 +1554,23 @@
 					"type": 0
 				}
 			],
-			"position": "dad",
-			"strumScale": 1,
-			"strumSpacing": 1,
-			"visible": true,
-			"type": 0,
 			"characters": [
 				"dad"
 			],
+			"type": 0,
+			"visible": true,
+			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"vocalsSuffix": "",
-			"strumLinePos": 0.25
+			"strumLinePos": 0.25,
+			"vocalsSuffix": ""
 		},
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 2,
@@ -2842,41 +2851,38 @@
 					"type": 1
 				}
 			],
-			"position": "boyfriend",
-			"strumScale": 1,
-			"strumSpacing": 1,
-			"visible": true,
-			"type": 1,
 			"characters": [
 				"bf"
 			],
+			"type": 1,
+			"visible": true,
+			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"vocalsSuffix": "",
-			"strumLinePos": 0.75
+			"strumLinePos": 0.75,
+			"vocalsSuffix": ""
 		},
 		{
 			"keyCount": 4,
-			"notes": [],
-			"position": "girlfriend",
 			"strumScale": 1,
-			"strumSpacing": 1,
-			"visible": false,
-			"type": 2,
+			"position": "girlfriend",
+			"notes": [],
 			"characters": [
 				"gf"
 			],
+			"type": 2,
+			"visible": false,
+			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"vocalsSuffix": "",
-			"strumLinePos": 0.25
+			"strumLinePos": 0.25,
+			"vocalsSuffix": ""
 		}
 	],
-	"codenameChart": true,
 	"scrollSpeed": 2.3,
 	"chartVersion": "1.6.0",
 	"stage": "Dearest-Bar",
