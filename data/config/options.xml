@@ -1,0 +1,15 @@
+<!DOCTYPE codename-mod-options>
+<!-- TEMPLATE FOR CUSTOM OPTIONS!!! -->
+<menu name="Neo Options" desc="Modify Funkin Neo'.">
+	<checkbox id="neoui" name="Custom UI" desc="Enable/Disable The Custom UI Made For Neo." />
+
+	<menu name="Monster Options" desc="Modify Things Related To Monster Songs.">
+        <checkbox id="kadedev" name="Wavy Notes" desc="Enable/Disable The Wavy Notes." />
+		<number id="healthdrain" name="Health Drain Multi" min="0.5" max="5" change="1" desc="Change Health Drain Multiplier."/>
+
+		<menu name="Glitch Shader Options" desc="Modify Things Related To The Glitch Shader.">
+			<checkbox id="glitchy" name="Glitch Shader" desc="Enable/Disable The Glitch Shader." />
+			<number id="glitchyvalue" name="Glitch Shader Multi" min="4" max="20" change="1" desc="Change The Agressiveness Of The Glitch Shader."/>
+		</menu>
+    </menu>
+</menu>

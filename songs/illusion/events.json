@@ -1,12 +1,1 @@
-{
-	"events": [
-		{
-			"params": [
-				"lyric",
-				"They'll Know My Name"
-			],
-			"time": 42666.6666666667,
-			"name": "HScript Call"
-		}
-	]
-}
+{"events":[{"params":["lyric","They'll Know My Name"],"time":42666.6666666667,"name":"HScript Call"}]}

@@ -4,6 +4,8 @@ import funkin.editors.EditorPicker;
 import funkin.menus.credits.CreditsMain;
 import funkin.options.OptionsMenu;
 
+import funkin.backend.system.Flags;
+
 import flixel.effects.FlxFlicker;
 
 var menuItems:Array<Dynamic> = [
@@ -87,6 +89,9 @@ function create() {
         obj.addOffset("select", item.selectOffset[0], item.selectOffset[1]);
         obj.playAnim("idle");
     }
+
+    var versionText = add(new FunkinText(5, 0, 0, neoVersion + "\n" + Flags.VERSION_MESSAGE, 22));
+    versionText.y = FlxG.height - versionText.height - 5;
 }
 
 function update(elapsed) {
@@ -101,8 +106,8 @@ function update(elapsed) {
     }
 
     if (controls.UP_P) {
-        CoolUtil.playMenuSFX();
-        curSelected = FlxMath.wrap(curSelected - 1, 0, menuObjects.length - 1);
+            CoolUtil.playMenuSFX();
+            curSelected = FlxMath.wrap(curSelected - 1, 0, menuObjects.length - 1);
     }
     if (controls.DOWN_P){
         CoolUtil.playMenuSFX();
@@ -125,7 +130,7 @@ function update(elapsed) {
     }
 
     for (i => obj in menuObjects.members) {
-        if (curSelected != i && FlxG.mouse.overlaps(obj)) {
+        if (curSelected != i && FlxG.mouse.overlaps(obj) && canSelect) {
             curSelected = i;
             CoolUtil.playMenuSFX();
         }

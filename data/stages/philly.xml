@@ -1,0 +1,10 @@
+<!DOCTYPE codename-engine-stage>
+<stage folder="stages/philly/" name="philly" zoom="0.55">
+	<sprite x="111.820423204595" scroll="0.6" sprite="sky" y="-24.0584988822682" type="none" scalex="1.56615907200069" scaley="1.5" name="sky"/>
+	<sprite x="118.273856882848" scroll="0.67" sprite="buildings" y="-86.7183037198911" type="none" scalex="1.5682518203899" scaley="1.2" name="buildings"/>
+	<sprite x="-168.190103819795" sprite="bg" y="50.1322907396552" type="none" skewx="-1.1323209037073e-12" scalex="1.24999999998615" scaley="1.24999999998835" name="bg"/>
+	<girlfriend x="767.325222152738" scroll="1" y="153.935037153295"/>
+	<dad camxoffset="50" x="452" y="154"/>
+	<boyfriend camxoffset="5" x="1257" camyoffset="-130" y="189"/>
+	<sprite x="589.778236948296" y="54.7859104025734" type="none" name="fg" sprite="fence" scroll="1.35" scalex="2.08499431103676" skewx="9.92900427263521e-07" scaley="1.66877044761388"/>
+</stage>

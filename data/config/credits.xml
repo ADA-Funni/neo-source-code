@@ -1,13 +1,60 @@
 <credits>
 	<role name="Director">
-		<member name="SONICSTRONG"
-			desc_en="i have long hair, my friends rotate between hippe and moist kiritkal ripoff"
-			social_link="https://x.com/kittysleeper"/>
+		<member name="SONICSTRONG"	social_link="https://www.youtube.com/channel/UCjgQHB1ZNL6ugHnRYRFRtNQ"/>
 	</role>
 
 	<role name="Coders">
-		<member name="KittySleeper"
-			desc_en="I had alot of fun working on this, Dadbattle Was My Fav Too Work On anyway as always Meow :3"
-			social_link="https://x.com/kittysleeper"/>
+		<member name="KittySleeper"	social_link="https://x.com/kittysleeper"/>
+		<member name="Milo Ashwolf"	social_link="https://miloashwolf.gay/"/>
+	</role>
+
+	<role name="Artists">
+		<member name="Ema15"/>
+		<member name="Hasnomxxie"/>
+		<member name="Ed5932"/>
+		<member name="Collydust"/>
+		<member name="SONICSTRONG"/>
+		<member name="gripou"/>
+		<member name="OQ_LiMACro"/>
+		<member name="Harveyzstuff"/>
+		<member name="A3therblazer892"/>
+	</role>
+
+	<role name="Composing">
+		<member name="SONICSTRONG"/>
+		<member name="Tagamikun"/>
+		<member name="AGATE"/>
+		<member name="SKETCH"/>
+		<member name="pf0r"/>
+		<member name="Mark Cea"/>
+	</role>
+
+	<role name="Composing">
+		<member name="AcrobatPlus"/>
+		<member name="!Huntine!"/>
+		<member name="JaidenBoyfriend"/>
+		<member name="gripou"/>
+	</role>
+
+	<role name="Voice Acting">
+		<member name="JaidenBoyfriend"/>
+		<member name="TayaFNF"/>
+		<member name="hydr0c1ty"/>
+		<member name="BonoanAnything"/>
+		<member name="BlerpZone"/>
+		<member name="KAI"/>
+	</role>
+
+	<role name="Cameos">
+		<member name="Limacro"/>
+		<member name="Edd"/>
+		<member name="A3therblazer892"/>
+		<member name="Ed5932"/>
+		<member name="KittySleeper"/>
+		<member name="Kasane Teto"/>
+		<member name="Sonic The Headgehog"/>
+		<member name="Pac-man"/>
+		<member name="Mario"/>
+		<member name="Jellyfish!"/>
 	</role>
 </credits>

@@ -2,14 +2,16 @@
 	"opponentModeAllowed": true,
 	"icon": "dad",
 	"difficulties": [
-		"hard",
-		"normal"
+		"neo"
 	],
-	"color": "#9271FD",
 	"coopAllowed": true,
+	"color": "#9271FD",
 	"stepsPerBeat": 4,
 	"displayName": "Dadbattle",
-	"beatsPerMeasure": 4,
 	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"variants": [
+		"blacklight"
+	],
 	"bpm": 180
 }

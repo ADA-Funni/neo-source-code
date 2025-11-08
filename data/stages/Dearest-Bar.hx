@@ -1,1 +1,1 @@
-function postCreate() Crowd.visible = PlayState.instance.SONG.meta.displayName.toLowerCase() == "dadbattle";
+function postCreate() Crowd.visible = SONG.meta.displayName.toLowerCase() == "dadbattle";

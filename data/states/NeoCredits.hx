@@ -24,18 +24,18 @@ function update(elapsed) {
 
     FlxG.camera.zoom = lerp(FlxG.camera.zoom, 1, 0.15);
     FlxG.camera.angle = lerp(FlxG.camera.angle, 0, 0.15);
-    creditsTxt.y -= 0.5 * elapsed * 60;
-    if (creditsTxt.y < (creditsTxt.height - FlxG.height) * 0.35) creditsTxt.y = FlxG.height;
+    creditsTxt.y += (FlxG.mouse.wheel > 0) ? -30 : (FlxG.mouse.wheel < 0 ? 30 : -0.5) * 60 * elapsed;
+    if (creditsTxt.y < (creditsTxt.height - FlxG.height) * -3.2) creditsTxt.y = FlxG.height; //should probs softcode this math at some point... oh well!
 }
 
 var bleh:Bool = true;
 
 function beatHit() {
-    if (curBeat % 4 == 0) {
-        bleh = !bleh;
-        FlxG.camera.zoom += 0.025;
-        FlxG.camera.angle += bleh ? 0.5 : -0.5;
-    }
+    // if (curBeat % 2 == 0) {
+    //     bleh = !bleh;
+    //     FlxG.camera.zoom += 0.025;
+    //     FlxG.camera.angle += bleh ? 0.5 : -0.5;
+    // }
 }
 
 /**
@@ -50,11 +50,7 @@ function pushCreditShit(xmlName:String = "credits") {
         
         creditsTxt.text += "\n\n" + shit.get("name") + ":";
 
-        var fuckme:Int = -1;
-
-        for (shittiershit in shit.elements()) {
-            fuckme++;
-            creditsTxt.text += (fuckme > 0 ? "\n\n" : "\n") + shittiershit.get("name") + "\n" + shittiershit.get("desc_en");
-        }
+        for (shittiershit in shit.elements())
+            creditsTxt.text += "\n" + shittiershit.get("name");
     }
 }

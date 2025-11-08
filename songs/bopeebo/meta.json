@@ -1,10 +1,6 @@
 {
 	"opponentModeAllowed": true,
 	"icon": "dad",
-	"difficulties": [
-		"hard",
-		"normal"
-	],
 	"color": "#9271FD",
 	"coopAllowed": true,
 	"stepsPerBeat": 4,
