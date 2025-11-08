@@ -101,8 +101,8 @@ function update(elapsed) {
     }
 
     if (controls.UP_P) {
-            CoolUtil.playMenuSFX();
-            curSelected = FlxMath.wrap(curSelected - 1, 0, menuObjects.length - 1);
+        CoolUtil.playMenuSFX();
+        curSelected = FlxMath.wrap(curSelected - 1, 0, menuObjects.length - 1);
     }
     if (controls.DOWN_P){
         CoolUtil.playMenuSFX();
