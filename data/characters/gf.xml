@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character x="-50" y="-10" sprite="gfneo" color="#FF00FD">
+<character x="-50" y="-10" sprite="gfneo" icon="gf" color="#FF00FD">
 	<anim name="danceLeft" anim="GF Dancing Beat" indices="0..14"/>
 	<anim name="danceRight" anim="GF Dancing Beat" indices="15..30"/>
 	<anim name="cheer" anim="GF Cheer" x="-23" y="-8"/>
