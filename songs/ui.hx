@@ -1,4 +1,4 @@
-//i might make some notes how this works, this is probs the sloppiest code in the mod
+// i might make some notes how this works, this is probs the sloppiest code in the mod
 import flixel.math.FlxRect;
 import flixel.util.FlxStringUtil;
 
@@ -12,8 +12,8 @@ function create() {
     playCutscenes = true;
 }
 
-if (FlxG.save.data.neoui) {
-    function postCreate() {
+function postCreate() {
+    if (FlxG.save.data.neoui) {
         var leftColor:Int = dad != null && dad.iconColor != null && Options.colorHealthBar ? dad.iconColor : (opponentMode ? 0xFF66FF33 : 0xFFFF0000);
         var rightColor:Int = boyfriend != null && boyfriend.iconColor != null && Options.colorHealthBar ? boyfriend.iconColor : (opponentMode ? 0xFFFF0000 : 0xFF66FF33);
 
@@ -41,7 +41,7 @@ if (FlxG.save.data.neoui) {
             neoHealthBarDad.draw();
         };
 
-        for (meowmeow in [neoHealthBarBF, neoHealthBarDad]) 
+        for (meowmeow in [neoHealthBarBF, neoHealthBarDad])
             if (downscroll)
                 meowmeow.y -= 13;
 
@@ -59,13 +59,15 @@ if (FlxG.save.data.neoui) {
         thingiedad.setPosition(((healthBarBG.width * 0.1456 - thingiedad.width) / 2) + healthBarBG.x, ((healthBarBG.height - thingiedad.height) / 2) + healthBarBG.y);
         thingiedad.camera = camHUD;
     }
+}
 
-    function postUpdate(elapsed) {
+function postUpdate(elapsed) {
+    if (FlxG.save.data.neoui) {
         smoothHealthEpik = lerp(smoothHealthEpik, health, 0.25);
         smoothScoreEpik = lerp(smoothScoreEpik, songScore, 0.25);
 
         scoreTxt.text = "Score:" + FlxStringUtil.formatMoney(smoothScoreEpik + 1, false);
-        
+
         iconP1.setPosition(((thingiebf.width - iconP1.width) / 2) + thingiebf.x, ((thingiebf.height - iconP1.height) / 2) + thingiebf.y);
         iconP2.setPosition(((thingiedad.width - iconP2.width) / 2) + thingiedad.x, ((thingiebf.height - iconP2.height) / 2) + thingiedad.y);
     }
