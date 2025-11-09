@@ -1,11 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="options.png">
-	<!-- Created with Adobe Animate version 22.0.3.179 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="options capsule0000" x="5" y="5" width="149" height="143"/>
-	<SubTexture name="options select0000" x="159" y="5" width="149" height="143" frameX="0" frameY="0" frameWidth="149" frameHeight="151"/>
-	<SubTexture name="options select0001" x="159" y="5" width="149" height="143" frameX="0" frameY="0" frameWidth="149" frameHeight="151"/>
-	<SubTexture name="options select0002" x="159" y="5" width="149" height="143" frameX="0" frameY="-8" frameWidth="149" frameHeight="151"/>
-	<SubTexture name="options select0003" x="159" y="5" width="149" height="143" frameX="0" frameY="-8" frameWidth="149" frameHeight="151"/>
-	<SubTexture name="options select0004" x="159" y="5" width="149" height="143" frameX="0" frameY="-3" frameWidth="149" frameHeight="151"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="texture.png" width="303" height="144">
+	<SubTexture name="options capsule0000" x="1" y="1" width="149" height="142" frameX="-0" frameY="-0" frameWidth="149" frameHeight="143"/>
+	<SubTexture name="options select0000" x="153" y="1" width="149" height="142" frameX="-0" frameY="-0" frameWidth="149" frameHeight="151"/>
+	<SubTexture name="options select0001" x="153" y="1" width="149" height="142" frameX="-0" frameY="-0" frameWidth="149" frameHeight="151"/>
+	<SubTexture name="options select0002" x="153" y="1" width="149" height="142" frameX="-0" frameY="-8" frameWidth="149" frameHeight="151"/>
+	<SubTexture name="options select0003" x="153" y="1" width="149" height="142" frameX="-0" frameY="-8" frameWidth="149" frameHeight="151"/>
+	<SubTexture name="options select0004" x="153" y="1" width="149" height="142" frameX="-0" frameY="-3" frameWidth="149" frameHeight="151"/>
 </TextureAtlas>
