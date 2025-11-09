@@ -13,45 +13,35 @@ var menuItems:Array<Dynamic> = [
         name: "story mode",
         pos: [120, 30],
         selectOffset: [-0.85, 7.5],
-        callback: function() {
-            FlxG.switchState(new StoryMenuState());
-        },
+        callback: () -> FlxG.switchState(new StoryMenuState()),
         left: true
     },
     {
         name: "freeplay",
         pos: [240, 200],
         selectOffset: [-0.85, 7.5],
-        callback: function() {
-            FlxG.switchState(new FreeplayState());
-        },
+            callback: () -> FlxG.switchState(new FreeplayState()),
         left: true
     },
     {
         name: "credits",
         pos: [120, 370],
         selectOffset: [-0.85, 7.5],
-        callback: function() {
-            FlxG.switchState(new CreditsMain());
-        },
+        callback: () -> FlxG.switchState(new CreditsMain()),
         left: true
     },
     {
         name: "datalogs",
         pos: [50, 540],
         selectOffset: [-0.85, 7.5],
-        callback: function() {
-            FlxG.switchState(new ModState("DatalogsState"));
-        },
+        callback: () -> FlxG.switchState(new ModState("DatalogsState")),
         left: true
     },
     {
         name: "options",
         pos: [1130, 575],
         selectOffset: [0, 5],
-        callback: function() {
-            FlxG.switchState(new OptionsMenu());
-        },
+        callback: () -> FlxG.switchState(new OptionsMenu()),
         left: false
     }
 ];
@@ -66,10 +56,9 @@ function create() {
     var bg = add(new FunkinSprite(0, 0, Paths.image("menus/mainmenu/background_with_grid")));
 
     var sunset = add(new FunkinSprite(-FlxG.width * 2, FlxG.width * -0.065, Paths.image("menus/mainmenu/sunset")));
-    FlxTween.tween(sunset, {x: FlxG.width * -0.42}, 2, {ease: FlxEase.quintOut, onComplete: function() {
-        sunset.playAnim("sunset");
-    }});
+    FlxTween.tween(sunset, {x: FlxG.width * -0.42}, 2, {ease: FlxEase.quintOut });
     sunset.addAnim("sunset", "sunset", 12, false);
+    new FlxTimer().start(0.62, ()-> sunset.playAnim("sunset"));
     sunset.setGraphicSize(sunset.width * 1.05);
     sunset.updateHitbox();
 
@@ -109,6 +98,7 @@ function update(elapsed) {
         CoolUtil.playMenuSFX();
         curSelected = FlxMath.wrap(curSelected - 1, 0, menuObjects.length - 1);
     }
+    
     if (controls.DOWN_P){
         CoolUtil.playMenuSFX();
         curSelected = FlxMath.wrap(curSelected + 1, 0, menuObjects.length - 1);
@@ -117,16 +107,19 @@ function update(elapsed) {
     if (controls.BACK) {
         FlxG.switchState(new TitleState());
     }
+    
     if ((controls.ACCEPT || FlxG.mouse.justPressed) && canSelect){
         canSelect = false;
         
         CoolUtil.playMenuSFX(1);
         FlxG.camera.flash(FlxG.random.bool(50) ? 0xFFFF00FF : 0xFF00FFFF);
         FlxFlicker.flicker(menuObjects.members[curSelected]);
-        for (i => obj in menuObjects.members)   if (i != curSelected) FlxTween.tween(obj, {alpha: 0}, 1, {ease: FlxEase.expoInOut});
-        new FlxTimer().start(1, function() {
-            menuItems[curSelected].callback();
-        });
+
+        for (i => obj in menuObjects.members)
+            if (i != curSelected)
+                FlxTween.tween(obj, {alpha: 0}, 1, {ease: FlxEase.expoInOut});
+
+        new FlxTimer().start(1, () -> menuItems[curSelected].callback());
     }
 
     for (i => obj in menuObjects.members) {

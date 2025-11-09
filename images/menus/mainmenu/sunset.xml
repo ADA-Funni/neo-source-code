@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="NEO MENU SCREEN ASSETS.png">
+<TextureAtlas imagePath="sunset.png">
 	<!-- Created with Adobe Animate version 22.0.3.179 -->
 	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="sunset0000" x="25" y="25" width="1068" height="845"/>
-	<SubTexture name="sunset0001" x="1118" y="25" width="1068" height="845"/>
-	<SubTexture name="sunset0002" x="2211" y="25" width="1068" height="845"/>
-	<SubTexture name="sunset0003" x="25" y="895" width="1068" height="845"/>
-	<SubTexture name="sunset0004" x="1118" y="895" width="1068" height="845"/>
-	<SubTexture name="sunset0005" x="2211" y="895" width="1068" height="845"/>
-	<SubTexture name="sunset0006" x="25" y="1765" width="1068" height="845"/>
-	<SubTexture name="sunset0007" x="1118" y="1765" width="1068" height="845"/>
-	<SubTexture name="sunset0008" x="2211" y="1765" width="1068" height="845"/>
-	<SubTexture name="sunset0009" x="25" y="2635" width="1068" height="845"/>
+	<SubTexture name="sunset0000" x="12" y="12" width="1414" height="869"/>
+	<SubTexture name="sunset0001" x="1438" y="12" width="1414" height="869"/>
+	<SubTexture name="sunset0002" x="2864" y="12" width="1414" height="869"/>
+	<SubTexture name="sunset0003" x="4290" y="12" width="1414" height="869"/>
+	<SubTexture name="sunset0004" x="5716" y="12" width="1414" height="869"/>
+	<SubTexture name="sunset0005" x="12" y="893" width="1414" height="869"/>
+	<SubTexture name="sunset0006" x="1438" y="893" width="1414" height="869"/>
+	<SubTexture name="sunset0007" x="2864" y="893" width="1414" height="869"/>
+	<SubTexture name="sunset0008" x="4290" y="893" width="1414" height="869"/>
+	<SubTexture name="sunset0009" x="5716" y="893" width="1414" height="869"/>
 </TextureAtlas>
