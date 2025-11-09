@@ -81,3 +81,17 @@ function onNoteHit(event):Void {
     if (event.note.isSustainNote)
         event.showSplash = true;
 }
+
+function onSplashShown(event):Void {
+    if (event.splashName == 'default') {
+        event.splash.active = false;
+        FlxTween.cancelTweensOf(event.splash);
+        event.splash.scale.set(0.7, 0.7);
+        event.splash.angle = event.strum.angle; event.splash.alpha = 1;
+        FlxTween.tween(event.splash, {
+            alpha: 0,
+            'scale.x': event.splash.scale.x * 1.5,
+            'scale.y': event.splash.scale.y * 1.5}
+        , Conductor.stepCrochet / 1000 * 4, {ease: FlxEase.smootherStepOut});
+    }
+}
