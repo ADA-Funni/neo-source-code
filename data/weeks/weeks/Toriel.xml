@@ -1,4 +1,4 @@
 <!DOCTYPE codename-engine-week>
-<week chars="gf,bf" charColors="#FE1DFD,#18FF57" sprite="tutorial">
+<week name="Rockstar" chars="gf,bf" charColors="#FE1DFD,#18FF57" sprite="tutorial">
 	<song>tutorial</song>
 </week>
