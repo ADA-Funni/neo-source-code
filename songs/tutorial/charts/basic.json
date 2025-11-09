@@ -1,9 +1,4 @@
 {
-	"events": [],
-	"stage": "Dearest-Bar",
-	"codenameChart": true,
-	"chartVersion": "1.6.0",
-	"scrollSpeed": 1.8,
 	"strumLines": [
 		{
 			"keyCount": 4,
@@ -369,20 +364,20 @@
 					"type": 0
 				}
 			],
-			"position": "girlfriend",
-			"strumScale": 1,
-			"strumSpacing": 1,
 			"visible": true,
-			"type": 0,
-			"characters": [
-				"gf"
-			],
+			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
+			"position": "girlfriend",
+			"strumScale": 1,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.25
+			"strumLinePos": 0.25,
+			"type": 0,
+			"characters": [
+				"gf"
+			]
 		},
 		{
 			"keyCount": 4,
@@ -1024,21 +1019,25 @@
 					"type": 0
 				}
 			],
-			"position": "boyfriend",
-			"strumScale": 1,
-			"strumSpacing": 1,
 			"visible": true,
-			"type": 1,
-			"characters": [
-				"bf"
-			],
+			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
+			"position": "boyfriend",
+			"strumScale": 1,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.75
+			"strumLinePos": 0.75,
+			"type": 1,
+			"characters": [
+				"bf"
+			]
 		}
 	],
+	"codenameChart": true,
+	"scrollSpeed": 1.5,
+	"chartVersion": "1.6.0",
+	"stage": "stage",
 	"noteTypes": []
 }

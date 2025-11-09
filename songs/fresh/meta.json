@@ -1,4 +1,5 @@
 {
+	"color": "#9271FD",
 	"customValues": {
 		"composer": "SONICSTRONG",
 		"charter": "!Huntine!"
@@ -6,10 +7,11 @@
 	"opponentModeAllowed": true,
 	"icon": "dad",
 	"difficulties": [
+		"chill",
+		"basic",
 		"neo"
 	],
 	"coopAllowed": true,
-	"color": "#9271FD",
 	"stepsPerBeat": 4,
 	"displayName": "Fresh",
 	"needsVoices": true,

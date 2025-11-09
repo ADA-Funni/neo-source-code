@@ -1,4 +1,5 @@
 {
+	"color": "#223344",
 	"customValues": {
 		"composer": "Tagamikun",
 		"charter": "JaidenBoyfriend & !Huntine!"
@@ -6,9 +7,10 @@
 	"opponentModeAllowed": true,
 	"icon": "spooky",
 	"difficulties": [
+		"chill",
+		"basic",
 		"neo"
 	],
-	"color": "#223344",
 	"coopAllowed": true,
 	"stepsPerBeat": 4,
 	"displayName": "South",
