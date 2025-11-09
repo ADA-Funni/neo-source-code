@@ -26,6 +26,7 @@ function update(elapsed) {
 					+ 20 * Math.sin((currentBeat + i * 0.25) * Math.PI),
 					strumline.startingPos.y
 					+ 20 * Math.cos((currentBeat + i * 0.25) * Math.PI));
+				strum.angle = 5 * Math.sin((currentBeat + i * 0.25) * Math.PI);
 			}
 		}
 	}

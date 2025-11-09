@@ -1,15 +1,12 @@
-import flixel.addons.display.FlxBackdrop;
 import funkin.menus.StoryMenuState.StoryWeeklist;
-import funkin.game.PlayState;
 
-var weekTxt;
+var weekTxt, dadChar, bfChar;
 var weeks = ["week_1", "week_2", "week_3"];
 var diffs = ["chill", "basic", "neo"];
 var weekList:StoryWeeklist;
-var curSelected, selectedWeek = 0;
+var curSelected = 0;
+var selectedWeek;
 var curDiff = 1;
-var diffGraphics:Array<FlxGraphic> = [];
-var weekGraphics:Array<FlxGraphic> = [];
 var weekSprite;
 
 function create(){
@@ -21,12 +18,14 @@ function create(){
     weekTxt.alignment = "center";
     diffSpr = new FlxSprite(0, 300);
     weekSprite = new FlxSprite(0, 100);
+    dadChar = new FlxSprite();
+    bfChar = new FlxSprite();
 
-    for (d in diffs) diffGraphics.push(Paths.image("menus/storymenu/diffs/" + d));
-    for (d in weeks) weekGraphics.push(Paths.image("menus/storymenu/weekgraphics/" + d));
+    for (spr in [bgSpr, innerBG, weekTxt, weekSprite, diffSpr, dadChar, bfChar])
+        add(spr);
+
     changeDiff(0);
     updateWeekText(0);
-    addAll([bgSpr, innerBG, weekTxt, weekSprite, diffSpr]);
 }
 
 function update(elapsed:Float) {
@@ -57,7 +56,7 @@ function changeDiff(dir:Int)
 {
     CoolUtil.playMenuSFX();
     curDiff = FlxMath.wrap(curDiff + dir, 0, diffs.length - 1);
-    diffSpr.loadGraphic(diffGraphics[curDiff]);
+    diffSpr.loadGraphic(Paths.image("menus/storymenu/diffs/" + diffs[curDiff]));
     FlxTween.cancelTweensOf(diffSpr);
     diffSpr.screenCenter(FlxAxes.X);
     diffSpr.x += dir * 50;
@@ -67,21 +66,31 @@ function changeDiff(dir:Int)
 function updateWeekText(dir:Int) {
     CoolUtil.playMenuSFX();
 
-    // var oldText = new FunkinText(weekTxt.x, weekTxt.y, weekTxt.width, weekTxt.text, 48);
-    // FlxTween.tween(oldText, {y: weekTxt.y + (dir * 200), alpha: 0}, 0.45, {ease: FlxEase.circOut});
-    // oldText.alignment = "center";
-    // add(oldText);
+    var oldText = new FunkinText(weekTxt.x, weekTxt.y, weekTxt.width, weekTxt.text, 48);
+    FlxTween.tween(oldText, {y: weekTxt.y + (dir * 200), alpha: 0}, 0.45, {ease: FlxEase.circOut});
+    oldText.alignment = "center";
+    insert(FlxG.state.members.indexOf(weekTxt), oldText);
 
     selectedWeek = changeSelection(dir, weekList.weeks);
 
-    weekSprite.loadGraphic(weekGraphics[selectedWeek]);
+    weekSprite.loadGraphic(Paths.image("menus/storymenu/weekgraphics/" + weeks[selectedWeek]));
     weekSprite.screenCenter(FlxAxes.X);
+
+    dadChar.loadGraphic(Paths.image("menus/storymenu/chars/" + selectedWeek.chars[0].name));
+    FlxTween.cancelTweensOf(dadChar);
+    dadChar.setPosition(15 - 1200, FlxG.height - dadChar.height);
+    FlxTween.tween(dadChar, {x: dadChar.x + 1200}, 0.6, {ease: FlxEase.circOut});
+
+    bfChar.loadGraphic(Paths.image("menus/storymenu/chars/" + selectedWeek.chars[1].name));
+    FlxTween.cancelTweensOf(bfChar);
+    bfChar.setPosition(((FlxG.width - bfChar.width) - 15) + 1200, FlxG.height - bfChar.height);
+    FlxTween.tween(bfChar, {x: bfChar.x - 1200}, 0.6, {ease: FlxEase.circOut});
 
     weekTxt.text = updateSongNames().join("\n");
     FlxTween.cancelTweensOf(weekTxt);
     weekTxt.screenCenter();
     weekTxt.y += dir * 50;
-    FlxTween.tween(weekTxt, {y: weekTxt.y - (dir * 50)}, 0.45, {ease: FlxEase.circOut});
+    FlxTween.tween(weekTxt, {y: (weekTxt.y - (dir * 50)) + 30}, 0.45, {ease: FlxEase.circOut});
 }
 
 function updateSongNames()
@@ -89,8 +98,3 @@ function updateSongNames()
 
 function numtoDiff(num:Int)
     return diffs[num];
-
-// i love this :3
-function addAll(sprites)
-    for (spr in sprites)
-        add(spr);

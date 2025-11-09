@@ -1,11 +1,13 @@
 <credits>
 	<role name="Director">
-		<member name="SONICSTRONG"	social_link="https://www.youtube.com/channel/UCjgQHB1ZNL6ugHnRYRFRtNQ"/>
+		<member name="SONICSTRONG"/>
 	</role>
 
 	<role name="Coders">
-		<member name="KittySleeper"	social_link="https://x.com/kittysleeper"/>
-		<member name="Milo Ashwolf"	social_link="https://miloashwolf.gay/"/>
+		<member name="KittySleeper"/>
+		<member name="Milo Ashwolf"/>
+		<member name="Rodney Furball <3"/>
+		<member name="lavy_cat"/>
 	</role>
 
 	<role name="Artists">
@@ -29,7 +31,7 @@
 		<member name="Mark Cea"/>
 	</role>
 
-	<role name="Composing">
+	<role name="Charting">
 		<member name="AcrobatPlus"/>
 		<member name="!Huntine!"/>
 		<member name="JaidenBoyfriend"/>

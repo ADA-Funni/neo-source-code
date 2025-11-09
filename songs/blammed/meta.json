@@ -1,8 +1,14 @@
 {
-	"displayName": "Blammed",
-	"bpm": 165.0,
+	"opponentModeAllowed": true,
 	"icon": "pico",
+	"difficulties": [
+		"neo"
+	],
 	"color": "#941653",
 	"coopAllowed": true,
-	"opponentModeAllowed": true
+	"stepsPerBeat": 4,
+	"displayName": "Blammed",
+	"beatsPerMeasure": 4,
+	"needsVoices": false,
+	"bpm": 165
 }
