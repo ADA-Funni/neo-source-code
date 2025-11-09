@@ -92,13 +92,12 @@ function update(elapsed:Float) {
 			PlayState.loadWeek(weekList.weeks[curSelected], diffs[curDiff]);
 			new FlxTimer().start(1, () -> FlxG.switchState(new PlayState()));
 		}
-
-		if (controls.BACK)
-			FlxG.switchState(new MainMenuState());
-
-		diffSpr.y = lerp(diffSpr.y, FlxG.height - 125, 0.15);
 	}
 
+	if (controls.BACK)
+		FlxG.switchState(new MainMenuState());
+
+	diffSpr.y = lerp(diffSpr.y, FlxG.height - 125, 0.15);
 }
 
 function changeSelection(dir:Int, objects:Array):Int {
