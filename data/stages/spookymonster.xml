@@ -1,13 +1,13 @@
 <!DOCTYPE codename-engine-stage>
 <stage folder="stages/spookymonster/" name="spookymonster" zoom="0.5">
-	<sprite x="-293.432689878914" scroll="0.4" sprite="sky" y="-20" type="none" scale="2.00521900808023" name="skys"/>
-	<sprite x="175.232321844275" scroll="0.4" sprite="buildings" y="70.233325078041" type="none" scale="1.41902913104897" name="buildings"/>
+	<sprite x="-293" scroll="0.4" sprite="sky" y="-20" type="none" scale="2.01" name="skys"/>
+	<sprite x="175" scroll="0.4" sprite="buildings" y="70" type="none" scale="1.42" name="buildings"/>
 	<sprite x="-304" sprite="stage thingy" y="-350" type="none" scale="2.32" name="poles"/>
-	<sprite x="-586.414656311697" sprite="stage" y="-669.371322370585" type="none" scale="2.1185322424772" name="stage"/>
-	<sprite x="-256.877177477789" sprite="tvs" y="-299.678610361203" type="none" scale="2" name="tvs"/>
-	<sprite x="-540" sprite="grass" y="-401.306079955346" skewx="0.000350753335470699" scalex="1.65503262348925" scaley="1.65504015282261" name="grass"/>
+	<sprite x="-586" sprite="stage" y="-669" type="none" scale="2.12" name="stage"/>
+	<sprite x="-257" sprite="tvs" y="-300" type="none" scale="2" name="tvs"/>
+	<sprite x="-540" sprite="grass" y="-401" scale="1.66" name="grass"/>
 	<girlfriend x="-51.3493848496994" y="-545.611454560962"/>
 	<dad x="-416" camyoffset="180" y="-669"/>
 	<boyfriend camxoffset="-25" x="574" y="-594"/>
-	<sprite x="1221.31731142791" scroll="0.8" sprite="web" y="-106.290903284814" type="none" scale="2.15" name="webs"/>
+	<sprite x="1221" scroll="0.8" sprite="web" y="-106" type="none" scale="2.15" name="webs"/>
 </stage>
