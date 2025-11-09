@@ -22,7 +22,7 @@ var menuItems:Array<Dynamic> = [
         name: "freeplay",
         pos: [240, 200],
         selectOffset: [-0.85, 7.5],
-            callback: function() {
+        callback: function() {
             FlxG.switchState(new FreeplayState());
         },
         left: true
@@ -95,19 +95,19 @@ function create() {
 }
 
 function update(elapsed) {
-    if (FlxG.keys.justPressed.SEVEN) {
-        persistentUpdate = !(persistentDraw = true);
+    if (Options.devMode && controls.DEV_ACCESS) {
+        persistentUpdate = false;
         openSubState(new EditorPicker());
     }
 
     if (controls.SWITCHMOD) {
         openSubState(new ModSwitchMenu());
-        persistentUpdate = !(persistentDraw = true);
+        persistentUpdate = false;
     }
 
     if (controls.UP_P) {
-            CoolUtil.playMenuSFX();
-            curSelected = FlxMath.wrap(curSelected - 1, 0, menuObjects.length - 1);
+        CoolUtil.playMenuSFX();
+        curSelected = FlxMath.wrap(curSelected - 1, 0, menuObjects.length - 1);
     }
     if (controls.DOWN_P){
         CoolUtil.playMenuSFX();
