@@ -1,4 +1,8 @@
 {
+	"customValues": {
+		"composer": "AGATE (Feat. SONICSTRONG)",
+		"charter": "gripou"
+	},
 	"opponentModeAllowed": true,
 	"icon": "pico",
 	"difficulties": [

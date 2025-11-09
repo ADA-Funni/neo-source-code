@@ -1,4 +1,8 @@
 {
+	"customValues": {
+		"composer": "SONICSTRONG",
+		"charter": "JaidenBoyfriend"
+	},
 	"opponentModeAllowed": true,
 	"icon": "dad",
 	"coopAllowed": true,

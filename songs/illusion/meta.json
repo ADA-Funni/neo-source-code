@@ -1,4 +1,8 @@
 {
+	"customValues": {
+		"composer": "SONICSTRONG (feat. BlerpZone)",
+		"charter": "!Huntine!"
+	},
 	"opponentModeAllowed": true,
 	"icon": "monster",
 	"difficulties": [

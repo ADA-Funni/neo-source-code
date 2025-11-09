@@ -9,6 +9,7 @@ var smoothHealthEpik:Float = 1;
 var smoothScoreEpik:Float = 0;
 
 function create() {
+    PauseSubState.script = 'data/scripts/pause';
     playCutscenes = true;
 }
 

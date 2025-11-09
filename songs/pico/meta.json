@@ -1,4 +1,8 @@
 {
+	"customValues": {
+		"composer": "Jellyfish!",
+		"charter": "AcrobatPlus"
+	},
 	"opponentModeAllowed": true,
 	"icon": "pico",
 	"difficulties": [

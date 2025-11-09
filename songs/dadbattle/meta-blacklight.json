@@ -1,4 +1,8 @@
 {
+	"customValues": {
+		"composer": "SONICSTRONG",
+		"charter": "gripou"
+	},
 	"opponentModeAllowed": true,
 	"icon": "face",
 	"difficulties": [

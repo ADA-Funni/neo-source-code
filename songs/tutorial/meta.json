@@ -1,5 +1,8 @@
 {
-	"customValues": {},
+	"customValues": {
+		"composer": "SONICSTRONG (feat. AGATE)",
+		"charter": "AcrobatPlus"
+	},
 	"color": "#9271FD",
 	"opponentModeAllowed": true,
 	"icon": "gf",

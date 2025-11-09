@@ -1,5 +1,8 @@
 {
-	"customValues": {},
+	"customValues": {
+		"composer": "SONICSTRONG",
+		"charter": "JaidenBoyfriend"
+	},
 	"color": "#223344",
 	"opponentModeAllowed": true,
 	"icon": "spooky",

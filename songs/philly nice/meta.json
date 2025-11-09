@@ -1,10 +1,14 @@
 {
+	"customValues": {
+		"composer": "SONICSTRONG (feat. BlerpZone)",
+		"charter": "AcrobatPlus"
+	},
+	"color": "#941653",
 	"opponentModeAllowed": true,
 	"icon": "pico",
 	"difficulties": [
 		"neo"
 	],
-	"color": "#941653",
 	"coopAllowed": true,
 	"stepsPerBeat": 4,
 	"displayName": "Philly Nice",

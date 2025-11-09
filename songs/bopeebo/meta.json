@@ -1,4 +1,8 @@
 {
+	"customValues": {
+		"composer": "SONICSTRONG",
+		"charter": "!Huntine!"
+	},
 	"opponentModeAllowed": true,
 	"icon": "dad",
 	"difficulties": [

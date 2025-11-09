@@ -1,4 +1,8 @@
 {
+	"customValues": {
+		"composer": "Tagamikun",
+		"charter": "JaidenBoyfriend & !Huntine!"
+	},
 	"opponentModeAllowed": true,
 	"icon": "spooky",
 	"difficulties": [
