@@ -58,7 +58,7 @@ function create() {
     var sunset = add(new FunkinSprite(-FlxG.width * 2, FlxG.width * -0.065, Paths.image("menus/mainmenu/sunset")));
     FlxTween.tween(sunset, {x: FlxG.width * -0.42}, 2, {ease: FlxEase.quintOut });
     sunset.addAnim("sunset", "sunset", 12, false);
-    new FlxTimer().start(0.62, ()-> sunset.playAnim("sunset"));
+    new FlxTimer().start(0.62, () -> sunset.playAnim("sunset"));
     sunset.setGraphicSize(sunset.width * 1.05);
     sunset.updateHitbox();
 
@@ -82,6 +82,8 @@ function create() {
     var versionText = add(new FunkinText(5, 0, 0, neoVersion + "\n" + Flags.VERSION_MESSAGE, 22));
     versionText.y = FlxG.height - versionText.height - 5;
 }
+
+var trans:Bool = false;
 
 function update(elapsed) {
     if (Options.devMode && controls.DEV_ACCESS) {
@@ -108,18 +110,23 @@ function update(elapsed) {
         FlxG.switchState(new TitleState());
     }
     
-    if ((controls.ACCEPT || FlxG.mouse.justPressed) && canSelect){
-        canSelect = false;
-        
-        CoolUtil.playMenuSFX(1);
-        FlxG.camera.flash(FlxG.random.bool(50) ? 0xFFFF00FF : 0xFF00FFFF);
-        FlxFlicker.flicker(menuObjects.members[curSelected]);
+    if ((controls.ACCEPT || FlxG.mouse.justPressed)){
+        if (trans) {
+            menuItems[curSelected].callback();
+        } else if (!trans && canSelect) {
+            canSelect = false;
+            trans = true;
+            
+            CoolUtil.playMenuSFX(1);
+            FlxG.camera.flash(FlxG.random.bool(50) ? 0xFFFF00FF : 0xFF00FFFF);
+            FlxFlicker.flicker(menuObjects.members[curSelected]);
 
-        for (i => obj in menuObjects.members)
-            if (i != curSelected)
-                FlxTween.tween(obj, {alpha: 0}, 1, {ease: FlxEase.expoInOut});
+            for (i => obj in menuObjects.members)
+                if (i != curSelected)
+                    FlxTween.tween(obj, {alpha: 0}, 1, {ease: FlxEase.expoInOut});
 
-        new FlxTimer().start(1, () -> menuItems[curSelected].callback());
+            new FlxTimer().start(1, () -> menuItems[curSelected].callback());
+        }
     }
 
     for (i => obj in menuObjects.members) {

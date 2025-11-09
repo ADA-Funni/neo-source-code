@@ -61,6 +61,8 @@ function create(){
     updateWeekText(0);
 }
 
+var trans:Bool = false;
+
 function update(elapsed:Float) {
     if (controls.UP_P) updateWeekText(-1);
     if (controls.DOWN_P) updateWeekText(1);
@@ -68,12 +70,17 @@ function update(elapsed:Float) {
     if (controls.RIGHT_P) changeDiff(1);
     
     if (controls.ACCEPT) {
-        CoolUtil.playMenuSFX(1);
-        FlxG.camera.flash(FlxG.random.bool(50) ? 0xFFFF00FF : 0xFF00FFFF);
-        FlxFlicker.flicker(weekTxt, 1);
+        if (trans) {
+            FlxG.switchState(new PlayState());
+        } else {
+            trans = true;
+            CoolUtil.playMenuSFX(1);
+            FlxG.camera.flash(FlxG.random.bool(50) ? 0xFFFF00FF : 0xFF00FFFF);
+            FlxFlicker.flicker(weekTxt, 1);
 
-        PlayState.loadWeek(weekList.weeks[curSelected], numtoDiff(curDiff));
-        new FlxTimer().start(1, () -> FlxG.switchState(new PlayState()));
+            PlayState.loadWeek(weekList.weeks[curSelected], numtoDiff(curDiff));
+            new FlxTimer().start(1, () -> FlxG.switchState(new PlayState()));
+        }
     }
 
     if (controls.BACK)  FlxG.switchState(new MainMenuState());
