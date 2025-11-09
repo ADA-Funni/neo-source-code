@@ -76,3 +76,8 @@ function postUpdate(elapsed) {
         iconP2.setPosition(((thingiedad.width - iconP2.width) / 2) + thingiedad.x, ((thingiebf.height - iconP2.height) / 2) + thingiedad.y);
     }
 }
+
+function onNoteHit(event):Void {
+    if (event.note.isSustainNote)
+        event.showSplash = true;
+}
