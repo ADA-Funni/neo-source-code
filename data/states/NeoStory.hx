@@ -1,11 +1,10 @@
-import funkin.menus.StoryMenuState.StoryWeeklist;
-import hxvlc.flixel.FlxVideoSprite;
+import ColorHelp;
 import flixel.addons.effects.FlxTrail;
 import flixel.effects.FlxFlicker;
-import ColorHelp;
+import funkin.menus.StoryMenuState.StoryWeeklist;
+import hxvlc.flixel.FlxVideoSprite;
 
 var weekTxt, dadCharTrail, bfCharTrail, dadChar, bfChar;
-var weeks = ["week_1", "week_2", "week_3"];
 var diffs = ["chill", "basic", "neo"];
 var weekList:StoryWeeklist;
 var curSelected = 0;
@@ -16,7 +15,7 @@ var weekSprite;
 function create(){
     CoolUtil.playMenuSong();
     weekList = StoryWeeklist.get(true, false);
-    
+
     // var bgSpr = new FlxSprite(0, 0, Paths.image("menus/storymenu/story_bg"));
     var video = new FlxVideoSprite(0, 0);
     video.load(Assets.getPath(Paths.video("vaperwave")), [':input-repeat=65535', ':no-audio']);
@@ -29,7 +28,7 @@ function create(){
 			video.updateHitbox();
 		}
 	});
-    
+
     var innerBG = new FlxSprite(0, 0, Paths.image("menus/storymenu/inner")).screenCenter();
     weekTxt = new FunkinText(0, -300, FlxG.width, "", 48);
     weekTxt.alignment = "center";
@@ -68,7 +67,7 @@ function update(elapsed:Float) {
     if (controls.DOWN_P) updateWeekText(1);
     if (controls.LEFT_P) changeDiff(-1);
     if (controls.RIGHT_P) changeDiff(1);
-    
+
     if (controls.ACCEPT) {
         if (trans) {
             FlxG.switchState(new PlayState());
@@ -78,9 +77,8 @@ function update(elapsed:Float) {
             FlxG.camera.flash(FlxG.random.bool(50) ? 0xFFFF00FF : 0xFF00FFFF);
             FlxFlicker.flicker(weekTxt, 1);
 
-            PlayState.loadWeek(weekList.weeks[curSelected], numtoDiff(curDiff));
-            new FlxTimer().start(1, () -> FlxG.switchState(new PlayState()));
-        }
+        PlayState.loadWeek(weekList.weeks[curSelected], diffs[curDiff]);
+        new FlxTimer().start(1, () -> FlxG.switchState(new PlayState()));
     }
 
     if (controls.BACK)  FlxG.switchState(new MainMenuState());
@@ -108,13 +106,13 @@ function updateWeekText(dir:Int) {
     CoolUtil.playMenuSFX();
 
     var oldText = new FunkinText(weekTxt.x, weekTxt.y, weekTxt.width, weekTxt.text, 48);
-    FlxTween.tween(oldText, {y: weekTxt.y + (dir * 200), alpha: 0}, 0.45, {ease: FlxEase.circOut, onComplete: () -> oldText.destroy});
+    FlxTween.tween(oldText, {y: weekTxt.y + (dir * 200), alpha: 0}, 0.45, {ease: FlxEase.circOut, onComplete: () -> oldText.destroy()});
     oldText.alignment = "center";
     insert(FlxG.state.members.indexOf(weekTxt), oldText);
 
     selectedWeek = changeSelection(dir, weekList.weeks);
 
-    weekSprite.loadGraphic(Paths.image("menus/storymenu/weekgraphics/" + weeks[selectedWeek]));
+    weekSprite.loadGraphic(Paths.image("menus/storymenu/weekgraphics/" + selectedWeek.sprite));
     weekSprite.screenCenter(FlxAxes.X);
 
     dadChar.loadGraphic(Paths.image("menus/storymenu/chars/" + selectedWeek.chars[0].name));
@@ -129,15 +127,9 @@ function updateWeekText(dir:Int) {
     bfChar.setPosition(((FlxG.width - bfChar.width) - 15) + 1200, FlxG.height - bfChar.height);
     FlxTween.tween(bfChar, {x: bfChar.x - 1200}, 0.6, {ease: FlxEase.circOut});
 
-    weekTxt.text = updateSongNames().join("\n");
+    weekTxt.text = [for (s in selectedWeek.songs) s.name].join("\n");
     FlxTween.cancelTweensOf(weekTxt);
     weekTxt.screenCenter();
     weekTxt.y += dir * 50;
     FlxTween.tween(weekTxt, {y: (weekTxt.y - (dir * 50)) + 30}, 0.45, {ease: FlxEase.circOut});
 }
-
-function updateSongNames()
-    return [for (s in selectedWeek.songs) s.name];
-
-function numtoDiff(num:Int)
-    return diffs[num];
