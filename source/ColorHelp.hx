@@ -1,3 +1,5 @@
+// script by @rodney528
+
 class ColorHelp {
 	public var color:FlxColor;
 
