@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-week>
-<week name="Rockstar" chars="dad,bf" charColors="#49E0FF,#18FF57" sprite="week_1">
+<week chars="dad,bf" charColors="#49E0FF,#18FF57" sprite="week_1">
 	<song>bopeebo</song>
 	<song>fresh</song>
 	<song>dadbattle</song>
