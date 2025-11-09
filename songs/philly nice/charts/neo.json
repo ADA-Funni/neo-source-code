@@ -3130,7 +3130,7 @@
 		}
 	],
 	"chartVersion": "1.6.0",
-	"scrollSpeed": 3,
+	"scrollSpeed": 2.5,
 	"codenameChart": true,
 	"noteTypes": []
 }

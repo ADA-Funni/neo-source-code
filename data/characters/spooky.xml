@@ -1,7 +1,6 @@
 <!DOCTYPE codename-engine-character>
-<character x="-50" y="220" camy="-20" color="#C220FE" holdTime="6.25">
-	<anim name="danceRight" anim="sp idle dance" indices="0..4"/>
-	<anim name="danceLeft" anim="sp idle dance" indices="4..15"/>
+<character x="-50" y="220" camy="-20" icon="spooky" color="#C220FE" holdTime="6.25">
+	<anim name="idle" anim="sp idle dance"/>
 	<anim name="singDOWN" anim="sp sing down" x="-116" y="-75"/>
 	<anim name="singRIGHT" anim="sp sing right" x="-141" y="-38"/>
 	<anim name="singLEFT" anim="sp sing left" x="47" y="2"/>

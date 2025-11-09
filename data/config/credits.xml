@@ -1,4 +1,9 @@
 <credits>
+	<role name="Permissions and Oversight">
+		<member name="Jellyfish!"/>
+		<member name="NoLime"/>
+	</role>
+
 	<role name="Director">
 		<member name="SONICSTRONG"/>
 	</role>
@@ -28,7 +33,8 @@
 		<member name="AGATE"/>
 		<member name="SKETCH"/>
 		<member name="pf0r"/>
-		<member name="Mark Cea"/>
+		<member name="Marc Cea"/>
+		<member name="Jellyfish!"/>
 	</role>
 
 	<role name="Charting">
@@ -36,6 +42,13 @@
 		<member name="!Huntine!"/>
 		<member name="JaidenBoyfriend"/>
 		<member name="gripou"/>
+	</role>
+
+	<role name="Writing">
+		<member name="hydr0c1ty"/>
+		<member name="SONICSTRONG"/>
+		<member name="BlerpZone"/>
+		<member name="X-zayVia"/>
 	</role>
 
 	<role name="Voice Acting">
@@ -60,3 +73,4 @@
 		<member name="Jellyfish!"/>
 	</role>
 </credits>
+
