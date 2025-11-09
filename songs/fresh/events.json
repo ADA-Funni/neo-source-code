@@ -4,28 +4,56 @@
 			"params": [
 				1
 			],
-			"time": 0,
+			"time": 4000,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 9600,
+			"time": 8000,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 14400,
+			"time": 10000,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 19200,
+			"time": 12000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 14000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 16000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 18000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 20000,
 			"name": "Camera Movement"
 		},
 		{
@@ -39,28 +67,42 @@
 			"params": [
 				0
 			],
-			"time": 28800,
+			"time": 32000,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 33600,
+			"time": 36000,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 38400,
+			"time": 38000,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 43200,
+			"time": 42000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 44000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 46000,
 			"name": "Camera Movement"
 		},
 		{
@@ -74,35 +116,49 @@
 			"params": [
 				1
 			],
-			"time": 52800,
+			"time": 50000,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 57600,
+			"time": 52000,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 62400,
+			"time": 54000,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				0
 			],
-			"time": 76800,
+			"time": 64000,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
 				1
 			],
-			"time": 79200,
+			"time": 68000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 70000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1
+			],
+			"time": 72000,
 			"name": "Camera Movement"
 		}
 	]

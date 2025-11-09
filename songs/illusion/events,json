@@ -1,0 +1,564 @@
+{
+	"events": [
+		{
+			"params": [
+				"lyric",
+				"Well, look at this"
+			],
+			"time": 10666.6666666667,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"lyric",
+				"Look At This"
+			],
+			"time": 11000,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"lyric",
+				"All the children in one place now"
+			],
+			"time": 11666.6666666667,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 13333.3333333333,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"lyric",
+				"..."
+			],
+			"time": 13333.3333333333,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 16000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"lyric",
+				"hope you mind if i upstage you"
+			],
+			"time": 16000,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 18666.6666666667,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"lyric",
+				"..."
+			],
+			"time": 18666.6666666667,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 21333.3333333333,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"lyric",
+				"Thought i'd drop by"
+			],
+			"time": 21333.3333333333,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"lyric",
+				"to lay yor careers to waste now"
+			],
+			"time": 22333.3333333333,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 24000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"lyric",
+				"..."
+			],
+			"time": 24000,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"lyric",
+				"Tear you apart,"
+			],
+			"time": 26666.6666666667,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"lyric",
+				"Rip out your music's heart and rip out"
+			],
+			"time": 27583.3333333333,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				0
+			],
+			"time": 29333.3333333333,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"lyric",
+				"ALl your real hearts too!"
+			],
+			"time": 30000,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"lyric",
+				"the world's grown so toothless and tame"
+			],
+			"time": 32000,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"lyric",
+				"it's replaceing the monster"
+			],
+			"time": 34333.3333333333,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"lyric",
+				"that made an art of killing!"
+			],
+			"time": 35833.3333333333,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 37333.3333333333,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"lyric",
+				"..."
+			],
+			"time": 37333.3333333333,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 42666.6666666667,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"lyric",
+				"They'll"
+			],
+			"time": 42666.6666666667,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				true,
+				1.25,
+				"camGame",
+				15,
+				"expo",
+				"Out",
+				"stage",
+				false
+			],
+			"time": 42666.6666666667,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				1,
+				125,
+				"linear",
+				"In",
+				false
+			],
+			"time": 42666.6666666667,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
+				"lyric",
+				"know"
+			],
+			"time": 44000,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"lyric",
+				"My"
+			],
+			"time": 44666.6666666667,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"lyric",
+				"name"
+			],
+			"time": 45333.3333333333,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"lyric",
+				"When"
+			],
+			"time": 46666.6666666667,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"lyric",
+				"their"
+			],
+			"time": 47333.3333333333,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"lyric",
+				"Heart"
+			],
+			"time": 48000,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"lyric",
+				"Beat's"
+			],
+			"time": 49333.3333333333,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"lyric",
+				"Still"
+			],
+			"time": 50666.6666666667,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"lyric",
+				"Stilling"
+			],
+			"time": 52000,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 53333.3333333334,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"lyric",
+				"..."
+			],
+			"time": 53333.3333333334,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				true,
+				1,
+				"camGame",
+				10,
+				"expo",
+				"In",
+				"stage",
+				false
+			],
+			"time": 63000,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				2.1,
+				10,
+				"linear",
+				"In",
+				false
+			],
+			"time": 63000,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 64000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"lyric",
+				"What have you got,"
+			],
+			"time": 64000,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"lyric",
+				"Just a couple corny jumpscares?"
+			],
+			"time": 65166.6666666667,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 66666.6666666667,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"lyric",
+				"..."
+			],
+			"time": 66666.6666666667,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 69333.3333333334,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"lyric",
+				"Screaming for a"
+			],
+			"time": 69333.3333333334,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"lyric",
+				"Second's no time!"
+			],
+			"time": 70666.6666666667,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 72000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"lyric",
+				"..."
+			],
+			"time": 72000,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 74666.6666666667,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"lyric",
+				"Terror comes from knowing your"
+			],
+			"time": 74666.6666666667,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"lyric",
+				"Demise is watin' for you everywhere"
+			],
+			"time": 75833.3333333333,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 77333.3333333333,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"lyric",
+				"..."
+			],
+			"time": 77333.3333333333,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"lyric",
+				"but don't you worry,"
+			],
+			"time": 80000,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"lyric",
+				"Won't see your end coming when"
+			],
+			"time": 81166.6666666667,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 82666.6666666667,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"lyric",
+				"Your"
+			],
+			"time": 82666.6666666667,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"lyric",
+				"eyes"
+			],
+			"time": 84000,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"lyric",
+				"eyes are"
+			],
+			"time": 84666.6666666667,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"lyric",
+				"eyes are mine "
+			],
+			"time": 85333.3333333333,
+			"name": "HScript Call"
+		}
+	]
+}

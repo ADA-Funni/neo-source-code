@@ -1,669 +1,9 @@
 {
-	"events": [
-		{
-			"params": [
-				500,
-				500,
-				true,
-				4,
-				"CLASSIC",
-				"In",
-				false
-			],
-			"time": 0,
-			"name": "Camera Position"
-		},
-		{
-			"params": [
-				0,
-				true,
-				4,
-				"CLASSIC",
-				"In"
-			],
-			"time": 10666.6666666667,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 13333.3333333333,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 16000,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 18666.6666666667,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 21333.3333333333,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 24000,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				0
-			],
-			"time": 26666.6666666667,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 28000,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				500,
-				500,
-				true,
-				4,
-				"CLASSIC",
-				"In",
-				false
-			],
-			"time": 29333.3333333333,
-			"name": "Camera Position"
-		},
-		{
-			"params": [
-				2,
-				2,
-				"BEAT",
-				0
-			],
-			"time": 29333.3333333333,
-			"name": "Camera Modulo Change"
-		},
-		{
-			"params": [
-				true,
-				0.85,
-				"camGame",
-				4,
-				"expo",
-				"InOut",
-				"stage",
-				false
-			],
-			"time": 32000,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				false,
-				-16711681,
-				4,
-				"camHUD"
-			],
-			"time": 32000,
-			"name": "Camera Flash"
-		},
-		{
-			"params": [
-				2,
-				0.75,
-				"BEAT",
-				0
-			],
-			"time": 32000,
-			"name": "Camera Modulo Change"
-		},
-		{
-			"params": [
-				0,
-				true,
-				4,
-				"CLASSIC",
-				"In"
-			],
-			"time": 35000,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				true,
-				1,
-				"camGame",
-				4,
-				"linear",
-				"In",
-				"stage",
-				false
-			],
-			"time": 35000,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				1,
-				true,
-				4,
-				"CLASSIC",
-				"In"
-			],
-			"time": 36000,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				true,
-				1.1,
-				"camGame",
-				4,
-				"linear",
-				"In",
-				"stage",
-				false
-			],
-			"time": 36000,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				1,
-				true,
-				4,
-				"CLASSIC",
-				"In"
-			],
-			"time": 37333.3333333333,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				true,
-				1,
-				"camGame",
-				4,
-				"linear",
-				"In",
-				"stage",
-				false
-			],
-			"time": 37333.3333333333,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				true,
-				1.3,
-				"camGame",
-				4,
-				"linear",
-				"In",
-				"stage",
-				false
-			],
-			"time": 40000,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				500,
-				500,
-				true,
-				4,
-				"CLASSIC",
-				"In",
-				false
-			],
-			"time": 42666.6666666667,
-			"name": "Camera Position"
-		},
-		{
-			"params": [
-				true,
-				0.85,
-				"camGame",
-				4,
-				"expo",
-				"InOut",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 42666.6666666667
-		},
-		{
-			"params": [
-				false,
-				-16711681,
-				4,
-				"camHUD"
-			],
-			"name": "Camera Flash",
-			"time": 42666.6666666667
-		},
-		{
-			"params": [
-				2,
-				0.75,
-				"BEAT",
-				0
-			],
-			"name": "Camera Modulo Change",
-			"time": 42666.6666666667
-		},
-		{
-			"params": [
-				0,
-				true,
-				4,
-				"CLASSIC",
-				"In"
-			],
-			"name": "Camera Movement",
-			"time": 45666.6666666667
-		},
-		{
-			"params": [
-				true,
-				1,
-				"camGame",
-				4,
-				"linear",
-				"In",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 45666.6666666667
-		},
-		{
-			"params": [
-				1,
-				true,
-				4,
-				"CLASSIC",
-				"In"
-			],
-			"name": "Camera Movement",
-			"time": 46666.6666666667
-		},
-		{
-			"params": [
-				true,
-				1.1,
-				"camGame",
-				4,
-				"linear",
-				"In",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 46666.6666666667
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 48000,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				1,
-				true,
-				4,
-				"CLASSIC",
-				"In"
-			],
-			"name": "Camera Movement",
-			"time": 48000
-		},
-		{
-			"params": [
-				true,
-				1,
-				"camGame",
-				4,
-				"linear",
-				"In",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 48000
-		},
-		{
-			"params": [
-				true,
-				1.3,
-				"camGame",
-				4,
-				"linear",
-				"In",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 50666.6666666667
-		},
-		{
-			"params": [
-				0,
-				true,
-				4,
-				"CLASSIC",
-				"In"
-			],
-			"time": 53333.3333333334,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				true,
-				1,
-				"camGame",
-				4,
-				"linear",
-				"In",
-				"stage",
-				false
-			],
-			"time": 53333.3333333334,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				4,
-				1,
-				"BEAT",
-				0
-			],
-			"time": 53333.3333333334,
-			"name": "Camera Modulo Change"
-		},
-		{
-			"params": [
-				true,
-				1.5,
-				"camGame",
-				4,
-				"elastic",
-				"Out",
-				"stage",
-				false
-			],
-			"time": 53333.3333333334,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				1,
-				true,
-				4,
-				"CLASSIC",
-				"In"
-			],
-			"time": 56000,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				true,
-				1,
-				"camGame",
-				4,
-				"elastic",
-				"Out",
-				"stage",
-				false
-			],
-			"time": 56000,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				0,
-				true,
-				4,
-				"CLASSIC",
-				"In"
-			],
-			"time": 58666.6666666667,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				true,
-				1.5,
-				"camGame",
-				4,
-				"elastic",
-				"Out",
-				"stage",
-				false
-			],
-			"time": 58666.6666666667,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				1,
-				true,
-				4,
-				"CLASSIC",
-				"In"
-			],
-			"name": "Camera Movement",
-			"time": 61333.3333333333
-		},
-		{
-			"params": [
-				true,
-				1,
-				"camGame",
-				4,
-				"elastic",
-				"Out",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 61333.3333333333
-		},
-		{
-			"params": [
-				0,
-				true,
-				4,
-				"CLASSIC",
-				"In"
-			],
-			"time": 64000,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				true,
-				1.5,
-				"camGame",
-				4,
-				"elastic",
-				"Out",
-				"stage",
-				false
-			],
-			"time": 64000,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				1,
-				true,
-				4,
-				"CLASSIC",
-				"In"
-			],
-			"name": "Camera Movement",
-			"time": 66666.6666666667
-		},
-		{
-			"params": [
-				true,
-				1,
-				"camGame",
-				4,
-				"elastic",
-				"Out",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 66666.6666666667
-		},
-		{
-			"params": [
-				0,
-				true,
-				4,
-				"CLASSIC",
-				"In"
-			],
-			"time": 69333.3333333333,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				true,
-				1.5,
-				"camGame",
-				4,
-				"elastic",
-				"Out",
-				"stage",
-				false
-			],
-			"time": 69333.3333333333,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				1,
-				true,
-				4,
-				"CLASSIC",
-				"In"
-			],
-			"name": "Camera Movement",
-			"time": 70666.6666666667
-		},
-		{
-			"params": [
-				true,
-				1,
-				"camGame",
-				4,
-				"elastic",
-				"Out",
-				"stage",
-				false
-			],
-			"name": "Camera Zoom",
-			"time": 70666.6666666667
-		},
-		{
-			"params": [
-				500,
-				500,
-				true,
-				4,
-				"CLASSIC",
-				"In",
-				false
-			],
-			"time": 72000,
-			"name": "Camera Position"
-		},
-		{
-			"params": [
-				true,
-				1,
-				"camGame",
-				4,
-				"linear",
-				"In",
-				"stage",
-				false
-			],
-			"time": 72000,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				2,
-				1,
-				"BEAT",
-				0
-			],
-			"time": 72000,
-			"name": "Camera Modulo Change"
-		},
-		{
-			"params": [
-				true,
-				0.5,
-				"camGame",
-				4,
-				"linear",
-				"In",
-				"direct",
-				true
-			],
-			"time": 74666.6666666667,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				false,
-				-1,
-				4,
-				"camHUD"
-			],
-			"time": 85333.3333333333,
-			"name": "Camera Flash"
-		},
-		{
-			"params": [
-				false,
-				-16777216,
-				9999,
-				"camGame"
-			],
-			"time": 85333.3333333333,
-			"name": "Camera Flash"
-		}
-	],
-	"codenameChart": true,
+	"events": [],
+	"stage": "Dearest-Bar",
 	"strumLines": [
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "dad",
 			"notes": [
 				{
 					"id": 2,
@@ -1554,23 +894,23 @@
 					"type": 0
 				}
 			],
-			"characters": [
-				"dad"
-			],
-			"type": 0,
 			"visible": true,
 			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
+			"position": "dad",
+			"strumScale": 1,
+			"vocalsSuffix": "",
 			"strumLinePos": 0.25,
-			"vocalsSuffix": ""
+			"type": 0,
+			"characters": [
+				"dad"
+			]
 		},
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 2,
@@ -2851,41 +2191,43 @@
 					"type": 1
 				}
 			],
-			"characters": [
-				"bf"
-			],
-			"type": 1,
 			"visible": true,
 			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
+			"position": "boyfriend",
+			"strumScale": 1,
+			"vocalsSuffix": "",
 			"strumLinePos": 0.75,
-			"vocalsSuffix": ""
+			"type": 1,
+			"characters": [
+				"bf"
+			]
 		},
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "girlfriend",
 			"notes": [],
-			"characters": [
-				"gf"
-			],
-			"type": 2,
 			"visible": false,
 			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.25,
-			"vocalsSuffix": ""
+			"position": "girlfriend",
+			"strumScale": 1,
+			"vocalsSuffix": "",
+			"strumLinePos": 0.5,
+			"type": 2,
+			"characters": [
+				"gf"
+			]
 		}
 	],
-	"scrollSpeed": 2.3,
 	"chartVersion": "1.6.0",
-	"stage": "Dearest-Bar",
+	"scrollSpeed": 2.3,
+	"codenameChart": true,
 	"noteTypes": [
 		"Alt Anim Note"
 	]

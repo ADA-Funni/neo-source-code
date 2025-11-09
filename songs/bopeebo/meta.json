@@ -1,11 +1,14 @@
 {
 	"opponentModeAllowed": true,
 	"icon": "dad",
-	"color": "#9271FD",
+	"difficulties": [
+		"neo"
+	],
 	"coopAllowed": true,
+	"color": "#9271FD",
 	"stepsPerBeat": 4,
 	"displayName": "Bopeebo",
-	"beatsPerMeasure": 4,
 	"needsVoices": true,
+	"beatsPerMeasure": 4,
 	"bpm": 100
 }
