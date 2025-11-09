@@ -99,50 +99,51 @@ function update(elapsed:Float) {
 		diffSpr.y = lerp(diffSpr.y, FlxG.height - 125, 0.15);
 	}
 
-	function changeSelection(dir:Int, objects:Array):Int {
-		curSelected = FlxMath.wrap(curSelected + dir, 0, objects.length - 1);
-		return objects[curSelected];
-	}
+}
 
-	function changeDiff(dir:Int) {
-		CoolUtil.playMenuSFX();
-		curDiff = FlxMath.wrap(curDiff + dir, 0, diffs.length - 1);
-		diffSpr.loadGraphic(Paths.image("menus/storymenu/diffs/" + diffs[curDiff]));
-		FlxTween.cancelTweensOf(diffSpr);
-		diffSpr.screenCenter(FlxAxes.X);
-		diffSpr.x += dir * 50;
-		FlxTween.tween(diffSpr, {x: diffSpr.x - (dir * 50)}, 0.6, {ease: FlxEase.circOut});
-	}
+function changeSelection(dir:Int, objects:Array):Int {
+	curSelected = FlxMath.wrap(curSelected + dir, 0, objects.length - 1);
+	return objects[curSelected];
+}
 
-	function updateWeekText(dir:Int) {
-		CoolUtil.playMenuSFX();
+function changeDiff(dir:Int) {
+	CoolUtil.playMenuSFX();
+	curDiff = FlxMath.wrap(curDiff + dir, 0, diffs.length - 1);
+	diffSpr.loadGraphic(Paths.image("menus/storymenu/diffs/" + diffs[curDiff]));
+	FlxTween.cancelTweensOf(diffSpr);
+	diffSpr.screenCenter(FlxAxes.X);
+	diffSpr.x += dir * 50;
+	FlxTween.tween(diffSpr, {x: diffSpr.x - (dir * 50)}, 0.6, {ease: FlxEase.circOut});
+}
 
-		var oldText = new FunkinText(weekTxt.x, weekTxt.y, weekTxt.width, weekTxt.text, 48);
-		FlxTween.tween(oldText, {y: weekTxt.y + (dir * 200), alpha: 0}, 0.45, {ease: FlxEase.circOut, onComplete: () -> oldText.destroy()});
-		oldText.alignment = "center";
-		insert(FlxG.state.members.indexOf(weekTxt), oldText);
+function updateWeekText(dir:Int) {
+	CoolUtil.playMenuSFX();
 
-		selectedWeek = changeSelection(dir, weekList.weeks);
+	var oldText = new FunkinText(weekTxt.x, weekTxt.y, weekTxt.width, weekTxt.text, 48);
+	FlxTween.tween(oldText, {y: weekTxt.y + (dir * 200), alpha: 0}, 0.45, {ease: FlxEase.circOut, onComplete: () -> oldText.destroy()});
+	oldText.alignment = "center";
+	insert(FlxG.state.members.indexOf(weekTxt), oldText);
 
-		weekSprite.loadGraphic(Paths.image("menus/storymenu/weekgraphics/" + selectedWeek.sprite));
-		weekSprite.screenCenter(FlxAxes.X);
+	selectedWeek = changeSelection(dir, weekList.weeks);
 
-		dadChar.loadGraphic(Paths.image("menus/storymenu/chars/" + selectedWeek.chars[0].name));
-		dadCharTrail.resetTrail();
-		FlxTween.cancelTweensOf(dadChar);
-		dadChar.setPosition(15 - 1200, FlxG.height - dadChar.height);
-		FlxTween.tween(dadChar, {x: dadChar.x + 1200}, 0.6, {ease: FlxEase.circOut});
+	weekSprite.loadGraphic(Paths.image("menus/storymenu/weekgraphics/" + selectedWeek.sprite));
+	weekSprite.screenCenter(FlxAxes.X);
 
-		bfChar.loadGraphic(Paths.image("menus/storymenu/chars/" + selectedWeek.chars[1].name));
-		bfCharTrail.resetTrail();
-		FlxTween.cancelTweensOf(bfChar);
-		bfChar.setPosition(((FlxG.width - bfChar.width) - 15) + 1200, FlxG.height - bfChar.height);
-		FlxTween.tween(bfChar, {x: bfChar.x - 1200}, 0.6, {ease: FlxEase.circOut});
+	dadChar.loadGraphic(Paths.image("menus/storymenu/chars/" + selectedWeek.chars[0].name));
+	dadCharTrail.resetTrail();
+	FlxTween.cancelTweensOf(dadChar);
+	dadChar.setPosition(15 - 1200, FlxG.height - dadChar.height);
+	FlxTween.tween(dadChar, {x: dadChar.x + 1200}, 0.6, {ease: FlxEase.circOut});
 
-		weekTxt.text = [for (s in selectedWeek.songs) s.name].join("\n");
-		FlxTween.cancelTweensOf(weekTxt);
-		weekTxt.screenCenter();
-		weekTxt.y += dir * 50;
-		FlxTween.tween(weekTxt, {y: (weekTxt.y - (dir * 50)) + 30}, 0.45, {ease: FlxEase.circOut});
-	}
+	bfChar.loadGraphic(Paths.image("menus/storymenu/chars/" + selectedWeek.chars[1].name));
+	bfCharTrail.resetTrail();
+	FlxTween.cancelTweensOf(bfChar);
+	bfChar.setPosition(((FlxG.width - bfChar.width) - 15) + 1200, FlxG.height - bfChar.height);
+	FlxTween.tween(bfChar, {x: bfChar.x - 1200}, 0.6, {ease: FlxEase.circOut});
+
+	weekTxt.text = [for (s in selectedWeek.songs) s.name].join("\n");
+	FlxTween.cancelTweensOf(weekTxt);
+	weekTxt.screenCenter();
+	weekTxt.y += dir * 50;
+	FlxTween.tween(weekTxt, {y: (weekTxt.y - (dir * 50)) + 30}, 0.45, {ease: FlxEase.circOut});
 }
