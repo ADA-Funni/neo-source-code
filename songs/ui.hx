@@ -8,6 +8,9 @@ var thingiedad:FunkinSprite;
 var smoothHealthEpik:Float = 1;
 var smoothScoreEpik:Float = 0;
 
+function onPostCountdown(e)
+	e?.sprite?.zoomFactor = 0; // It says there's an error in the terminal but is still works
+
 function create() {
     PauseSubState.script = 'data/scripts/pause';
     playCutscenes = true;
