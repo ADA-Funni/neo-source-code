@@ -12,8 +12,8 @@ function postCreate() {
 
 function update(elapsed) {
     if (character.animation.curAnim.name == "deathLoop" && bg.alpha == 0) {
-        FlxTween.tween(bg, {alpha: 0.5}, 1.2, { ease: FlxEase.circInOut });
-        FlxTween.tween(FlxG.camera, {zoom: FlxG.camera.zoom + 0.6}, 0.9, { ease: FlxEase.circInOut, onComplete: () -> {
+        FlxTween.tween(bg, {alpha: 0.90}, 1.2, { ease: FlxEase.circInOut });
+        FlxTween.tween(FlxG.camera, {zoom: FlxG.camera.zoom + 0.3}, 0.9, { ease: FlxEase.circInOut, onComplete: () -> {
             FlxTween.tween(FlxG.camera, {zoom: FlxG.camera.zoom -0.02}, 0.6, { ease: FlxEase.circInOut });
         }});
     }
