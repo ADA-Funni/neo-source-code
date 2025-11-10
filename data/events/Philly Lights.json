@@ -1,0 +1,19 @@
+{
+	"params": [
+		{
+			"name": "Enable",
+			"type": "Bool",
+			"defaultValue": true
+		},
+		{
+			"name": "Gradient Setup",
+			"type": "DropDown('Random', 'Manual', 'Untouched')",
+			"defaultValue": "Untouched"
+		},
+		{
+			"name": "Manual Color Choice",
+			"type": "DropDown('lime', 'yellow', 'red', 'cyan', 'magenta')",
+			"defaultValue": "cyan"
+		}
+	]
+}

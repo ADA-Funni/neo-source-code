@@ -211,4 +211,22 @@ class ColorHelp {
 
 	private function boundChannel(value:Int):Int
 		return value > 0xff ? 0xff : value < 0 ? 0 : value;
+
+	public function toHexString(Alpha:Bool = true, Prefix:Bool = true):String {
+		return (Prefix ? "0x" : "") + (Alpha ? StringTools.hex(alpha, 2) : "") + StringTools.hex(red, 2) + StringTools.hex(green, 2) + StringTools.hex(blue, 2);
+	}
+
+	public inline function toWebString():String
+		return "#" + toHexString(false, false);
+
+
+	public function toString():String {
+		var list:Array<Array<String>> = [
+			['Web Color', toWebString()],
+			['Red', red],
+			['Green', green],
+			['Blue', blue]
+		];
+		return [for (item in list) item.join(': ')].join(', ');
+	}
 }

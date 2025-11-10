@@ -1,10 +1,11 @@
 <!DOCTYPE codename-engine-stage>
-<stage folder="stages/philly/" name="philly" zoom="0.55">
+<stage folder="stages/philly/" name="phillyBaby" zoom="0.55">
 	<sprite x="143" y="-314" type="none" scrollx="0" name="sky" scrolly="0.6" sprite="sky" scalex="1.87" scaley="1.29"/>
 	<sprite x="118" scroll="0.67" sprite="buildings" y="-87" type="none" scalex="1.57" scaley="1.2" name="buildings"/>
+	<sprite type="none" alpha="0" sprite="sky" y="400" name="gradient_layer"/>
 	<sprite x="-168" sprite="bg" y="50" type="none" scale="1.25" name="bg"/>
 	<girlfriend x="745.622983072319" scroll="1" y="129.534828869501"/>
 	<dad camxoffset="50" x="452" y="154"/>
 	<boyfriend camxoffset="-100" x="1257" camyoffset="-130" y="189"/>
-	<sprite x="590" scroll="1.35" sprite="fence" y="55" type="none" scalex="2.08" scaley="1.67" name="fg"/>
+	<sprite x="590.000000000001" scroll="1.35" sprite="fence" y="55.0000000000008" type="none" scalex="2.08" scaley="1.67" name="fg"/>
 </stage>
