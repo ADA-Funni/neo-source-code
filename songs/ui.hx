@@ -14,6 +14,8 @@ function onPostCountdown(e)
 function create() {
     PauseSubState.script = 'data/scripts/pause';
     playCutscenes = true;
+    comboGroup.cameras = [camHUD];
+    comboGroup.setPosition(FlxG.width / 2 - 50, 200);
 }
 
 function postCreate() {
@@ -80,18 +82,28 @@ function postUpdate(elapsed) {
 function onNoteHit(event):Void {
     if (event.note.isSustainNote)
         event.showSplash = true;
+    event.ratingScale *= 0.7;
+    event.numScale *= 0.7;
+}
+function onPostNoteHit(event):Void {
+    for (item in comboGroup)
+        item.cameras = comboGroup.cameras;
 }
 
 function onSplashShown(event):Void {
     if (event.splashName == 'default') {
-        event.splash.active = false;
+        event.splash.stopAnim();
         FlxTween.cancelTweensOf(event.splash);
         event.splash.scale.set(0.7, 0.7);
         event.splash.angle = event.strum.angle; event.splash.alpha = 1;
         FlxTween.tween(event.splash, {
             alpha: 0,
             'scale.x': event.splash.scale.x * 1.5,
-            'scale.y': event.splash.scale.y * 1.5}
-        , Conductor.stepCrochet / 1000 * 4, {ease: FlxEase.smootherStepOut});
+            'scale.y': event.splash.scale.y * 1.5,
+            y: event.splash.y - 17
+        }, Conductor.stepCrochet / 1000 * 4, {
+            ease: FlxEase.smootherStepOut,
+            onComplete: () -> event.splash?.animation?.finishCallback(event.splash?.getAnimName())
+        });
     }
 }
