@@ -17,6 +17,8 @@ var gradient:FlxBackdrop;
 var originalY, originalHeight = 0;
 var particles:FlxGroup;
 
+var darkCharacters = [];
+
 function create():Void {
 	gradient = new FlxBackdrop(FlxGradient.createGradientBitmapData(5, originalHeight = 700, [FlxColor.TRANSPARENT, FlxColor.WHITE]), FlxAxes.X);
 	gradient.scrollFactor.set(0, 1);
@@ -27,6 +29,17 @@ function create():Void {
 
 	particles = new FlxGroup();
 	particles.add(new Particle());
+
+	for (strumline in strumLines.members) {
+		for (char in strumline.characters) {
+			var darkChar = new Character(char.x, char.y, char.curCharacter + "-dark", char.isPlayer);
+			darkChar.visible = false;
+			darkCharacters.push(darkChar);
+			strumline.characters.push(darkChar);
+			insert(members.indexOf(char) + 1, darkChar);
+			break;
+		}
+	}
 }
 
 function beatHit(curBeat:Int):Void {
@@ -72,7 +85,6 @@ function onEvent(event):Void {
 						curLight = neonColors[colorTagList.indexOf(event.event.params[2])];
 					default:
 				}
-				trace(curLight.toString());
 
 				gradient.setGraphicSize(5, originalHeight);
 				gradient.updateHitbox();
@@ -127,7 +139,7 @@ function onEvent(event):Void {
 						character.color = FlxColor.WHITE;
 				if (prevActive) {
 					for (i in members) {
-						if (i.lifeTime != null) {
+						if (i?.lifeTime != null) {
 							if (members.contains(i)) {
 								i.kill();
 								remove(i);
@@ -141,8 +153,18 @@ function onEvent(event):Void {
 					}
 				}
 			}
+
 			particles.visible = gradient.visible = lightsActive;
-			trace('Activated: ' + lightsActive);
+
+			for (spriteName => stageSpr in stage.stageSprites)
+				stageSpr.visible = !lightsActive;
+
+			for (strumline in strumLines.members)
+				for (char in strumline.characters)
+					char.visible = !lightsActive;
+
+			for (char in darkCharacters)
+				char.visible = lightsActive;
 	}
 }
 

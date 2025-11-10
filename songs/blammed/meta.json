@@ -1,4 +1,5 @@
 {
+	"color": "#941653",
 	"customValues": {
 		"composer": "AGATE (Feat. SONICSTRONG)",
 		"charter": "gripou"
@@ -8,7 +9,6 @@
 	"difficulties": [
 		"neo"
 	],
-	"color": "#941653",
 	"coopAllowed": true,
 	"stepsPerBeat": 4,
 	"displayName": "Blammed",
