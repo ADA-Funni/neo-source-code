@@ -1,7 +1,7 @@
 var lyricTxt;
 
 function postCreate() {
-    lyricTxt = add(new FunkinText(FlxG.width * 0.12, FlxG.height * 0.72, 0, "My Balls Itch", 25));
+    lyricTxt = add(new FunkinText(FlxG.width * 0.12, FlxG.height * 0.72, 0, "...", 25));
     lyricTxt.camera = FlxG.cameras.add(new FlxCamera(), false);
     lyricTxt.camera.bgColor = 0xFF;
 }

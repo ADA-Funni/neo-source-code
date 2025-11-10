@@ -60,15 +60,6 @@ Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
 	<SubTexture name="BF Dead confirm0022" x="5028" y="0" width="452" height="505" rotated="true" frameX="-76" frameY="-46" frameWidth="661" frameHeight="499"/>
 	<SubTexture name="BF Dead confirm0023" x="2093" y="1612" width="500" height="452" frameX="-78" frameY="-46" frameWidth="661" frameHeight="499"/>
 	<SubTexture name="BF Dead confirm0024" x="2593" y="1612" width="495" height="452" frameX="-81" frameY="-46" frameWidth="661" frameHeight="499"/>
-	<SubTexture name="BF Dead confirm0025" x="2593" y="1612" width="495" height="452" frameX="-83" frameY="-46" frameWidth="661" frameHeight="499"/>
-	<SubTexture name="BF Dead confirm0026" x="2593" y="1612" width="495" height="452" frameX="-83" frameY="-46" frameWidth="661" frameHeight="499"/>
-	<SubTexture name="BF Dead confirm0027" x="2593" y="1612" width="495" height="452" frameX="-83" frameY="-46" frameWidth="661" frameHeight="499"/>
-	<SubTexture name="BF Dead confirm0028" x="2593" y="1612" width="495" height="452" frameX="-83" frameY="-46" frameWidth="661" frameHeight="499"/>
-	<SubTexture name="BF Dead confirm0029" x="2593" y="1612" width="495" height="452" frameX="-83" frameY="-46" frameWidth="661" frameHeight="499"/>
-	<SubTexture name="BF Dead confirm0030" x="2593" y="1612" width="495" height="452" frameX="-83" frameY="-46" frameWidth="661" frameHeight="499"/>
-	<SubTexture name="BF Dead confirm0031" x="2593" y="1612" width="495" height="452" frameX="-83" frameY="-46" frameWidth="661" frameHeight="499"/>
-	<SubTexture name="BF Dead confirm0032" x="2593" y="1612" width="495" height="452" frameX="-83" frameY="-46" frameWidth="661" frameHeight="499"/>
-	<SubTexture name="BF Dead confirm0033" x="2593" y="1612" width="495" height="452" frameX="-83" frameY="-46" frameWidth="661" frameHeight="499"/>
 	<SubTexture name="BF dies0000" x="3952" y="2519" width="496" height="428" frameX="-1" frameY="-1" frameWidth="498" frameHeight="459"/>
 	<SubTexture name="BF dies0001" x="4448" y="2519" width="496" height="428" frameX="-1" frameY="-1" frameWidth="498" frameHeight="459"/>
 	<SubTexture name="BF dies0002" x="494" y="2519" width="494" height="429" frameX="-0" frameY="-3" frameWidth="498" frameHeight="459"/>

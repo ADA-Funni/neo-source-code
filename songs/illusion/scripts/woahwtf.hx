@@ -15,7 +15,7 @@ function update(elapsed) {
 	glitch.time += elapsed;
 	glitch.glitchAmount = lerp(glitch.glitchAmount, (1 - (health / maxHealth)) * FlxG.save.data.glitchyvalue, 0.15);
 
-	iconP2.angle = FlxG.random.float(-5, 5);
+	iconP2.angle = FlxG.random.float(-glitch.glitchAmount * 3.5, glitch.glitchAmount * 3.5);
 
 	if (FlxG.save.data.kadedev) {
 		for (strumline in strumLines.members) { // Kade Strum Movement  Very Poorly Ported Too CNE
