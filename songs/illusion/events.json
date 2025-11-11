@@ -2,11 +2,137 @@
 	"events": [
 		{
 			"params": [
+				false,
+				4,
+				"camGame",
+				4,
+				"linear",
+				"In",
+				"stage",
+				false
+			],
+			"time": 0,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				false,
+				4,
+				"camHUD",
+				4,
+				"linear",
+				"In",
+				"direct",
+				false
+			],
+			"time": 0,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				100,
+				100,
+				true,
+				4,
+				"CLASSIC",
+				"In",
+				true
+			],
+			"time": 0,
+			"name": "Camera Position"
+		},
+		{
+			"params": [
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 0,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"I_CANT_SEE",
+				""
+			],
+			"time": 2000,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				true,
+				3,
+				"camGame",
+				64,
+				"smoothStep",
+				"Out",
+				"stage",
+				false
+			],
+			"time": 2000,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				-100,
+				0,
+				true,
+				22,
+				"smootherStep",
+				"Out",
+				true
+			],
+			"time": 8833.33333333333,
+			"name": "Camera Position"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 8833.33333333333,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
 				"lyric",
 				"Well, look at this"
 			],
 			"time": 10666.6666666667,
 			"name": "HScript Call"
+		},
+		{
+			"params": [
+				true,
+				1,
+				"camGame",
+				4,
+				"expo",
+				"Out",
+				"stage",
+				false
+			],
+			"time": 10666.6666666667,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				1,
+				"camHUD",
+				4,
+				"expo",
+				"Out",
+				"direct",
+				false
+			],
+			"time": 10666.6666666667,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -134,6 +260,30 @@
 			],
 			"time": 26666.6666666667,
 			"name": "HScript Call"
+		},
+		{
+			"params": [
+				100,
+				100,
+				true,
+				4,
+				"CLASSIC",
+				"In",
+				true
+			],
+			"time": 26666.6666666667,
+			"name": "Camera Position"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 26666.6666666667,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -340,6 +490,18 @@
 		{
 			"params": [
 				true,
+				0.5,
+				16,
+				"sine",
+				"Out",
+				false
+			],
+			"time": 62666.6666666667,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
+				true,
 				1,
 				"camGame",
 				10,
@@ -354,13 +516,13 @@
 		{
 			"params": [
 				true,
-				2.1,
-				10,
-				"linear",
-				"In",
+				3,
+				4,
+				"elastic",
+				"Out",
 				false
 			],
-			"time": 63000,
+			"time": 63833.3333333333,
 			"name": "Scroll Speed Change"
 		},
 		{
@@ -511,6 +673,30 @@
 		},
 		{
 			"params": [
+				100,
+				100,
+				true,
+				4,
+				"CLASSIC",
+				"In",
+				true
+			],
+			"time": 80000,
+			"name": "Camera Position"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 80000,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
 				"lyric",
 				"Won't see your end coming when"
 			],
@@ -546,6 +732,33 @@
 		},
 		{
 			"params": [
+				true,
+				1.7,
+				"camGame",
+				16,
+				"smootherStep",
+				"Out",
+				"stage",
+				false
+			],
+			"time": 84000,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				-200,
+				-200,
+				true,
+				16,
+				"smootherStep",
+				"Out",
+				true
+			],
+			"time": 84000,
+			"name": "Camera Position"
+		},
+		{
+			"params": [
 				"lyric",
 				"eyes are"
 			],
@@ -558,6 +771,72 @@
 				"eyes are mine "
 			],
 			"time": 85333.3333333333,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				true,
+				0.8,
+				"camGame",
+				19,
+				"smootherStep",
+				"Out",
+				"stage",
+				false
+			],
+			"time": 85333.3333333333,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				100,
+				100,
+				true,
+				19,
+				"smootherStep",
+				"Out",
+				true
+			],
+			"time": 85333.3333333333,
+			"name": "Camera Position"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 85333.3333333333,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"oknowicantsee",
+				""
+			],
+			"time": 85333.3333333333,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				true,
+				0.1,
+				19,
+				"sine",
+				"Out",
+				false
+			],
+			"time": 85333.3333333333,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
+				"lyric",
+				""
+			],
+			"time": 87333.3333333333,
 			"name": "HScript Call"
 		}
 	]
