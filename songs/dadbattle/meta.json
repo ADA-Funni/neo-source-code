@@ -1,12 +1,15 @@
 {
+	"color": "#9271FD",
 	"customValues": {
 		"composer": "SONICSTRONG",
 		"charter": "JaidenBoyfriend"
 	},
 	"opponentModeAllowed": true,
 	"icon": "dad",
+	"difficulties": [
+		"neo"
+	],
 	"coopAllowed": true,
-	"color": "#9271FD",
 	"stepsPerBeat": 4,
 	"displayName": "Dadbattle",
 	"needsVoices": true,

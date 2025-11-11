@@ -1,4 +1,22 @@
 {
+	"meta": {
+		"customValues": {
+			"composer": "SONICSTRONG (feat. BlerpZone)",
+			"charter": "AcrobatPlus"
+		},
+		"color": "#941653",
+		"opponentModeAllowed": true,
+		"icon": "pico",
+		"difficulties": [
+			"neo"
+		],
+		"coopAllowed": true,
+		"stepsPerBeat": 4,
+		"displayName": "Philly Nice",
+		"beatsPerMeasure": 4,
+		"needsVoices": true,
+		"bpm": 175
+	},
 	"events": [],
 	"stage": "phillyBaby",
 	"strumLines": [
@@ -121,7 +139,7 @@
 				},
 				{
 					"id": 1,
-					"sLen": 85.9999999999909,
+					"sLen": 85.9999999999873,
 					"time": 14742.8571428571,
 					"type": 0
 				},
@@ -1518,20 +1536,20 @@
 					"type": 0
 				}
 			],
-			"visible": true,
+			"position": "dad",
+			"strumScale": 1,
 			"strumSpacing": 1,
+			"visible": true,
+			"type": 0,
+			"characters": [
+				"pico"
+			],
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "dad",
-			"strumScale": 1,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.25,
-			"type": 0,
-			"characters": [
-				"pico"
-			]
+			"strumLinePos": 0.25
 		},
 		{
 			"keyCount": 4,
@@ -2452,7 +2470,7 @@
 				{
 					"id": 2,
 					"sLen": 0,
-					"time": 64200,
+					"time": 64285.7142857143,
 					"type": 0
 				},
 				{
@@ -3113,24 +3131,24 @@
 		{
 			"keyCount": 4,
 			"notes": [],
-			"visible": false,
+			"position": "girlfriend",
+			"strumScale": 1,
 			"strumSpacing": 1,
+			"visible": false,
+			"type": 2,
+			"characters": [
+				"gf"
+			],
 			"strumPos": [
 				0,
 				50
 			],
-			"position": "girlfriend",
-			"strumScale": 1,
 			"vocalsSuffix": "",
-			"strumLinePos": 0.5,
-			"type": 2,
-			"characters": [
-				"gf"
-			]
+			"strumLinePos": 0.5
 		}
 	],
+	"codenameChart": true,
 	"chartVersion": "1.6.0",
 	"scrollSpeed": 2.5,
-	"codenameChart": true,
 	"noteTypes": []
 }

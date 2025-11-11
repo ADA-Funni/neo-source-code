@@ -5,7 +5,7 @@
 	<sprite x="-394" sprite="stage" y="-353" type="none" scale="2.12" name="stage"/>
 	<sprite x="-660" sprite="speakerbutvloo" y="-281" type="beat" scale="2.05" name="speakerl"/>
 	<sprite x="1158" sprite="speakerbutourple" y="-261" type="beat" scale="2.05" name="speakerr"/>
-	<girlfriend x="60.6506151503005" y="-313.611454560962"/>
+	<girlfriend x="27.0000000000019" scroll="1" y="-340"/>
 	<dad x="-388" camyoffset="180" y="-437"/>
 	<boyfriend camxoffset="-25" x="650" y="-382"/>
 	<sprite x="-304" sprite="stage thingy" y="-350" type="none" scale="2.32" name="poles"/>

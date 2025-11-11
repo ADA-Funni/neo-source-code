@@ -15,6 +15,34 @@
 		},
 		{
 			"params": [
+				true,
+				1.2,
+				"camGame",
+				127,
+				"smoothStep",
+				"InOut",
+				"direct",
+				true
+			],
+			"time": 83.3333333333333,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				0.8,
+				"camGame",
+				4,
+				"back",
+				"Out",
+				"direct",
+				true
+			],
+			"time": 10666.6666666667,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
 				0,
 				true,
 				4,
@@ -626,11 +654,11 @@
 		{
 			"params": [
 				true,
-				0.5,
+				0.7,
 				"camGame",
-				4,
-				"linear",
-				"In",
+				5,
+				"circ",
+				"InOut",
 				"direct",
 				true
 			],

@@ -2,17 +2,63 @@
 	"events": [
 		{
 			"params": [
-				1
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 0,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
-				0
+				-150,
+				120,
+				true,
+				4,
+				"CLASSIC",
+				"In",
+				true
+			],
+			"time": 100,
+			"name": "Camera Position"
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 100,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 6400,
 			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				true,
+				1.2,
+				"camGame",
+				4,
+				"circ",
+				"Out",
+				"direct",
+				true
+			],
+			"time": 6400,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -51,9 +97,37 @@
 		},
 		{
 			"params": [
-				0
+				-150,
+				120,
+				true,
+				4,
+				"CLASSIC",
+				"In",
+				true
 			],
 			"time": 19200,
+			"name": "Camera Position"
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 19200,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 20800,
 			"name": "Camera Movement"
 		},
 		{
@@ -65,6 +139,30 @@
 		},
 		{
 			"params": [
+				-150,
+				120,
+				true,
+				4,
+				"CLASSIC",
+				"In",
+				true
+			],
+			"name": "Camera Position",
+			"time": 25600
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"name": "Camera Movement",
+			"time": 25600
+		},
+		{
+			"params": [
 				0
 			],
 			"time": 27200,
@@ -72,7 +170,24 @@
 		},
 		{
 			"params": [
-				1
+				-150,
+				120,
+				true,
+				4,
+				"CLASSIC",
+				"In",
+				true
+			],
+			"time": 28800,
+			"name": "Camera Position"
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 28800,
 			"name": "Camera Movement"
@@ -100,14 +215,50 @@
 		},
 		{
 			"params": [
-				1
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 41600,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
-				0
+				true,
+				1.3,
+				"camGame",
+				4,
+				"linear",
+				"In",
+				"direct",
+				true
+			],
+			"time": 41600,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				0.6,
+				"camGame",
+				4,
+				"circ",
+				"Out",
+				"direct",
+				true
+			],
+			"time": 44800,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 44800,
 			"name": "Camera Movement"
@@ -163,9 +314,37 @@
 		},
 		{
 			"params": [
-				0
+				-150,
+				120,
+				true,
+				4,
+				"CLASSIC",
+				"In",
+				true
 			],
-			"time": 57600,
+			"name": "Camera Position",
+			"time": 57600
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"name": "Camera Movement",
+			"time": 57600
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 59200,
 			"name": "Camera Movement"
 		},
 		{
@@ -184,6 +363,41 @@
 		},
 		{
 			"params": [
+				-150,
+				120,
+				true,
+				4,
+				"CLASSIC",
+				"In",
+				true
+			],
+			"time": 65200,
+			"name": "Camera Position"
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 65200,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 65800,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
 				1
 			],
 			"time": 67200,
@@ -195,6 +409,54 @@
 			],
 			"time": 73600,
 			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				true,
+				1.7,
+				"camGame",
+				4,
+				"linear",
+				"In",
+				"direct",
+				true
+			],
+			"time": 76400,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				-16777216,
+				5,
+				"camGame"
+			],
+			"time": 76400,
+			"name": "Camera Flash"
+		},
+		{
+			"params": [
+				true,
+				0.6,
+				"camGame",
+				4,
+				"circ",
+				"Out",
+				"direct",
+				true
+			],
+			"time": 76800,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				false,
+				-1,
+				4,
+				"camHUD"
+			],
+			"time": 76800,
+			"name": "Camera Flash"
 		},
 		{
 			"params": [
@@ -258,6 +520,54 @@
 			],
 			"time": 99200,
 			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				-150,
+				120,
+				true,
+				4,
+				"CLASSIC",
+				"In",
+				true
+			],
+			"name": "Camera Position",
+			"time": 101600
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"name": "Camera Movement",
+			"time": 101600
+		},
+		{
+			"params": [
+				true,
+				0.9,
+				"camGame",
+				4,
+				"circ",
+				"Out",
+				"direct",
+				true
+			],
+			"time": 102500,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				false,
+				-1,
+				4,
+				"camHUD"
+			],
+			"time": 102500,
+			"name": "Camera Flash"
 		}
 	]
 }

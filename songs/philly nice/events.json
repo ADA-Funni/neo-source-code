@@ -2,6 +2,20 @@
 	"events": [
 		{
 			"params": [
+				true,
+				1.3,
+				"camGame",
+				20,
+				"back",
+				"Out",
+				"direct",
+				true
+			],
+			"time": 85.7142857142857,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
 				1
 			],
 			"time": 5485.71428571429,
@@ -37,10 +51,38 @@
 		},
 		{
 			"params": [
-				0
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 32914.2857142857,
 			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				false,
+				-1401601,
+				4,
+				"camGame"
+			],
+			"time": 32914.2857142857,
+			"name": "Camera Flash"
+		},
+		{
+			"params": [
+				true,
+				0.9,
+				"camGame",
+				4,
+				"linear",
+				"In",
+				"direct",
+				true
+			],
+			"time": 32914.2857142857,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -51,10 +93,41 @@
 		},
 		{
 			"params": [
-				0
+				-150,
+				120,
+				true,
+				4,
+				"CLASSIC",
+				"In",
+				true
+			],
+			"time": 43885.7142857143,
+			"name": "Camera Position"
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 43885.7142857143,
 			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				true,
+				0.9,
+				"camGame",
+				4,
+				"linear",
+				"In",
+				"direct",
+				true
+			],
+			"time": 43885.7142857143,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -65,10 +138,28 @@
 		},
 		{
 			"params": [
-				0
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 54857.1428571429,
 			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				true,
+				1,
+				"camGame",
+				4,
+				"linear",
+				"In",
+				"direct",
+				true
+			],
+			"time": 54857.1428571429,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -93,10 +184,38 @@
 		},
 		{
 			"params": [
-				0
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 76800,
 			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				true,
+				1.2,
+				"camGame",
+				4,
+				"linear",
+				"In",
+				"direct",
+				true
+			],
+			"time": 76800,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				false,
+				-425988,
+				4,
+				"camHUD"
+			],
+			"time": 76800,
+			"name": "Camera Flash"
 		},
 		{
 			"params": [
@@ -121,10 +240,28 @@
 		},
 		{
 			"params": [
-				0
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 98742.857142857,
 			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				true,
+				0.9,
+				"camGame",
+				4,
+				"bounce",
+				"Out",
+				"direct",
+				true
+			],
+			"time": 98742.857142857,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
