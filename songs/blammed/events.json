@@ -23,10 +23,27 @@
 		},
 		{
 			"params": [
-				0
+				-150,
+				120,
+				true,
+				4,
+				"CLASSIC",
+				"In",
+				true
 			],
-			"name": "Camera Movement",
+			"name": "Camera Position",
 			"time": 17454.5454545455
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 17454.5454545455,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -58,10 +75,47 @@
 		},
 		{
 			"params": [
-				0
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 52363.6363636364
+		},
+		{
+			"params": [
+				true,
+				"Random",
+				"cyan"
+			],
+			"time": 52363.6363636364,
+			"name": "Philly Lights"
+		},
+		{
+			"params": [
+				true,
+				1.2,
+				"camGame",
+				4,
+				"linear",
+				"In",
+				"direct",
+				true
+			],
+			"time": 52363.6363636364,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				false,
+				-2986753,
+				4,
+				"camHUD"
+			],
+			"time": 52363.6363636364,
+			"name": "Camera Flash"
 		},
 		{
 			"params": [
@@ -80,15 +134,6 @@
 			],
 			"name": "Camera Movement",
 			"time": 64000
-		},
-		{
-			"params": [
-				true,
-				"Random",
-				"cyan"
-			],
-			"time": 64000,
-			"name": "Philly Lights"
 		},
 		{
 			"params": [
@@ -119,6 +164,20 @@
 		},
 		{
 			"params": [
+				true,
+				0.8,
+				"camGame",
+				4,
+				"linear",
+				"In",
+				"direct",
+				true
+			],
+			"time": 75727.2727272727,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
 				1
 			],
 			"name": "Camera Movement",
@@ -126,7 +185,24 @@
 		},
 		{
 			"params": [
-				0
+				-150,
+				120,
+				true,
+				4,
+				"CLASSIC",
+				"In",
+				true
+			],
+			"time": 87272.7272727273,
+			"name": "Camera Position"
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 87272.7272727273
@@ -157,6 +233,20 @@
 			],
 			"time": 93090.9090909091,
 			"name": "Philly Lights"
+		},
+		{
+			"params": [
+				true,
+				1.2,
+				"camGame",
+				4,
+				"circ",
+				"Out",
+				"direct",
+				true
+			],
+			"time": 93090.9090909091,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -198,6 +288,20 @@
 			],
 			"time": 116454.545454545,
 			"name": "Philly Lights"
+		},
+		{
+			"params": [
+				true,
+				0.8,
+				"camGame",
+				4,
+				"linear",
+				"In",
+				"direct",
+				true
+			],
+			"time": 116454.545454545,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
