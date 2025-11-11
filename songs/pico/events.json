@@ -2,14 +2,36 @@
 	"events": [
 		{
 			"params": [
-				1
+				true,
+				1.3,
+				"camGame",
+				40,
+				"circ",
+				"Out",
+				"direct",
+				true
+			],
+			"time": 0,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				0,
+				true,
+				37,
+				"circ",
+				"InOut"
 			],
 			"time": 0,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
-				0
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 3200,
 			"name": "Camera Movement"
@@ -58,7 +80,24 @@
 		},
 		{
 			"params": [
-				1
+				-150,
+				120,
+				true,
+				4,
+				"CLASSIC",
+				"In",
+				true
+			],
+			"time": 48000,
+			"name": "Camera Position"
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"circ",
+				"Out"
 			],
 			"time": 48000,
 			"name": "Camera Movement"
@@ -72,17 +111,81 @@
 		},
 		{
 			"params": [
-				1
+				true,
+				1.3,
+				"camGame",
+				4,
+				"back",
+				"Out",
+				"direct",
+				true
+			],
+			"time": 59400,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 60800,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
-				0
+				true,
+				0.8,
+				"camGame",
+				4,
+				"back",
+				"Out",
+				"direct",
+				true
+			],
+			"time": 60800,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				1.2,
+				"camGame",
+				4,
+				"back",
+				"Out",
+				"direct",
+				true
+			],
+			"time": 65600,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 67200,
 			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				true,
+				0.8,
+				"camGame",
+				4,
+				"back",
+				"Out",
+				"direct",
+				true
+			],
+			"time": 67200,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -104,6 +207,65 @@
 			],
 			"time": 86400,
 			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				-150,
+				120,
+				true,
+				4,
+				"CLASSIC",
+				"In",
+				true
+			],
+			"name": "Camera Position",
+			"time": 87600
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"circ",
+				"Out"
+			],
+			"name": "Camera Movement",
+			"time": 87600
+		},
+		{
+			"params": [
+				1.1
+			],
+			"time": 92800,
+			"name": "Camera Bop"
+		},
+		{
+			"params": [
+				true,
+				1.3,
+				"camGame",
+				0.25,
+				"linear",
+				"In",
+				"direct",
+				true
+			],
+			"time": 92800,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				0.9,
+				"camGame",
+				5,
+				"linear",
+				"Out",
+				"direct",
+				true
+			],
+			"time": 93000,
+			"name": "Camera Zoom"
 		}
 	]
 }

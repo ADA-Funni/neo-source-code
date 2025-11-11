@@ -516,7 +516,7 @@
 		{
 			"params": [
 				true,
-				3,
+				2.5,
 				4,
 				"elastic",
 				"Out",
