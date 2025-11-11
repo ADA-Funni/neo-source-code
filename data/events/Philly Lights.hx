@@ -31,13 +31,20 @@ function create():Void {
 	particles.add(new Particle());
 
 	for (strumline in strumLines.members) {
-		for (char in strumline.characters) {
+		var chars = strumline.characters.copy();
+		for (char in chars) {
 			var darkChar = new Character(char.x, char.y, char.curCharacter + "-dark", char.isPlayer);
+			if (darkChar.curCharacter == 'bf' && char.curCharacter != 'bf') {
+				darkChar.destroy();
+				char.extra.set('hasDarkLoaded', false);
+				continue;
+			}
+			char.extra.set('hasDarkLoaded', true);
+			darkChar.cameraOffset.set(char.cameraOffset.x, char.cameraOffset.y);
 			darkChar.visible = false;
 			darkCharacters.push(darkChar);
 			strumline.characters.push(darkChar);
 			insert(members.indexOf(char) + 1, darkChar);
-			break;
 		}
 	}
 }
@@ -161,7 +168,7 @@ function onEvent(event):Void {
 
 			for (strumline in strumLines.members)
 				for (char in strumline.characters)
-					char.visible = !lightsActive;
+					char.visible = !(char.extra.get('hasDarkLoaded') && lightsActive);
 
 			for (char in darkCharacters)
 				char.visible = lightsActive;

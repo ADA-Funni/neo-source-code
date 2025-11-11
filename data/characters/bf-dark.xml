@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character y="350" flipX="true" isPlayer="true" icon="bf" color="#00FFA9" sprite="BF dark">
+<character y="350" flipX="true" isPlayer="true" icon="bf" color="#00FFA9" sprite="BF dark" causesAfterImagesOnJumps="true">
 	<anim name="idle" anim="BF idle dance"/>
 	<anim name="singUP" anim="BF NOTE UP0" x="-17" y="21"/>
 	<anim name="singLEFT" anim="BF NOTE LEFT0" x="27" y="-6"/>
