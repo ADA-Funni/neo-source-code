@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Philly dark lights x0.png">
+	<!-- Created with Adobe Animate version 24.0.10.14 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="window anim0000" x="3" y="3" width="142" height="43"/>
+	<SubTexture name="window anim0001" x="3" y="3" width="142" height="43"/>
+	<SubTexture name="window anim0002" x="3" y="56" width="142" height="43"/>
+	<SubTexture name="window anim0003" x="3" y="56" width="142" height="43"/>
+	<SubTexture name="window anim0004" x="3" y="109" width="142" height="43"/>
+	<SubTexture name="window anim0005" x="3" y="109" width="142" height="43"/>
+	<SubTexture name="window anim0006" x="3" y="162" width="142" height="43"/>
+	<SubTexture name="window anim0007" x="3" y="162" width="142" height="43"/>
+</TextureAtlas>
