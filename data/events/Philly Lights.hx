@@ -141,8 +141,11 @@ function onEvent(event):Void {
 				}
 			} else {
 				for (strumLine in strumLines)
-					for (character in strumLine.characters)
-						character.color = FlxColor.WHITE;
+					for (character in strumLine.characters) {
+						var colorTint = new ColorHelp(FlxColor.WHITE);
+						if (PlayState.variation == 'blacklight') colorTint.cyan = 0.15;
+						character.color = colorTint.color;
+					}
 				if (prevActive) {
 					doFlash();
 					if (Options.camZoomOnBeat) {
