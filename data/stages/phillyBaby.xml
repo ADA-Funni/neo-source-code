@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-stage>
-<stage phillyLights_bottomY="400" phillyLights_gradientHeight="1000" phillyLights_layerAsset="bg" folder="stages/philly/" zoom="0.55" name="phillyBaby">
+<stage phillyLights_bottomY="400" phillyLights_gradientHeight="1000" phillyLights_gradientLayerAsset="bg" phillyLights_particleLayerAsset="fg" folder="stages/philly/" zoom="0.55" name="phillyBaby">
 	<sprite x="143" y="-314" type="none" scrollx="0" name="sky" scrolly="0.6" sprite="sky" scalex="1.87" scaley="1.29"/>
 	<sprite x="1467" y="-657" type="none" scrollx="0" name="sky_light" scrolly="0.6" sprite="lights/the thing gru stole" scalex="2.9" scaley="1.98" phillyLightAsset="true"/>
 	<sprite x="118" scroll="0.67" sprite="buildings" y="-87" type="none" scalex="1.57" scaley="1.2" name="buildings"/>

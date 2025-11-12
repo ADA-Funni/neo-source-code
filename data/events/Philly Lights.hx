@@ -23,14 +23,16 @@ function create():Void {
 	// camera.alpha = 0.5;
 	gradient = new FlxBackdrop(FlxGradient.createGradientBitmapData(5, originalHeight = stage.extra.exists('phillyLights_gradientHeight') ? stage.extra.get('phillyLights_gradientHeight') : 500, [FlxColor.TRANSPARENT, FlxColor.WHITE]), FlxAxes.X);
 	gradient.scrollFactor.set(0, 1);
-	var layer = stage.extra.exists('phillyLights_layerAsset') ? stage.getSprite(stage.extra.get('phillyLights_layerAsset')) : gf;
+	var layer = stage.extra.exists('phillyLights_gradientLayerAsset') ? stage.getSprite(stage.extra.get('phillyLights_gradientLayerAsset')) : gf;
 	originalY = gradient.y = (stage.extra.exists('phillyLights_bottomY') ? Std.parseFloat(stage.extra.get('phillyLights_bottomY')) : gf.y) - (layer == gf ? gf.height : originalHeight);
 	insert(members.indexOf(layer), gradient);
 	gradient.visible = false;
 
 	particles = new FlxGroup();
 	particles.add(new Particle());
-	add(particles);
+	if (stage.extra.exists('phillyLights_particleLayerAsset'))
+		insert(members.indexOf(stage.getSprite(stage.extra.get('phillyLights_particleLayerAsset'))), particles);
+	else add(particles);
 
 	for (strumline in strumLines.members) {
 		var chars = strumline.characters.copy();
