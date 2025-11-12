@@ -30,6 +30,7 @@ function create():Void {
 
 	particles = new FlxGroup();
 	particles.add(new Particle());
+	add(particles);
 
 	for (strumline in strumLines.members) {
 		var chars = strumline.characters.copy();
@@ -74,13 +75,10 @@ function postUpdate(elapsed:Float):Void {
 		gradient.y = originalY + (originalHeight - gradient.height);
 	} else gradient.alpha = 0;
 
-	particles.forEachAlive((particle) -> {
-		if (particle.alpha <= 0) {
-			particle.kill();
-			if (members.contains(particle))
-				remove(particle);
-		}
-	});
+	particles.forEachAlive((particle) ->
+		if (particle.alpha <= 0)
+			particle.kill()
+	);
 }
 
 function onEvent(event):Void {
@@ -108,14 +106,6 @@ function onEvent(event):Void {
 						character.color = charColor.color;
 				gradient.color = curLight.color;
 
-				for (i in members) {
-					if (i is Particle) {
-						if (members.contains(i)) {
-							i.kill();
-							remove(i);
-						}
-					}
-				}
 				var particlesNum:Int = FlxG.random.int(12, 30);
 				var width:Float = (2000 / particlesNum);
 				var total:Int = 0;
@@ -123,15 +113,13 @@ function onEvent(event):Void {
 					for (i in 0...particlesNum) {
 						total++;
 						if (total > 40) break;
-						var particle:Particle = particles.recycle(Particle, () -> new Particle());
+						var particle:Particle = particles.recycle(Particle, () -> return new Particle());
 						particle.setPosition(
 							FlxG.random.float(camera.scroll.x * camera.zoom, camera.width / camera.zoom),
 							FlxG.random.float(camera.scroll.y * camera.zoom, camera.height / camera.zoom)
 						);
 						if (!particles.members.contains(particle))
 							particles.add(particle);
-						if (!members.contains(particle))
-							insert(FlxG.random.int(0, members.length - 1), particle);
 						particle.start();
 						particle.color = curLight.color;
 					}
@@ -154,14 +142,6 @@ function onEvent(event):Void {
 					for (character in strumLine.characters)
 						character.color = FlxColor.WHITE;
 				if (prevActive) {
-					for (i in members) {
-						if (i?.lifeTime != null) {
-							if (members.contains(i)) {
-								i.kill();
-								remove(i);
-							}
-						}
-					}
 					doFlash();
 					if (Options.camZoomOnBeat) {
 						FlxG.camera.zoom += 0.5;
