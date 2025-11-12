@@ -16,7 +16,11 @@
 		},
 		{
 			"params": [
-				0
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 14545.4545454545
