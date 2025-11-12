@@ -17,5 +17,6 @@ function postCreate():Void {
 				colorTint.magenta = 0.15;
 				element.color = colorTint.color;
 			}
-	Crowd.visible = SONG.meta.name == "dadbattle";
+	if (stage.stageSprites.exists('Crowd'))
+		Crowd.visible = SONG.meta.name == "dadbattle";
 }
