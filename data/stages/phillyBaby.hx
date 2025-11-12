@@ -3,7 +3,7 @@ function onStageNodeParsed(event):Void {
 	var isPhillyLightAsset:Bool = false;
 	if (event.node.attributeMap.exists('phillyLightAsset'))
 		isPhillyLightAsset = event.node.attributeMap.get('phillyLightAsset') == 'true';
-	if (event.sprite.extra != null)
+	if (event.sprite != null && event.sprite.extra != null)
 		event.sprite.extra.set('phillyLightAsset', isPhillyLightAsset);
 }
 function postCreate():Void {
@@ -13,5 +13,6 @@ function postCreate():Void {
 }
 
 function postUpdate(elapsed:Float):Void {
-	fg_light.alpha = fg.alpha = lerp(fg.alpha, camGame.zoom < 0.75 ? 1 : 0.3, 0.05);
+	if (!Options.lowMemoryMode)
+		fg_light.alpha = fg.alpha = lerp(fg.alpha, camGame.zoom < 0.75 ? 1 : 0.3, 0.05);
 }

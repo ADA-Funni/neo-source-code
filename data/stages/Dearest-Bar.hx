@@ -6,7 +6,7 @@ function onStageNodeParsed(event):Void {
 	var hasBlacklightTint:Bool = false;
 	if (event.node.attributeMap.exists('blacklightTint'))
 		hasBlacklightTint = event.node.attributeMap.get('blacklightTint') == 'true';
-	if (event.sprite.extra != null)
+	if (event.sprite != null && event.sprite.extra != null)
 		event.sprite.extra.set('blacklightTint', hasBlacklightTint);
 }
 function postCreate():Void {

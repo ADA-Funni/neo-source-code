@@ -29,7 +29,7 @@ function create():Void {
 	gradient.visible = false;
 
 	particles = new FlxGroup();
-	particles.add(new Particle());
+	if (!Options.lowMemoryMode) particles.add(new Particle());
 	if (stage.extra.exists('phillyLights_particleLayerAsset'))
 		insert(members.indexOf(stage.getSprite(stage.extra.get('phillyLights_particleLayerAsset'))), particles);
 	else add(particles);
@@ -108,22 +108,24 @@ function onEvent(event):Void {
 						character.color = charColor.color;
 				gradient.color = curLight.color;
 
-				var particlesNum:Int = FlxG.random.int(12, 30);
-				var width:Float = (2000 / particlesNum);
-				var total:Int = 0;
-				for (j in 0...3) {
-					for (i in 0...particlesNum) {
-						total++;
-						if (total > 40) break;
-						var particle:Particle = particles.recycle(Particle, () -> return new Particle());
-						particle.setPosition(
-							FlxG.random.float(camera.scroll.x * camera.zoom, camera.width / camera.zoom),
-							FlxG.random.float(camera.scroll.y * camera.zoom, camera.height / camera.zoom)
-						);
-						if (!particles.members.contains(particle))
-							particles.add(particle);
-						particle.start();
-						particle.color = curLight.color;
+				if (!Options.lowMemoryMode) {
+					var particlesNum:Int = FlxG.random.int(12, 30);
+					var width:Float = (2000 / particlesNum);
+					var total:Int = 0;
+					for (j in 0...3) {
+						for (i in 0...particlesNum) {
+							total++;
+							if (total > 40) break;
+							var particle:Particle = particles.recycle(Particle, () -> return new Particle());
+							particle.setPosition(
+								FlxG.random.float(camera.scroll.x * camera.zoom, camera.width / camera.zoom),
+								FlxG.random.float(camera.scroll.y * camera.zoom, camera.height / camera.zoom)
+							);
+							if (!particles.members.contains(particle))
+								particles.add(particle);
+							particle.start();
+							particle.color = curLight.color;
+						}
 					}
 				}
 				if (!prevActive) {
