@@ -12,8 +12,8 @@
 		},
 		{
 			"name": "Manual Color Choice",
-			"type": "DropDown('lime', 'yellow', 'red', 'cyan', 'magenta')",
-			"defaultValue": "cyan"
+			"type": "DropDown('lime', 'magenta', 'pink', 'blue', 'cyan')",
+			"defaultValue": "blue"
 		}
 	]
 }

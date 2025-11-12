@@ -8,23 +8,24 @@ import objects.Particle;
 public var lightsActive:Bool = false;
 
 // color stuff
-var colorTagList:Array<String> = ['lime', 'yellow', 'red', 'cyan', 'magenta'];
-var neonColors:Array<ColorHelp> = [new ColorHelp(FlxColor.LIME), new ColorHelp(FlxColor.YELLOW), new ColorHelp(FlxColor.RED), new ColorHelp(FlxColor.CYAN), new ColorHelp(FlxColor.MAGENTA)];
+var colorTagList:Array<String> = ['lime', 'magenta', 'pink', 'blue', 'cyan'];
+var neonColors:Array<ColorHelp> = [new ColorHelp(FlxColor.LIME), new ColorHelp(FlxColor.MAGENTA), new ColorHelp(0xFFF170F8), new ColorHelp(0xFF3D5A9E), new ColorHelp(FlxColor.CYAN)];
 var curLight:Null<ColorHelp> = null;
 
 // object and shiz
 var gradient:FlxBackdrop;
-var originalY, originalHeight = 0;
+var originalY:Float, originalHeight:Float = 0;
 var particles:FlxGroup;
 
-var darkCharacters = [];
+var darkCharacters:Array<Character> = [];
 
 function create():Void {
-	gradient = new FlxBackdrop(FlxGradient.createGradientBitmapData(5, originalHeight = 700, [FlxColor.TRANSPARENT, FlxColor.WHITE]), FlxAxes.X);
+	// camera.alpha = 0.5;
+	gradient = new FlxBackdrop(FlxGradient.createGradientBitmapData(5, originalHeight = stage.extra.exists('phillyLights_gradientHeight') ? stage.extra.get('phillyLights_gradientHeight') : 500, [FlxColor.TRANSPARENT, FlxColor.WHITE]), FlxAxes.X);
 	gradient.scrollFactor.set(0, 1);
-	var layer = stage.getSprite('gradient_layer');
-	originalY = gradient.y = (layer == null ? gf.y : layer.y) - gradient.height;
-	insert(members.indexOf(layer == null ? gf : layer), gradient);
+	var layer = stage.extra.exists('phillyLights_layerAsset') ? stage.getSprite(stage.extra.get('phillyLights_layerAsset')) : gf;
+	originalY = gradient.y = (stage.extra.exists('phillyLights_bottomY') ? Std.parseFloat(stage.extra.get('phillyLights_bottomY')) : gf.y) - (layer == gf ? gf.height : originalHeight);
+	insert(members.indexOf(layer), gradient);
 	gradient.visible = false;
 
 	particles = new FlxGroup();
@@ -33,7 +34,9 @@ function create():Void {
 	for (strumline in strumLines.members) {
 		var chars = strumline.characters.copy();
 		for (char in chars) {
+			char.extra.set('isDarkChar', false);
 			var darkChar = new Character(char.x, char.y, char.curCharacter + "-dark", char.isPlayer);
+			darkChar.extra.set('isDarkChar', true);
 			if (darkChar.curCharacter == 'bf' && char.curCharacter != 'bf') {
 				darkChar.destroy();
 				char.extra.set('hasDarkLoaded', false);
@@ -65,7 +68,7 @@ function beatHit(curBeat:Int):Void {
 function postUpdate(elapsed:Float):Void {
 	var newHeight = Math.round(gradient.height - 1000 * elapsed);
 	if (newHeight > 0) {
-		gradient.alpha = 1;
+		gradient.alpha = Options.flashingMenu ? 1 : 0.7;
 		gradient.setGraphicSize(5, newHeight);
 		gradient.updateHitbox();
 		gradient.y = originalY + (originalHeight - gradient.height);
@@ -99,7 +102,7 @@ function onEvent(event):Void {
 				gradient.alpha = 1;
 
 				var charColor:ColorHelp = new ColorHelp(curLight.color);
-				charColor.saturation *= 0.5;
+				charColor.saturation *= Options.flashingMenu ? 0.75 : 0.5;
 				for (strumLine in strumLines)
 					for (character in strumLine.characters)
 						character.color = charColor.color;
@@ -134,10 +137,16 @@ function onEvent(event):Void {
 					}
 				}
 				if (!prevActive) {
-					doFlash();
 					if (Options.camZoomOnBeat) {
 						FlxG.camera.zoom += 0.5;
 						camHUD.zoom += 0.1;
+					}
+					if (!gradient.visible)
+						doFlash();
+					else if (!Options.flashingMenu) {
+						var lowerColor = new ColorHelp(curLight.color);
+						lowerColor.alphaFloat = 0.25;
+						FlxG.camera.flash(lowerColor.color, 0.5, null, true);
 					}
 				}
 			} else {
@@ -163,12 +172,23 @@ function onEvent(event):Void {
 
 			particles.visible = gradient.visible = lightsActive;
 
-			for (spriteName => stageSpr in stage.stageSprites)
-				stageSpr.visible = !lightsActive;
+			for (spriteName => stageSpr in stage.stageSprites) {
+				stageSpr.color = curLight.color;
+				if (stageSpr.extra.get('phillyLightAsset'))
+					stageSpr.visible = lightsActive;
+				else {
+					var accountedColor:ColorHelp = new ColorHelp(curLight.color);
+					accountedColor.black = 0.8;
+					stageSpr.color = lightsActive ? accountedColor.color : FlxColor.WHITE;
+				}
+			}
 
 			for (strumline in strumLines.members)
-				for (char in strumline.characters)
+				for (char in strumline.characters) {
 					char.visible = !(char.extra.get('hasDarkLoaded') && lightsActive);
+					if (char.extra.get('isDarkChar'))
+						char.iconColor = curLight.color;
+				}
 
 			for (char in darkCharacters)
 				char.visible = lightsActive;
@@ -176,7 +196,7 @@ function onEvent(event):Void {
 }
 
 function doFlash():Void {
-	var color:FlxColor = FlxColor.WHITE;
-	// if (!ClientPrefs.data.flashing) color.alphaFloat = 0.5;
-	FlxG.camera.flash(color, 0.15, null, true);
+	var color:ColorHelp = new ColorHelp(FlxColor.WHITE);
+	if (!Options.flashingMenu) color.alphaFloat = 0.5;
+	FlxG.camera.flash(color.color, 0.15, null, true);
 }
