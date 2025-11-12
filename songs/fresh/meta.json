@@ -16,5 +16,8 @@
 	"displayName": "Fresh",
 	"needsVoices": true,
 	"beatsPerMeasure": 4,
+	"variants": [
+		"blacklight"
+	],
 	"bpm": 120
 }
