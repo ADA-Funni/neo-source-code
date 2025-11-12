@@ -1,46 +1,72 @@
 <credits>
-	<role name="Permissions and Oversight">
+
+	<!-- ===== CREATIVE OVERSIGHT & ASSET SUPPORT ===== -->
+	<role name="Creative Oversight & Asset Support">
 		<member name="Jellyfish!"/>
 		<member name="NoLime"/>
 	</role>
 
+	<!-- ===== DIRECTOR ===== -->
 	<role name="Director">
 		<member name="SONICSTRONG"/>
 	</role>
 
-	<role name="Coders">
+	<!-- ===== PROGRAMMING ===== -->
+	<role name="Programming">
 		<member name="KittySleeper"/>
-		<member name="Milo Ashwolf"/>
-		<member name="Rodney Furball <3"/>
+		<member name="Milo"/>
+		<member name="Rodney Furball &lt;3"/>
 		<member name="lavy_cat"/>
 	</role>
 
-	<role name="Artists">
+	<!-- ===== ART & DESIGN ===== -->
+	<role name="Mod Logo">
 		<member name="Ema15"/>
+	</role>
+
+	<role name="Character Sprites">
 		<member name="Hasnomxxie"/>
 		<member name="Ed5932"/>
 		<member name="Collydust"/>
+		<member name="LiMACro"/>
 		<member name="SONICSTRONG"/>
-		<member name="gripou"/>
-		<member name="OQ_LiMACro"/>
-		<member name="Harveyzstuff"/>
-		<member name="A3therblazer892"/>
 	</role>
 
-	<role name="Composing">
+	<role name="Story Mode Portraits">
+		<member name="gripou"/>
+		<member name="OQ_LiMACro"/>
+	</role>
+
+	<role name="Dialogue Portraits">
+		<member name="Ema15"/>
+	</role>
+
+	<role name="Gameplay UI">
+		<member name="Harveyzstuff"/>
+		<member name="SONICSTRONG"/>
+		<member name="A3therbl@zer892"/>
+		<member name="Ema15"/>
+	</role>
+
+	<role name="Backgrounds">
+		<member name="A3therbl@zer892"/>
+		<member name="Ema15"/>
+		<member name="SONICSTRONG"/>
+	</role>
+
+	<!-- ===== MUSIC ===== -->
+	<role name="Music">
 		<member name="SONICSTRONG"/>
 		<member name="Tagamikun"/>
+		<member name="Jellyfish!"/>
 		<member name="AGATE"/>
 		<member name="SKETCH"/>
 		<member name="pf0r"/>
-		<member name="Marc Cea"/>
-		<member name="Jellyfish!"/>
-	</role>
-                <role name="SFX">
+		<member name="Mark Cea"/>
 		<member name="MementoVGM"/>
 	</role>
 
-
+	<!-- ===== CHARTING ===== -->
 	<role name="Charting">
 		<member name="AcrobatPlus"/>
 		<member name="!Huntine!"/>
@@ -48,33 +74,39 @@
 		<member name="gripou"/>
 	</role>
 
+	<!-- ===== WRITING ===== -->
 	<role name="Writing">
-		<member name="hydr0c1ty"/>
 		<member name="SONICSTRONG"/>
 		<member name="BlerpZone"/>
-		<member name="X-zayVia"/>
+		<member name="hydr0c1ty"/>
+		<member name="X-Zayvia"/>
 	</role>
 
+	<!-- ===== VOICE ACTING ===== -->
 	<role name="Voice Acting">
 		<member name="JaidenBoyfriend"/>
-		<member name="TayaFNF"/>
+		<member name="Taya"/>
 		<member name="hydr0c1ty"/>
 		<member name="BonoanAnything"/>
 		<member name="BlerpZone"/>
 		<member name="KAI"/>
 	</role>
 
+	<!-- ===== CAMEOS ===== -->
 	<role name="Cameos">
-		<member name="Limacro"/>
+		<member name="LiMACro"/>
 		<member name="Edd"/>
-		<member name="A3therblazer892"/>
+		<member name="!Huntine!"/>
+		<member name="A3therbl@zer892"/>
 		<member name="Ed5932"/>
+		<member name="Ema15"/>
 		<member name="KittySleeper"/>
-		<member name="Kasane Teto"/>
-		<member name="Sonic The Headgehog"/>
-		<member name="Pac-man"/>
+		<member name="Neo Teto"/>
+		<member name="Sonic the Hedgehog"/>
+		<member name="Pac-Man"/>
 		<member name="Mario"/>
 		<member name="Jellyfish!"/>
 	</role>
+
 </credits>
 
