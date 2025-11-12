@@ -2,7 +2,22 @@
 	"events": [
 		{
 			"params": [
-				1
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 0,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0,
+				true,
+				40,
+				"smoothStep",
+				"InOut"
 			],
 			"name": "Camera Movement",
 			"time": 4000
@@ -27,6 +42,30 @@
 			],
 			"name": "Camera Movement",
 			"time": 12000
+		},
+		{
+			"params": [
+				-250,
+				120,
+				true,
+				4,
+				"CLASSIC",
+				"In",
+				true
+			],
+			"time": 12500,
+			"name": "Camera Position"
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 12500,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -60,26 +99,151 @@
 			"params": [
 				1
 			],
+			"time": 21041.6666666667,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
 			"name": "Camera Movement",
 			"time": 22000
 		},
 		{
 			"params": [
-				0
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
-			"name": "Camera Movement",
-			"time": 24000
+			"time": 23041.6666666667,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
-				1
+				1,
+				true,
+				4,
+				"smoothStep",
+				"In"
+			],
+			"time": 24041.6666666667,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				true,
+				1.1,
+				"camGame",
+				4,
+				"back",
+				"InOut",
+				"direct",
+				true
+			],
+			"name": "Camera Zoom",
+			"time": 24041.6666666667
+		},
+		{
+			"params": [
+				1,
+				true,
+				4,
+				"smoothStep",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 28000
 		},
 		{
 			"params": [
-				0
+				true,
+				1.3,
+				"camGame",
+				4,
+				"back",
+				"InOut",
+				"direct",
+				true
+			],
+			"time": 28000,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				false,
+				1
+			],
+			"time": 29302.0833333333,
+			"name": "Alt Animation Toggle"
+		},
+		{
+			"params": [
+				false,
+				false,
+				1
+			],
+			"time": 30052.0833333333,
+			"name": "Alt Animation Toggle"
+		},
+		{
+			"params": [
+				true,
+				false,
+				1
+			],
+			"time": 31291.6666666667,
+			"name": "Alt Animation Toggle"
+		},
+		{
+			"params": [
+				-150,
+				120,
+				true,
+				4,
+				"CLASSIC",
+				"In",
+				true
+			],
+			"time": 32000,
+			"name": "Camera Position"
+		},
+		{
+			"params": [
+				true,
+				0.7,
+				"camGame",
+				4,
+				"linear",
+				"In",
+				"direct",
+				true
+			],
+			"time": 32000,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				false,
+				false,
+				1
+			],
+			"time": 32000,
+			"name": "Alt Animation Toggle"
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 32000
@@ -107,6 +271,24 @@
 		},
 		{
 			"params": [
+				true,
+				false,
+				1
+			],
+			"time": 43281.25,
+			"name": "Alt Animation Toggle"
+		},
+		{
+			"params": [
+				false,
+				false,
+				1
+			],
+			"time": 43802.0833333333,
+			"name": "Alt Animation Toggle"
+		},
+		{
+			"params": [
 				0
 			],
 			"name": "Camera Movement",
@@ -121,10 +303,56 @@
 		},
 		{
 			"params": [
-				0
+				-150,
+				120,
+				true,
+				4,
+				"CLASSIC",
+				"In",
+				true
+			],
+			"name": "Camera Position",
+			"time": 47062.5
+		},
+		{
+			"params": [
+				false,
+				false,
+				1
+			],
+			"name": "Alt Animation Toggle",
+			"time": 47062.5
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 47062.5,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 48000
+		},
+		{
+			"params": [
+				false,
+				false,
+				1
+			],
+			"time": 48000,
+			"name": "Alt Animation Toggle"
 		},
 		{
 			"params": [
@@ -135,24 +363,135 @@
 		},
 		{
 			"params": [
-				0
+				-150,
+				120,
+				true,
+				4,
+				"CLASSIC",
+				"In",
+				true
+			],
+			"time": 52052.0833333333,
+			"name": "Camera Position"
+		},
+		{
+			"params": [
+				false,
+				false,
+				1
+			],
+			"time": 52052.0833333333,
+			"name": "Alt Animation Toggle"
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
-			"time": 52000
+			"time": 52052.0833333333
 		},
 		{
 			"params": [
 				1
 			],
-			"name": "Camera Movement",
-			"time": 54000
+			"time": 53052.0833333333,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
-				0
+				-150,
+				120,
+				true,
+				4,
+				"CLASSIC",
+				"In",
+				true
+			],
+			"name": "Camera Position",
+			"time": 54062.5
+		},
+		{
+			"params": [
+				false,
+				false,
+				1
+			],
+			"name": "Alt Animation Toggle",
+			"time": 54062.5
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 54062.5,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				1,
+				true,
+				4,
+				"smoothStep",
+				"In"
 			],
 			"name": "Camera Movement",
-			"time": 56000
+			"time": 55052.0833333333
+		},
+		{
+			"params": [
+				true,
+				1.2,
+				"camGame",
+				4,
+				"back",
+				"InOut",
+				"direct",
+				true
+			],
+			"time": 55052.0833333333,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				1,
+				true,
+				4,
+				"smoothStep",
+				"In"
+			],
+			"time": 56062.5,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				true,
+				0.8,
+				"camGame",
+				4,
+				"back",
+				"InOut",
+				"direct",
+				true
+			],
+			"name": "Camera Zoom",
+			"time": 56062.5
+		},
+		{
+			"params": [
+				true,
+				false,
+				1
+			],
+			"time": 56062.5,
+			"name": "Alt Animation Toggle"
 		},
 		{
 			"params": [
@@ -163,31 +502,173 @@
 		},
 		{
 			"params": [
-				0
+				-150,
+				120,
+				true,
+				4,
+				"CLASSIC",
+				"In",
+				true
 			],
-			"name": "Camera Movement",
-			"time": 64000
+			"time": 64041.6666666667,
+			"name": "Camera Position"
 		},
 		{
 			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"name": "Camera Movement",
+			"time": 64041.6666666667
+		},
+		{
+			"params": [
+				true,
+				1,
+				"camGame",
+				4,
+				"linear",
+				"In",
+				"direct",
+				true
+			],
+			"time": 64041.6666666667,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 70041.6666666667,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				true,
+				1.2,
+				"camGame",
+				4,
+				"linear",
+				"In",
+				"direct",
+				true
+			],
+			"time": 70041.6666666667,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				1,
+				true,
+				4,
+				"smoothStep",
+				"In"
+			],
+			"time": 72062.5,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				true,
+				1.3,
+				"camGame",
+				4,
+				"back",
+				"InOut",
+				"direct",
+				true
+			],
+			"name": "Camera Zoom",
+			"time": 72062.5
+		},
+		{
+			"params": [
+				-150,
+				120,
+				true,
+				4,
+				"CLASSIC",
+				"In",
+				true
+			],
+			"name": "Camera Position",
+			"time": 80062.5
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 80062.5,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				true,
+				0.7,
+				"camGame",
+				4,
+				"linear",
+				"In",
+				"direct",
+				true
+			],
+			"name": "Camera Zoom",
+			"time": 80062.5
+		},
+		{
+			"params": [
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 86052.0833333333,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				-150,
+				120,
+				true,
+				4,
+				"CLASSIC",
+				"In",
+				true
+			],
+			"time": 87041.6666666667,
+			"name": "Camera Position"
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"name": "Camera Movement",
+			"time": 87041.6666666667
+		},
+		{
+			"params": [
+				false,
+				false,
 				1
 			],
-			"name": "Camera Movement",
-			"time": 68000
-		},
-		{
-			"params": [
-				0
-			],
-			"name": "Camera Movement",
-			"time": 80000
-		},
-		{
-			"params": [
-				1
-			],
-			"name": "Camera Movement",
-			"time": 84000
+			"time": 87041.6666666667,
+			"name": "Alt Animation Toggle"
 		},
 		{
 			"params": [
@@ -216,6 +697,26 @@
 			],
 			"name": "Camera Movement",
 			"time": 94000
+		},
+		{
+			"params": [
+				true,
+				-1,
+				2,
+				"camGame"
+			],
+			"time": 95500,
+			"name": "Camera Flash"
+		},
+		{
+			"params": [
+				false,
+				-16777216,
+				9999,
+				"camHUD"
+			],
+			"time": 95500,
+			"name": "Camera Flash"
 		}
 	]
 }
