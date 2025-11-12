@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="neo dad.png">
+	<!-- Created with Adobe Animate version 24.0.10.14 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="dad crossed arms0000" x="3" y="3" width="395" height="510"/>
+	<SubTexture name="dad fist0000" x="408" y="3" width="484" height="508"/>
+	<SubTexture name="dad mad0000" x="902" y="3" width="440" height="505"/>
+	<SubTexture name="dad point0000" x="1352" y="3" width="517" height="508"/>
+	<SubTexture name="dad talk0000" x="3" y="523" width="428" height="512"/>
+</TextureAtlas>

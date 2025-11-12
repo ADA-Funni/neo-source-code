@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="neo mom.png">
+	<!-- Created with Adobe Animate version 24.0.10.14 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Mom mad0000" x="3" y="3" width="410" height="551"/>
+	<SubTexture name="mom laugh0000" x="423" y="3" width="390" height="550"/>
+	<SubTexture name="mom point0000" x="823" y="3" width="390" height="550"/>
+	<SubTexture name="mom smile0000" x="1223" y="3" width="410" height="551"/>
+	<SubTexture name="mom talk0000" x="3" y="564" width="410" height="551"/>
+</TextureAtlas>

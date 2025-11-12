@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="neo pico.png">
+	<!-- Created with Adobe Animate version 24.0.10.14 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pico bruh0000" x="3" y="3" width="335" height="449"/>
+	<SubTexture name="pico confused0000" x="348" y="3" width="363" height="443"/>
+	<SubTexture name="pico cry0000" x="721" y="3" width="324" height="442"/>
+	<SubTexture name="pico eyebrow rise0000" x="1055" y="3" width="328" height="444"/>
+	<SubTexture name="pico gun0000" x="1393" y="3" width="513" height="444"/>
+	<SubTexture name="pico sigh0000" x="3" y="462" width="325" height="444"/>
+	<SubTexture name="pico talk0000" x="338" y="462" width="328" height="444"/>
+	<SubTexture name="pico yell0000" x="676" y="462" width="328" height="444"/>
+</TextureAtlas>

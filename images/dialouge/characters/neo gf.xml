@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="neo gf.png">
+	<!-- Created with Adobe Animate version 24.0.10.14 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gf blush0000" x="3" y="3" width="337" height="446"/>
+	<SubTexture name="gf talk0000" x="350" y="3" width="348" height="447"/>
+	<SubTexture name="gf wut0000" x="3" y="460" width="341" height="448"/>
+</TextureAtlas>

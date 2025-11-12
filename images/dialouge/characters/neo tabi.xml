@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="neo tabi.png">
+	<!-- Created with Adobe Animate version 24.0.10.14 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="tabi mad0000" x="3" y="3" width="329" height="641"/>
+	<SubTexture name="tabi talk0000" x="3" y="3" width="329" height="641"/>
+	<SubTexture name="tabi wave0000" x="342" y="3" width="432" height="641"/>
+</TextureAtlas>

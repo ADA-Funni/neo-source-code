@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="neo pump.png">
+	<!-- Created with Adobe Animate version 24.0.10.14 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="pump mic0000" x="3" y="3" width="348" height="504"/>
+	<SubTexture name="pump scared0000" x="361" y="3" width="311" height="512"/>
+	<SubTexture name="pump talk0000" x="682" y="3" width="300" height="512"/>
+</TextureAtlas>

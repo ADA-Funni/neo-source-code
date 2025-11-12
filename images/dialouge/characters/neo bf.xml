@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="neo bf.png">
+	<!-- Created with Adobe Animate version 24.0.10.14 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bf angry0000" x="3" y="3" width="307" height="418"/>
+	<SubTexture name="bf angry mic0000" x="320" y="3" width="369" height="418"/>
+	<SubTexture name="bf annoyed0000" x="699" y="3" width="312" height="421"/>
+	<SubTexture name="bf annyoed mic0000" x="1021" y="3" width="393" height="421"/>
+	<SubTexture name="bf confused0000" x="1424" y="3" width="384" height="422"/>
+	<SubTexture name="bf confused mic0000" x="3" y="435" width="394" height="422"/>
+	<SubTexture name="bf point0000" x="407" y="435" width="359" height="421"/>
+	<SubTexture name="bf sweat0000" x="776" y="435" width="294" height="420"/>
+	<SubTexture name="bf sweat mic0000" x="1080" y="435" width="380" height="420"/>
+	<SubTexture name="bf talk normal0000" x="1470" y="435" width="300" height="425"/>
+	<SubTexture name="bf talk with mic0000" x="3" y="870" width="370" height="425"/>
+</TextureAtlas>

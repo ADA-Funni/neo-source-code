@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="neo skid.png">
+	<!-- Created with Adobe Animate version 24.0.10.14 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="sikd talk0000" x="3" y="3" width="298" height="478"/>
+	<SubTexture name="skid point angry0000" x="311" y="3" width="524" height="471"/>
+	<SubTexture name="skid pump0000" x="3" y="491" width="452" height="471"/>
+	<SubTexture name="skid sweat0000" x="465" y="491" width="335" height="478"/>
+</TextureAtlas>
