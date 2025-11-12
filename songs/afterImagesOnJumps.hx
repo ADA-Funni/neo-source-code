@@ -1,6 +1,6 @@
 // script by @rodney528
 
-import ColorHelp;
+import utils.ColorHelp;
 
 var options = {
 	alphaMult: 0.7,

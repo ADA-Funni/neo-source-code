@@ -1,9 +1,9 @@
 // script by @rodney528
 
-import ColorHelp;
 import flixel.addons.display.FlxBackdrop;
 import flixel.util.FlxGradient;
 import objects.Particle;
+import utils.ColorHelp;
 
 public var lightsActive:Bool = false;
 

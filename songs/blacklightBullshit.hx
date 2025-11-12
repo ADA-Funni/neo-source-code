@@ -1,4 +1,4 @@
-import ColorHelp;
+import utils.ColorHelp;
 
 function new() {
 	if (PlayState.variation != 'blacklight')

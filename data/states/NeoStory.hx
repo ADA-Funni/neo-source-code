@@ -1,8 +1,8 @@
-import ColorHelp;
 import flixel.addons.effects.FlxTrail;
 import flixel.effects.FlxFlicker;
 import funkin.menus.StoryMenuState.StoryWeeklist;
 import hxvlc.flixel.FlxVideoSprite;
+import utils.ColorHelp;
 
 var weekTxt, dadCharTrail, bfCharTrail, dadChar, bfChar;
 var diffs = ["chill", "basic", "neo"];
