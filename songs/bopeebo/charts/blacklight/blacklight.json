@@ -1,0 +1,64 @@
+{
+	"events": [],
+	"codenameChart": true,
+	"strumLines": [
+		{
+			"keyCount": 4,
+			"strumScale": 1,
+			"position": "dad",
+			"notes": [],
+			"characters": [
+				"dad"
+			],
+			"type": 0,
+			"visible": true,
+			"strumSpacing": 1,
+			"strumPos": [
+				0,
+				50
+			],
+			"strumLinePos": 0.25,
+			"vocalsSuffix": "-blacklight-Dad"
+		},
+		{
+			"keyCount": 4,
+			"notes": [],
+			"visible": true,
+			"strumSpacing": 1,
+			"strumPos": [
+				0,
+				50
+			],
+			"position": "boyfriend",
+			"strumScale": 1,
+			"vocalsSuffix": "-blacklight-BF",
+			"strumLinePos": 0.75,
+			"type": 1,
+			"characters": [
+				"bf"
+			]
+		},
+		{
+			"keyCount": 4,
+			"notes": [],
+			"visible": false,
+			"strumSpacing": 1,
+			"strumPos": [
+				0,
+				50
+			],
+			"position": "girlfriend",
+			"strumScale": 1,
+			"vocalsSuffix": "",
+			"strumLinePos": 0.5,
+			"type": 2,
+			"characters": [
+				"gf"
+			]
+		}
+	],
+	"scrollSpeed": 2,
+	"chartVersion": "1.6.0",
+	"stage": "stage",
+	"noteTypes": []
+}

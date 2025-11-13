@@ -1,0 +1,16 @@
+{
+	"opponentModeAllowed": true,
+	"icon": "dad",
+	"difficulties": [
+		"blacklight"
+	],
+	"color": "#9271FD",
+	"coopAllowed": true,
+	"stepsPerBeat": 4,
+	"displayName": "Bopeebo (Blacklight)",
+	"needsVoices": true,
+	"beatsPerMeasure": 4,
+	"bpm": 110,
+	"instSuffix": "-blacklight",
+	"vocalsSuffix": "-blacklight"
+}

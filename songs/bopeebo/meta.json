@@ -16,5 +16,8 @@
 	"displayName": "Bopeebo",
 	"needsVoices": true,
 	"beatsPerMeasure": 4,
+	"variants": [
+		"blacklight"
+	],
 	"bpm": 100
 }
