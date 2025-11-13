@@ -10,7 +10,7 @@
 		I can't believe I finally have the chance to meet your dad!
 	</line>
 	<line char="bf">
-		If I do well... than this... <format italic="true">this could be it!</format> My one-way ticket into the <format color="#ff0000"> big league</format>!
+		If I do well... than this... <format italic="true">this could be it!</format> My one-way ticket into the <format color="red"> big league</format>!
 	</line>
 	<line char="bf">
 		Umm, you said he books shows, gets rappers and singers contracts and labels n' all that fun stuff in-between right?
@@ -20,7 +20,7 @@
 		Mhm!
 	</line>
 	<line char="gf">
-		So if he likes you, then <format color="#ff0000">you're in</format>. I'ts just as simple as that.
+		So if he likes you, then <format color="red">you're in</format>. I'ts just as simple as that.
 	</line>
 	<line char="gf">
 		But I would keep in mind that he doesn't hold back whatsoever and speaks his mind no matter what ssssoooo...
@@ -33,7 +33,7 @@
 	</line>
 
 	<line char="bf">
-		Pfft, as if I'd fail. I know for a <format color="#ff0000">FACT</format> I don't suck!
+		Pfft, as if I'd fail. I know for a <format color="red">FACT</format> I don't suck!
 	</line>
 
 	<line char="gf" callback="pauseMusic" speed="0.08">
@@ -55,7 +55,7 @@
 		I'm gonna blow his dusty old ass off the stage! And straight into next week... or the next 5 weeks. I don't know for sure.
 	</line>
 	<line char="bf">
-		<format color="#ff0000">BUT</format> I will surpass your father and become the greatest rapper this city has ever seen!
+		<format color="red">BUT</format> I will surpass your father and become the greatest rapper this city has ever seen!
 	</line>
 
 	<line char="gf">

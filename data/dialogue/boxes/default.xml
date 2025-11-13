@@ -1,6 +1,6 @@
 <!DOCTYPE codename-engine-dialogue-box>
 <dialoguebox y="85">
-	<text font="phantom-muff.ttf" x="107" y="206" width="1053" color="#00ff00" size="40" borderStyle="outline" borderSize="2" borderColor="0x00000000"/>
+	<text font="phantom-muff.ttf" x="107" y="206" width="1053" color="lime" size="40" borderStyle="outline" borderSize="2" borderColor="transparent"/>
 
 	<charpos name="left" x="-500" y="184" flipBubble="true" />
 	<charpos name="middle" x="0" y="184" />
