@@ -1,56 +1,52 @@
 <!DOCTYPE codename-engine-dialogue>
 <dialogue box="default">
-	<!-- All characters -->
-	<char name="dad" char="dad" position="left" />
-	<char name="girlfriend" char="girlfriend" position="middle" />
-	<char name="boyfriend" char="boyfriend" position="right" />
+	<char name="dad" position="left"/>
+	<char name="gf" position="middle"/>
+	<char name="bf" position="right"/>
 
-	<!-- Lines -->
-	<line char="dad">
-		Damn it i can't let this green haired kid with pronouns embarrass in front of all these people. I gotta think of something to beat him and fast. Well, well well would ya... look at that quite a crowd gathered to watch me slaughter you. Just like a deer caught in the headlights of an oncoming semi truck. You won't know what hit ya. Until it obliterates the shit out of you
+	<line char="dad" changeMusic="breakfast" musicVolume="0.2" speed="0.08">
+		Be warned boy.
+	</line>
+	<line char="dad" speed="0.08">
+		Nobody, and I mean not one single <format italic="true" color="black" borderColor="red">FUNKIN'</format> individual has ever beaten me when I'm at <format color="magenta">my peak.</format>
 	</line>
 
-	<line char="boyfriend">
-		oh what's wrong? Is the illustrious daddy dearest scared of losing a rap battle to little old me? How adorable. And here i thought you were fearless. Let me guess you bribed all your previous opponents to lose on purpose to save you the embarrassment of a humiliating defeat?
+	<line char="bf" musicVolume="0.8">
+		First time for everything gramps!
+	</line>
+	<line char="bf">
+		Hope your wife prepared a way to recover that fragile pride of yours. Because I'm about to show you the animal I've become!
 	</line>
 
-	<line char="dad">
-		Let me guess? You're about to go super rockstar? You have some hidden ability that makes your voice bearable to listen to? I don't give a shit. Let's just get this battle over with.
-	</line>
-
-	<line char="dad">
-		Be warned boy. Nobody's and i mean not one single individual has ever beaten me when i'm at my peak.
-	</line>
-
-	<line char="boyfriend">
-		First time for everything. Hope your wife prepared a way to recover that fragile pride of yours. Because i'm about to show you the animal i have become!
-	</line>
-
-	<line char="girlfriend">
+	<line char="gf" speed="0.1" callback="pauseMusic">
 		You're an animal in bed alright~
 	</line>
 
-	<line char="boyfriend">
-		GF!!!
+	<line char="bf">
+		<format italic="true" size="170">GF!</format>
 	</line>
 
-	<line char="girlfriend">
-		Hehehehe~
+	<line char="gf" callback="resumeMusic" musicVolume="0.2">
+		*giggles mischievously*
 	</line>
 
-	<line char="dad">
+	<line char="dad" musicVolume="0.8">
 		Hope you're ready for a beatdown from the one and only greatest rockstar in the world!
 	</line>
-
-	<line char="dad">
-		DADDY!
+	<line char="dad" musicVolume="0.5">
+		<format size="79">DADDY</format>
+	</line>
+	<line char="dad" musicVolume="0.3">
+		<format size="131">FUCKING</format>
+	</line>
+	<line char="dad" musicVolume="0.1">
+		<format size="175">DEAREST</format>
 	</line>
 
-	<line char="dad">
-		FUCKING!
+	<line char="bf" musicVolume="0.8">
+		You won't be talking so high and mighty when I take that <format color="cyan">title</format> for myself.
 	</line>
-
-	<line char="dad">
-		DEAREST!
+	<line char="bf">
+		<format color="cyan" borderColor="magenta" size="100">Now let's duel!</format>
 	</line>
 </dialogue>

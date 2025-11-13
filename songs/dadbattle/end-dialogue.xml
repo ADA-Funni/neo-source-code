@@ -1,0 +1,93 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="default">
+	<char name="dad" position="left"/>
+	<char name="gf" position="middle"/>
+	<char name="bf" position="right"/>
+
+	<line char="dad" changeMusic="breakfast">
+		You insolate son of a bitch.
+	</line>
+	<line char="dad">
+		How the <format italic="true" color="magenta">fuck</format> did you beat me?
+	</line>
+	<line char="dad" callback="pauseMusic">
+		ME!
+	</line>
+	<line char="dad" speed="0.03">
+		<format italic="true" color="black" borderColor="red">THE GREATEST ROCKSTAR THIS WHOLE FUCKING PIECE OF SHIT WORLD HAS EVER SEEN! HOW DID THE WORTHLESS SON OF A WHORE BEAT ME!?</format>
+	</line>
+
+	<line char="bf" callback="resumeMusic">
+		It's quite simple really.
+	</line>
+	<line char="bf">
+		<format size="73">I'M!</format>
+	</line>
+	<line char="bf">
+		<format size="107">JUST!</format>
+	</line>
+	<line char="bf">
+		<format size="141">THAT!</format>
+	</line>
+	<line char="bf">
+		<format size="175">GOOD!</format>
+	</line>
+	<line char="bf">
+		Also I don't have to rely on autotune to do the work for me.
+	</line>
+	<line char="bf">
+		Because unlike you, I have <format color="magenta">real talent!</format>
+	</line>
+
+	<line char="dad">
+		<format italic="true" color="black" borderColor="red">YOU KNOW WHAT!?</format>
+	</line>
+	<line char="dad">
+		<format italic="true" color="black" borderColor="red">FINE!</format>
+	</line>
+	<line char="dad">
+		<format italic="true" color="black" borderColor="red">YOU WIN!</format>
+	</line>
+	<line char="dad">
+		<format italic="true" color="black" borderColor="red">NOW GET THE FUCK OUT OF MY BAR!</format>
+	</line>
+
+	<line char="bf">
+		Good boy, now do your damn job and get me my gig and record label!
+	</line>
+
+	<line char="dad">
+		*growls* Fine jackass.
+	</line>
+	<line char="dad">
+		There's a party going down <format color="magenta">in the Raveyard.</format> Some freaky Kids, call themselves the <format color="cyan">Spookeez.</format>
+	</line>
+	<line char="dad">
+		Been tearing through every act that steps up. You'll probably get your clock cleaned.
+	</line>
+	<line char="dad">
+		But hell, I could use a laugh. I'll get you a slot with them...
+	</line>
+
+	<line char="bf">
+		Sweet, I'll go mop the floor with them too, later bitches!
+	</line>
+	<line char="bf">
+		<format color="cyan" borderColor="magenta" size="80">BF IS ON HIS WAY TO THE TOP!</format>
+	</line>
+
+	<line char="dad" musicVolume="0.6">
+		...
+	</line>
+	<line char="dad" musicVolume="0.4">
+		*picks up phone* ...Yeah.
+	</line>
+	<line char="dad" musicVolume="0.2">
+		He's on his way.
+	</line>
+	<line char="dad" callback="pauseMusic">
+		He's your problem now.
+	</line>
+
+	<line> Wonderful, I'll be waiting. </line>
+</dialogue>
