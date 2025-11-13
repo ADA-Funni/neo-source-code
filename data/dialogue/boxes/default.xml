@@ -1,14 +1,10 @@
 <!DOCTYPE codename-engine-dialogue-box>
-<dialoguebox y="85">
-	<text font="phantom-muff.ttf" x="107" y="206" width="1053" color="lime" size="40" borderStyle="outline" borderSize="2" borderColor="transparent"/>
+<dialoguebox sprite="dialouge box" y="-10" scale="0.94">
+	<text font="phantom-muff.ttf" x="93" y="253" width="1093.9" color="#7c62c6" size="40" borderStyle="outline" borderSize="2" borderColor="#333333"/>
 
-	<charpos name="left" x="-500" y="184" flipBubble="true" />
-	<charpos name="middle" x="0" y="184" />
-	<charpos name="right" x="500" y="184" />
+	<charpos name="left" x="-500" y="184" flipBubble="true"/>
+	<charpos name="middle" x="0" y="184"/>
+	<charpos name="right" x="500" y="184"/>
 
-	<anim name="normal" anim="speech bubble normal" fps="24" loop="true" x="-30"/>
-	<anim name="normal-open" anim="Speech Bubble Normal Open" fps="24" />
-
-	<anim name="angry" anim="AHH speech bubble" fps="24" loop="true" y="60"/>
-	<anim name="angry-open" anim="speech bubble loud open" fps="24"  y="60"/>
+	<anim name="normal" anim="dialouge box" fps="24" loop="false"/>
 </dialoguebox>
