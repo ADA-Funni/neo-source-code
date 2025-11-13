@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dialouge box.png">
+	<!-- Created with Adobe Animate version 24.0.10.14 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="dialouge box0000" x="3" y="3" width="1270" height="296"/>
+</TextureAtlas>
