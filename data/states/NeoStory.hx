@@ -140,7 +140,7 @@ function updateWeekText(dir:Int) {
 	bfChar.setPosition(((FlxG.width - bfChar.width) - 15) + 1200, FlxG.height - bfChar.height);
 	FlxTween.tween(bfChar, {x: bfChar.x - 1200}, 0.6, {ease: FlxEase.circOut});
 
-	weekTxt.text = [for (s in selectedWeek.songs) s.name].join("\n");
+	weekTxt.text = [for (s in selectedWeek.songs) if (!s.hide) s.name].join("\n");
 	FlxTween.cancelTweensOf(weekTxt);
 	weekTxt.screenCenter();
 	weekTxt.y += dir * 50;

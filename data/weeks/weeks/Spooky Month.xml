@@ -2,5 +2,5 @@
 <week name="Rockstar" chars="spooky,bf" charColors="#FE1DFD,#18FF57" sprite="week_2">
 	<song>spookeez</song>
 	<song>south</song>
-	<song>illusion</song>
+	<song hide="true">illusion</song>
 </week>
