@@ -4,7 +4,7 @@
 	<char name="gf" position="middle"/>
 	<char name="bf" position="right"/>
 
-	<line char="dad" changeMusic="breakfast" musicVolume="0.2" speed="0.08">
+	<line char="dad" changeMusic="breakfast" musicVolume="0.2" speed="0.08" changeDefAnim="mad">
 		Be warned boy.
 	</line>
 	<line char="dad" speed="0.08">
@@ -18,11 +18,11 @@
 		Hope your wife prepared a way to recover that fragile pride of yours. Because I'm about to show you the animal I've become!
 	</line>
 
-	<line char="gf" speed="0.1" callback="pauseMusic">
+	<line char="gf" speed="0.1" callback="pauseMusic" changeDefAnim="blush">
 		You're an animal in bed alright~
 	</line>
 
-	<line char="bf">
+	<line char="bf" changeDefAnim="annoyed">
 		<format italic="true" size="170">GF!</format>
 	</line>
 
@@ -43,10 +43,10 @@
 		<format size="175">DEAREST</format>
 	</line>
 
-	<line char="bf" musicVolume="0.8">
+	<line char="bf" musicVolume="0.8" changeDefAnim="normal">
 		You won't be talking so high and mighty when I take that <format color="cyan">title</format> for myself.
 	</line>
-	<line char="bf">
+	<line char="bf" changeDefAnim="normal-mic">
 		<format color="cyan" borderColor="magenta" size="100">Now let's duel!</format>
 	</line>
 </dialogue>

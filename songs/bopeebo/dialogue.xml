@@ -3,26 +3,29 @@
 	<char name="dad" position="left"/>
 	<char name="bf" position="right"/>
 
-	<line char="dad" changeMusic="breakfast">
+	<line char="dad" changeMusic="breakfast" changeDefAnim="crossed-arms">
 		So BF, you're the punk who thinks he's got what it takes the next big thing, huh?
 	</line>
 	<line char="dad">
-		Well let me tell you something brother... you're <format color="magenta">no</format> Snoop Dog, you're <format color="magenta">no</format> NF AAANNNNDDD you're <format color="magenta">certainly no</format> Eminem!
+		Well let me tell you something brother...
 	</line>
-	<line char="dad">
+	<line char="dad" changeDefAnim="mad">
+		You're <format color="magenta">no</format> Snoop Dog, you're <format color="magenta">no</format> NF AAANNNNDDD you're <format color="magenta">certainly</format> no Eminem!
+	</line>
+	<line char="dad" changeDefAnim="point">
 		Do you really think you've got what it takes to make it in <format color="cyan">MY industry??</format>
 	</line>
-	<line char="dad">
+	<line char="dad" changeDefAnim="crossed-arms">
 		To step up the <format color="cyan">10 time multi-platinum record grammy award winner</format> such as the <format italic="true">illustrious</format> Daddy Dearest!?
 	</line>
 
-	<line char="bf">
+	<line char="bf" changeDefAnim="angry">
 		First of all.
 	</line>
-	<line char="bf" nextSound="gay">
+	<line char="bf" nextSound="gay" changeDefAnim="point">
 		That pose looks <format color="red">g</format><format color="orange">a</format><format color="yellow">y</format><format color="lime">e</format><format color="blue">r</format> than <format color="cyan">Pico.</format>
 	</line>
-	<line char="bf">
+	<line char="bf" changeDefAnim="angry">
 		Second of all.
 	</line>
 	<line char="bf">
@@ -32,10 +35,13 @@
 		Third of all.
 	</line>
 	<line char="bf">
-		Are you done tiring yourself out with useless dance moves? Or do you still need to practice for your ballet recital?
+		Are you done tiring yourself out with useless dance moves?
+	</line>
+	<line char="bf" changeDefAnim="normal">
+		Or do you still need to practice for your ballet recital?
 	</line>
 
-	<line char="dad">
+	<line char="dad" changeDefAnim="mad">
 		Okay, fuck you then.
 	</line>
 	<line char="dad">
@@ -44,7 +50,7 @@
 	<line char="dad">
 		But that doesn't mean a damn thing to this man. If ya wanna take a swing at <format color="cyan">the king,</format> then you better come prepared boy, because I'm about to rock you...
 	</line>
-	<line char="dad">
+	<line char="dad" changeDefAnim="crossed-arms">
 		<format size="100">Like a hurricane.</format>
 	</line>
 
@@ -52,30 +58,33 @@
 		Musical puns won't save your worn out career pops. It's time for you to kneel down before your <format color="cyan">true king!</format>
 	</line>
 
-	<line char="dad" musicVolume="0.3">
+	<line char="dad" musicVolume="0.3" changeDefAnim="normal">
 		I only kneel before my wife.
 	</line>
 
-	<line char="bf" callback="pauseMusic">
-		<format size="160">HUH!?</format>
+	<line char="bf" callback="pauseMusic" changeDefAnim="sweat">
+		<format size="175">HUH!?</format>
 	</line>
 
 	<line char="dad" callback="resumeMusic" musicVolume="0.8">
-		Nevermind that, now pull that mic out and let's <format color="magenta">rock this joint!</format>
+		Nevermind that.
+	</line>
+	<line char="dad" changeDefAnim="crossed-arms">
+		Now pull that mic out and let's <format color="magenta">rock this joint!</format>
 	</line>
 
-	<line char="bf">
+	<line char="bf" changeDefAnim="normal-mic">
 		Bring it on grandpa! Let's see if you still got the skills to pay the bills!
 	</line>
 	<line char="bf">
 		Or if you're time in the spotlight is about to die out like an introvert at a rave party.
 	</line>
 
-	<line char="dad" musicVolume="0.3">
+	<line char="dad" musicVolume="0.3" changeDefAnim="normal">
 		What the hell does that mean?
 	</line>
 
-	<line char="bf" callback="pauseMusic">
+	<line char="bf" callback="pauseMusic" changeDefAnim="angry-mic">
 		Bitch just sing the damn song already.
 	</line>
 </dialogue>

@@ -4,7 +4,7 @@
 	<char name="gf" position="middle"/>
 	<char name="bf" position="right"/>
 
-	<line char="dad" changeMusic="breakfast">
+	<line char="dad" changeMusic="breakfast" changeDefAnim="mad">
 		You insolate son of a bitch.
 	</line>
 	<line char="dad">
@@ -59,24 +59,27 @@
 	<line char="dad">
 		*growls* Fine jackass.
 	</line>
-	<line char="dad">
-		There's a party going down <format color="magenta">in the Raveyard.</format> Some freaky kids, call themselves the <format color="cyan">Spookeez.</format>
+	<line char="dad" changeDefAnim="fist">
+		There's a party going down <format color="magenta">in the Raveyard.</format>
+		Some freaky kids, call themselves the <format color="cyan"> Spookeez.</format>
 	</line>
 	<line char="dad">
-		Been tearing through every act that steps up. You'll probably get your clock cleaned.
+		Been tearing through every act that steps up.
+		You'll probably get your clock cleaned.
 	</line>
-	<line char="dad">
-		But hell, I could use a laugh. I'll get you a slot with them...
+	<line char="dad" changeDefAnim="crossed-arms">
+		But hell, I could use a laugh.
+		I'll get you a slot with them...
 	</line>
 
-	<line char="bf">
+	<line char="bf" changeDefAnim="normal-mic">
 		Sweet, I'll go mop the floor with them too, later bitches!
 	</line>
 	<line char="bf">
 		<format color="cyan" borderColor="magenta" size="80">BF IS ON HIS WAY TO THE TOP!</format>
 	</line>
 
-	<line char="dad" musicVolume="0.6">
+	<line char="dad" musicVolume="0.6" changeDefAnim="normal">
 		...
 	</line>
 	<line char="dad" musicVolume="0.4">

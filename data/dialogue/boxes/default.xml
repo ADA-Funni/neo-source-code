@@ -2,9 +2,9 @@
 <dialoguebox sprite="dialouge box" y="-10" scale="0.94">
 	<text font="phantom-muff.ttf" x="93" y="253" width="1093.9" color="#7c62c6" size="40" borderStyle="outline" borderSize="2" borderColor="#333333"/>
 
-	<charpos name="left" x="-500" y="184" flipBubble="true"/>
-	<charpos name="middle" x="0" y="184"/>
-	<charpos name="right" x="500" y="184"/>
+	<charpos name="left" x="-550" y="260"/>
+	<charpos name="middle" x="-130" y="260"/>
+	<charpos name="right" x="273.475" y="260"/>
 
 	<anim name="normal" anim="dialouge box" fps="24" loop="false"/>
 </dialoguebox>

@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-dialogue-character>
+<character sprite="neo gf" x="50">
+	<anim name="normal" anim="gf talk"/>
+	<anim name="wut" anim="gf wut" x="-7"/>
+	<anim name="blush" anim="gf blush" x="-10" y="-2"/>
+</character>

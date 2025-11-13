@@ -12,7 +12,7 @@
 	<line char="bf">
 		If I do well... than this... <format italic="true">this could be it!</format> My one-way ticket into the <format color="cyan">big league!</format>
 	</line>
-	<line char="bf">
+	<line char="bf" changeDefAnim="annoyed">
 		Umm, you said he books shows, gets rappers and singers contracts and labels n' all that fun stuff in-between right?
 	</line>
 
@@ -32,7 +32,7 @@
 		All those followers you got on Soundcloud might just leave! *giggles*
 	</line>
 
-	<line char="bf">
+	<line char="bf" changeDefAnim="normal-mic">
 		Pfft, as if I'd fail. I know for a <format color="magenta">FACT</format> I don't suck!
 	</line>
 
@@ -40,7 +40,7 @@
 		<format italic="true" size="50">A l l e g e d l y .</format>
 	</line>
 
-	<line char="bf" callback="resumeMusic">
+	<line char="bf" callback="resumeMusic" changeDefAnim="sweat">
 		<format italic="true" bold="true">Hey!</format> Ouch my pride!
 	</line>
 
@@ -51,14 +51,14 @@
 	<line char="bf">
 		<format italic="true">Anyway...</format>
 	</line>
-	<line char="bf">
+	<line char="bf" changeDefAnim="normal-mic">
 		I'm gonna blow his dusty old ass off the stage! And straight into next week... or the next 5 weeks. I don't know for sure.
 	</line>
 	<line char="bf">
 		<format color="magenta">BUT</format> I will surpass your father and become the greatest rapper this city has ever seen!
 	</line>
 
-	<line char="gf">
+	<line char="gf" changeDefAnim="blush">
 		Confident huh? Well, before you get wrecked, how about we warm up a little first?
 	</line>
 

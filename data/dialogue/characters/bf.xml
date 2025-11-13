@@ -1,0 +1,14 @@
+<!DOCTYPE codename-engine-dialogue-character>
+<character sprite="neo bf">
+	<anim name="normal" anim="bf talk normal"/>
+	<anim name="normal-mic" anim="bf talk with mic" x="70"/>
+	<anim name="angry" anim="bf angry0" x="7" y="-7"/>
+	<anim name="angry-mic" anim="bf angry mic" x="69" y="-7"/>
+	<anim name="annoyed" anim="bf annoyed0" x="5" y="-4"/>
+	<anim name="annoyed-mic" anim="bf annoyed mic" x="86" y="-5"/>
+	<anim name="confused" anim="bf confused0" x="73" y="-3"/>
+	<anim name="confused-mic" anim="bf confused mic" x="82" y="-3"/>
+	<anim name="sweat" anim="bf sweat0" x="-7" y="-4"/>
+	<anim name="sweat-mic" anim="bf sweat mic" x="80" y="-5"/>
+	<anim name="point" anim="bf point" x="50" y="-5"/>
+</character>
