@@ -1,8 +1,8 @@
 <!DOCTYPE codename-engine-stage>
-<stage startCamPosX="1000" startCamPosY="600" folder="stages/Dearest-Bar/" zoom="0.85" name="Dearest Bar">
-	<sprite x="-580" scroll="0.95" sprite="main stage" y="-175" type="none" name="bg"/>
+<stage startCamPosX="500" startCamPosY="600" folder="stages/Dearest-Bar/" zoom="0.85" name="Dearest Bar">
+	<sprite x="-580" sprite="main stage" y="-175" type="none" name="bg"/>
 
-	<girlfriend scale="0.85" x="172" y="206"/>
+	<girlfriend scale="0.85" x="172" y="206" scroll="1"/>
 
 	<dad scale="0.85" x="-34" y="174"/>
 
