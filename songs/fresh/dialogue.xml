@@ -17,8 +17,11 @@
 	<line char="bf">
 		It's not my fault you can't keep up gramps. Fine then? You want something real, something new and fresh!?
 	</line>
+	<line char="bf" musicVolume="0.2">
+		Then I'll give you something raw you can choke on.
+	</line>
 	<line char="bf" callback="pauseMusic">
-		Then I'll give you something raw you can choke on! Just like I plan to do your daughter later tonight.
+		Just like I plan to do your daughter later tonight!
 	</line>
 
 	<line char="gf" speed="0.1">
@@ -29,7 +32,7 @@
 		<format italic="true" color="black" borderColor="red">I WILL TEAR YOUR FUCKING DICK OFF AND SHOVE IT SO FAR DOWN YOUR THROAT IT WILL RIP A HOLE THROUGH YOUR ASS!</format>
 	</line>
 
-	<line char="bf" callback="resumeMusic">
+	<line char="bf" callback="resumeMusic" musicVolume="0.8">
 		Oh please, your fragile brittle bones would snap like a twig before you could even lay a hand on me.
 	</line>
 	<line char="bf">
