@@ -11,6 +11,6 @@
 	<high-memory>
 		<sprite x="-550" sprite="Crowd" y="740" type="beat" scrollx="0.85" name="Crowd" blacklightTint="true"/>
 
-		<sprite scrolly="0.8" x="-585" sprite="Lights" y="-292" type="none" scrollx="1.05" name="Lights"/>
+		<sprite x="-585" sprite="Lights" y="-292" type="none" name="Lights"/>
 	</high-memory>
 </stage>

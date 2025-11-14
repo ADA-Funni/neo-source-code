@@ -3,25 +3,14 @@
 		{
 			"params": [
 				0,
-				true,
-				4,
-				"CLASSIC",
-				"In"
-			],
-			"time": 0,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				-150,
-				120,
+				80,
 				true,
 				4,
 				"CLASSIC",
 				"In",
 				true
 			],
-			"time": 100,
+			"time": 0,
 			"name": "Camera Position"
 		},
 		{
@@ -32,7 +21,7 @@
 				"CLASSIC",
 				"In"
 			],
-			"time": 100,
+			"time": 0,
 			"name": "Camera Movement"
 		},
 		{
@@ -62,7 +51,11 @@
 		},
 		{
 			"params": [
-				1
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 8000,
 			"name": "Camera Movement"
@@ -97,8 +90,8 @@
 		},
 		{
 			"params": [
-				-150,
-				120,
+				0,
+				80,
 				true,
 				4,
 				"CLASSIC",
@@ -139,8 +132,8 @@
 		},
 		{
 			"params": [
-				-150,
-				120,
+				0,
+				80,
 				true,
 				4,
 				"CLASSIC",
@@ -170,8 +163,8 @@
 		},
 		{
 			"params": [
-				-150,
-				120,
+				0,
+				80,
 				true,
 				4,
 				"CLASSIC",
@@ -216,7 +209,7 @@
 		{
 			"params": [
 				1,
-				true,
+				false,
 				4,
 				"CLASSIC",
 				"In"
@@ -229,14 +222,50 @@
 				true,
 				1.3,
 				"camGame",
-				4,
-				"linear",
-				"In",
+				16,
+				"smootherStep",
+				"Out",
 				"direct",
 				true
 			],
 			"time": 41600,
 			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				false,
+				-16777216,
+				16,
+				"camGame"
+			],
+			"time": 41600,
+			"name": "Camera Flash"
+		},
+		{
+			"params": [
+				"blackOut",
+				"true"
+			],
+			"time": 41600,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"moveStrumLine",
+				"true"
+			],
+			"time": 41600,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				true,
+				-1,
+				8,
+				"camGame"
+			],
+			"time": 44000,
+			"name": "Camera Flash"
 		},
 		{
 			"params": [
@@ -262,6 +291,22 @@
 			],
 			"time": 44800,
 			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				"blackOut",
+				"false"
+			],
+			"time": 44800,
+			"name": "HScript Call"
+		},
+		{
+			"params": [
+				"moveStrumLine",
+				"false"
+			],
+			"time": 44800,
+			"name": "HScript Call"
 		},
 		{
 			"params": [
@@ -314,8 +359,8 @@
 		},
 		{
 			"params": [
-				-150,
-				120,
+				0,
+				80,
 				true,
 				4,
 				"CLASSIC",
@@ -363,8 +408,8 @@
 		},
 		{
 			"params": [
-				-150,
-				120,
+				0,
+				80,
 				true,
 				4,
 				"CLASSIC",
@@ -495,9 +540,33 @@
 		},
 		{
 			"params": [
+				0,
+				80,
+				true,
+				4,
+				"CLASSIC",
+				"In",
+				true
+			],
+			"time": 89600,
+			"name": "Camera Position"
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 89600,
+			"name": "Camera Movement"
+		},
+		{
+			"params": [
 				0
 			],
-			"time": 91200,
+			"time": 91000,
 			"name": "Camera Movement"
 		},
 		{
@@ -509,9 +578,33 @@
 		},
 		{
 			"params": [
+				0,
+				80,
+				true,
+				4,
+				"CLASSIC",
+				"In",
+				true
+			],
+			"name": "Camera Position",
+			"time": 96000
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"name": "Camera Movement",
+			"time": 96000
+		},
+		{
+			"params": [
 				0
 			],
-			"time": 97600,
+			"time": 97400,
 			"name": "Camera Movement"
 		},
 		{
@@ -523,8 +616,8 @@
 		},
 		{
 			"params": [
-				-150,
-				120,
+				0,
+				80,
 				true,
 				4,
 				"CLASSIC",

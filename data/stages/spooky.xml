@@ -14,9 +14,9 @@
 
 	<girlfriend x="27" scroll="1" y="-340"/>
 
-	<dad x="-388" camyoffset="180" y="-437"/>
+	<dad x="-388" y="-437"/>
 
-	<boyfriend camxoffset="-25" x="650" y="-382"/>
+	<boyfriend x="650" y="-382"/>
 
 	<high-memory>
 		<sprite x="1221" scroll="0.8" sprite="web" y="-106" type="none" scale="2.15" name="webs"/>

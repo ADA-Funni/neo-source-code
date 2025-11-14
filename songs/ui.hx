@@ -4,6 +4,16 @@ import flixel.util.FlxStringUtil;
 
 var thingiebf:FunkinSprite;
 var thingiedad:FunkinSprite;
+var neoHealthBarBF:FunkinSprite;
+var neoHealthBarDad:FunkinSprite;
+
+public function hideHUD(visible:Bool):Bool {
+    for (icon in iconArray)
+        icon.visible = visible;
+    accuracyTxt.visible = missesTxt.visible = scoreTxt.visible = visible;
+    thingiebf.visible = thingiedad.visible = neoHealthBarBF.visible = neoHealthBarDad.visible = healthBarBG.visible = visible;
+    return visible;
+}
 
 var smoothHealthEpik:Float = 1;
 var smoothScoreEpik:Float = 0;
@@ -31,13 +41,13 @@ function postCreate() {
         healthBarBG.screenCenter(FlxAxes.X);
         healthBarBG.camera = camHUD;
 
-        var neoHealthBarBF = insert(PlayState.instance.members.indexOf(healthBarBG), new FunkinSprite(0, 0, Paths.image("game/neoHealthBar")));
+        neoHealthBarBF = insert(PlayState.instance.members.indexOf(healthBarBG), new FunkinSprite(0, 0, Paths.image("game/neoHealthBar")));
         neoHealthBarBF.setGraphicSize(neoHealthBarBF.width * 0.68);
         neoHealthBarBF.setPosition(((healthBarBG.width - neoHealthBarBF.width) / 2) + healthBarBG.x, ((healthBarBG.height * 1.1 - neoHealthBarBF.height) / 2) + healthBarBG.y);
         neoHealthBarBF.color = rightColor;
         neoHealthBarBF.camera = camHUD;
 
-        var neoHealthBarDad = insert(PlayState.instance.members.indexOf(healthBarBG), new FunkinSprite(0, 0, Paths.image("game/neoHealthBar")));
+        neoHealthBarDad = insert(PlayState.instance.members.indexOf(healthBarBG), new FunkinSprite(0, 0, Paths.image("game/neoHealthBar")));
         neoHealthBarDad.setGraphicSize(neoHealthBarDad.width * 0.68);
         neoHealthBarDad.setPosition(((healthBarBG.width - neoHealthBarDad.width) / 2) + healthBarBG.x, ((healthBarBG.height * 1.1 - neoHealthBarDad.height) / 2) + healthBarBG.y);
         neoHealthBarDad.color = leftColor;

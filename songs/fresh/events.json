@@ -2,22 +2,8 @@
 	"events": [
 		{
 			"params": [
-				true,
-				1.3,
-				"camGame",
-				64,
-				"smoothStep",
-				"Out",
-				"stage",
-				true
-			],
-			"time": 0,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				-150,
-				110,
+				0,
+				80,
 				true,
 				4,
 				"CLASSIC",
@@ -37,6 +23,20 @@
 			],
 			"time": 0,
 			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				true,
+				1.3,
+				"camGame",
+				64,
+				"smoothStep",
+				"Out",
+				"stage",
+				true
+			],
+			"time": 0,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -150,22 +150,8 @@
 		},
 		{
 			"params": [
-				true,
-				0.9,
-				"camGame",
-				4,
-				"back",
-				"Out",
-				"direct",
-				true
-			],
-			"time": 32000,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				-150,
 				0,
+				80,
 				true,
 				4,
 				"CLASSIC",
@@ -185,6 +171,20 @@
 			],
 			"time": 32000,
 			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				true,
+				0.9,
+				"camGame",
+				4,
+				"back",
+				"Out",
+				"direct",
+				true
+			],
+			"time": 32000,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -231,7 +231,11 @@
 		},
 		{
 			"params": [
-				1
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 42000,
 			"name": "Camera Movement"
@@ -312,22 +316,8 @@
 		},
 		{
 			"params": [
-				true,
-				1,
-				"camGame",
-				4,
-				"back",
-				"Out",
-				"direct",
-				true
-			],
-			"name": "Camera Zoom",
-			"time": 64000
-		},
-		{
-			"params": [
-				-150,
 				0,
+				80,
 				true,
 				4,
 				"CLASSIC",
@@ -359,7 +349,7 @@
 				"direct",
 				true
 			],
-			"time": 64125,
+			"time": 64000,
 			"name": "Camera Zoom"
 		},
 		{
@@ -389,22 +379,8 @@
 		},
 		{
 			"params": [
-				true,
-				1,
-				"camGame",
-				4,
-				"back",
-				"Out",
-				"direct",
-				true
-			],
-			"time": 71000,
-			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				-150,
 				0,
+				80,
 				true,
 				4,
 				"CLASSIC",
@@ -424,6 +400,20 @@
 			],
 			"time": 71000,
 			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				true,
+				1,
+				"camGame",
+				4,
+				"back",
+				"Out",
+				"direct",
+				true
+			],
+			"time": 71000,
+			"name": "Camera Zoom"
 		}
 	]
 }

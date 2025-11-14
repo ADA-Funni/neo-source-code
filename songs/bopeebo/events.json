@@ -23,16 +23,27 @@
 		},
 		{
 			"params": [
-				500,
-				500,
+				0,
+				80,
 				true,
 				4,
 				"CLASSIC",
 				"In",
-				false
+				true
 			],
 			"time": 9600,
 			"name": "Camera Position"
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 9600,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -86,16 +97,27 @@
 		},
 		{
 			"params": [
-				500,
-				500,
+				0,
+				80,
 				true,
 				4,
 				"CLASSIC",
 				"In",
-				false
+				true
 			],
 			"name": "Camera Position",
 			"time": 14400
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 14400,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -181,16 +203,27 @@
 		},
 		{
 			"params": [
-				500,
-				500,
+				0,
+				80,
 				true,
 				4,
 				"CLASSIC",
 				"In",
-				false
+				true
 			],
 			"time": 28800,
 			"name": "Camera Position"
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 28800,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -244,16 +277,27 @@
 		},
 		{
 			"params": [
-				500,
-				500,
+				0,
+				80,
 				true,
 				4,
 				"CLASSIC",
 				"In",
-				false
+				true
 			],
 			"name": "Camera Position",
 			"time": 38400
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 38400,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -387,16 +431,27 @@
 		},
 		{
 			"params": [
-				500,
-				500,
+				0,
+				80,
 				true,
 				4,
 				"CLASSIC",
 				"In",
-				false
+				true
 			],
 			"time": 67200,
 			"name": "Camera Position"
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 67200,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -446,16 +501,27 @@
 		},
 		{
 			"params": [
-				500,
-				500,
+				0,
+				80,
 				true,
 				4,
 				"CLASSIC",
 				"In",
-				false
+				true
 			],
 			"name": "Camera Position",
 			"time": 76800
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"time": 76800,
+			"name": "Camera Movement"
 		},
 		{
 			"params": [
