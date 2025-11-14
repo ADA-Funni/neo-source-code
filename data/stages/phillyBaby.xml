@@ -23,8 +23,8 @@
 	<boyfriend x="1257" y="189"/>
 
 	<high-memory>
-		<sprite x="590" scroll="1.35" sprite="fence" y="55" type="none" scalex="2.08" scaley="1.67" name="fg"/>
+		<sprite x="590" scroll="1.35" sprite="fence" y="55" type="none" scalex="2.2" scaley="1.7" name="fg"/>
 
-		<sprite x="221" scroll="1.35" sprite="lights/fence light" y="138" type="none" scalex="2.08" scaley="1.67" name="fg_light" phillyLightAsset="true"/>
+		<sprite x="221" scroll="1.35" sprite="lights/fence light" y="138" type="none" scalex="2.2" scaley="1.7" name="fg_light" phillyLightAsset="true"/>
 	</high-memory>
 </stage>
