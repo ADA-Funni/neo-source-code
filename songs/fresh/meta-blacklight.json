@@ -5,12 +5,12 @@
 		"charter": "!Huntine!"
 	},
 	"instSuffix": "-blacklight",
-	"opponentModeAllowed": false,
+	"opponentModeAllowed": true,
 	"difficulties": [
 		"blacklight"
 	],
 	"icon": "dad",
-	"coopAllowed": false,
+	"coopAllowed": true,
 	"stepsPerBeat": 4,
 	"displayName": "Fresh (blacklight)",
 	"beatsPerMeasure": 4,
