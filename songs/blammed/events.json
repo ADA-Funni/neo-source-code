@@ -27,8 +27,8 @@
 		},
 		{
 			"params": [
-				-150,
-				120,
+				0,
+				130,
 				true,
 				4,
 				"CLASSIC",
@@ -65,17 +65,14 @@
 		},
 		{
 			"params": [
-				1
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 29090.9090909091
-		},
-		{
-			"params": [
-				1
-			],
-			"time": 47000,
-			"name": "Camera Movement"
 		},
 		{
 			"params": [
@@ -110,16 +107,6 @@
 			],
 			"time": 52363.6363636364,
 			"name": "Camera Zoom"
-		},
-		{
-			"params": [
-				false,
-				-2986753,
-				4,
-				"camHUD"
-			],
-			"time": 52363.6363636364,
-			"name": "Camera Flash"
 		},
 		{
 			"params": [
@@ -189,8 +176,8 @@
 		},
 		{
 			"params": [
-				-150,
-				120,
+				0,
+				130,
 				true,
 				4,
 				"CLASSIC",

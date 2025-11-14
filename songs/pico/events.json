@@ -3,7 +3,7 @@
 		{
 			"params": [
 				true,
-				1.3,
+				1.5,
 				"camGame",
 				40,
 				"circ",
@@ -80,12 +80,12 @@
 		},
 		{
 			"params": [
-				-150,
-				120,
+				60,
+				130,
 				true,
-				4,
-				"CLASSIC",
-				"In",
+				8,
+				"expo",
+				"Out",
 				true
 			],
 			"time": 48000,
@@ -96,8 +96,8 @@
 				2,
 				true,
 				4,
-				"circ",
-				"Out"
+				"CLASSIC",
+				"In"
 			],
 			"time": 48000,
 			"name": "Camera Movement"
@@ -196,30 +196,27 @@
 		},
 		{
 			"params": [
-				0
+				0,
+				false,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 80000,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
-				1
-			],
-			"time": 86400,
-			"name": "Camera Movement"
-		},
-		{
-			"params": [
-				-150,
-				120,
+				60,
+				0,
 				true,
-				4,
-				"CLASSIC",
-				"In",
+				8,
+				"expo",
+				"Out",
 				true
 			],
 			"name": "Camera Position",
-			"time": 87600
+			"time": 86400
 		},
 		{
 			"params": [
@@ -230,7 +227,46 @@
 				"Out"
 			],
 			"name": "Camera Movement",
-			"time": 87600
+			"time": 86400
+		},
+		{
+			"params": [
+				-60,
+				0,
+				true,
+				4,
+				"expo",
+				"Out",
+				true
+			],
+			"time": 87600,
+			"name": "Camera Position"
+		},
+		{
+			"params": [
+				130,
+				0,
+				true,
+				4,
+				"expo",
+				"Out",
+				true
+			],
+			"name": "Camera Position",
+			"time": 89200
+		},
+		{
+			"params": [
+				-60,
+				0,
+				false,
+				4,
+				"expo",
+				"Out",
+				true
+			],
+			"time": 92700,
+			"name": "Camera Position"
 		},
 		{
 			"params": [

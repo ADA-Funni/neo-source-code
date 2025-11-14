@@ -8,7 +8,7 @@
 				"CLASSIC",
 				"In"
 			],
-			"time": 45.4545454545455,
+			"time": 0,
 			"name": "Camera Movement"
 		},
 		{
@@ -24,8 +24,8 @@
 		},
 		{
 			"params": [
-				-250,
-				120,
+				0,
+				80,
 				true,
 				4,
 				"CLASSIC",
@@ -59,6 +59,18 @@
 		},
 		{
 			"params": [
+				true,
+				2.6,
+				64,
+				"smootherStep",
+				"Out",
+				false
+			],
+			"time": 8727.27272727273,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
 				0,
 				true,
 				4,
@@ -81,8 +93,8 @@
 		},
 		{
 			"params": [
-				-250,
-				120,
+				0,
+				80,
 				true,
 				4,
 				"CLASSIC",
@@ -155,20 +167,20 @@
 				"CLASSIC",
 				"In"
 			],
-			"time": 24000,
+			"time": 23727.2727272727,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
-				-250,
-				120,
+				0,
+				80,
 				true,
 				4,
 				"CLASSIC",
 				"In",
 				true
 			],
-			"time": 30613.6363636364,
+			"time": 30545.4545454545,
 			"name": "Camera Position"
 		},
 		{
@@ -179,7 +191,7 @@
 				"CLASSIC",
 				"In"
 			],
-			"time": 30613.6363636364,
+			"time": 30545.4545454545,
 			"name": "Camera Movement"
 		},
 		{
@@ -188,30 +200,6 @@
 			],
 			"time": 34909.0909090909,
 			"name": "BPM Change"
-		},
-		{
-			"params": [
-				-250,
-				120,
-				true,
-				4,
-				"CLASSIC",
-				"In",
-				true
-			],
-			"name": "Camera Position",
-			"time": 34909.0909090909
-		},
-		{
-			"params": [
-				2,
-				true,
-				4,
-				"CLASSIC",
-				"In"
-			],
-			"name": "Camera Movement",
-			"time": 34909.0909090909
 		},
 		{
 			"params": [
@@ -226,8 +214,8 @@
 		},
 		{
 			"params": [
-				-250,
-				120,
+				0,
+				80,
 				true,
 				4,
 				"CLASSIC",
@@ -272,6 +260,18 @@
 		},
 		{
 			"params": [
+				true,
+				3.3,
+				128,
+				"smootherStep",
+				"Out",
+				false
+			],
+			"time": 50909.0909090909,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
 				1,
 				true,
 				4,
@@ -283,8 +283,8 @@
 		},
 		{
 			"params": [
-				-250,
-				120,
+				0,
+				80,
 				true,
 				4,
 				"CLASSIC",
@@ -318,8 +318,8 @@
 		},
 		{
 			"params": [
-				-250,
-				120,
+				0,
+				80,
 				true,
 				4,
 				"CLASSIC",

@@ -1,5 +1,9 @@
 {
 	"opponentModeAllowed": true,
+	"customValues": {
+		"composer": "Pf0r",
+		"charter": "SONICSTRONG"
+	},
 	"icon": "dad",
 	"difficulties": [
 		"blacklight"

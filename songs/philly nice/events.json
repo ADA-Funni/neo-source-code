@@ -11,12 +11,16 @@
 				"direct",
 				true
 			],
-			"time": 85.7142857142857,
+			"time": 0,
 			"name": "Camera Zoom"
 		},
 		{
 			"params": [
-				1
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 5485.71428571429,
 			"name": "Camera Movement"
@@ -30,7 +34,11 @@
 		},
 		{
 			"params": [
-				1
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 16457.1428571429,
 			"name": "Camera Movement"
@@ -93,8 +101,8 @@
 		},
 		{
 			"params": [
-				-150,
-				120,
+				0,
+				130,
 				true,
 				4,
 				"CLASSIC",
@@ -139,7 +147,7 @@
 		{
 			"params": [
 				0,
-				true,
+				false,
 				4,
 				"CLASSIC",
 				"In"
@@ -149,7 +157,7 @@
 		},
 		{
 			"params": [
-				true,
+				false,
 				1,
 				"camGame",
 				4,
@@ -163,21 +171,33 @@
 		},
 		{
 			"params": [
-				1
+				1,
+				false,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 60342.8571428572,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
-				0
+				0,
+				false,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 65828.5714285714,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
-				1
+				1,
+				false,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 71314.2857142857,
 			"name": "Camera Movement"
@@ -219,14 +239,22 @@
 		},
 		{
 			"params": [
-				1
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 82285.7142857142,
 			"name": "Camera Movement"
 		},
 		{
 			"params": [
-				0
+				0,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 87771.4285714285,
 			"name": "Camera Movement"
@@ -241,7 +269,7 @@
 		{
 			"params": [
 				0,
-				true,
+				false,
 				4,
 				"CLASSIC",
 				"In"
@@ -251,7 +279,7 @@
 		},
 		{
 			"params": [
-				true,
+				false,
 				0.9,
 				"camGame",
 				4,
@@ -265,7 +293,11 @@
 		},
 		{
 			"params": [
-				1
+				1,
+				false,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 104228.571428571,
 			"name": "Camera Movement"

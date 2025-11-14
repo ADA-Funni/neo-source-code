@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-stage>
-<stage phillyLights_bottomY="400" phillyLights_gradientHeight="1000" phillyLights_gradientLayerAsset="bg" phillyLights_particleLayerAsset="fg" folder="stages/philly/" zoom="0.55" name="phillyBaby">
+<stage phillyLights_bottomY="400" phillyLights_gradientHeight="1000" phillyLights_gradientLayerAsset="bg" phillyLights_particleLayerAsset="fg" folder="stages/philly/" zoom="0.55" name="phillyBaby" startCamPosX="1300" startCamPosY="700">
 	<sprite x="143" y="-314" type="none" scrollx="0" name="sky" scrolly="0.6" sprite="sky" scalex="1.87" scaley="1.29"/>
 
 	<sprite x="1467" y="-657" type="none" scrollx="0" name="sky_light" scrolly="0.6" sprite="lights/the thing gru stole" scalex="2.9" scaley="1.98" phillyLightAsset="true"/>
@@ -18,9 +18,9 @@
 
 	<girlfriend x="746" scroll="1"/>
 
-	<dad camxoffset="50" x="452" y="154"/>
+	<dad x="452" y="154" camyoffset="50"/>
 
-	<boyfriend camxoffset="-100" x="1257" camyoffset="-130" y="189"/>
+	<boyfriend x="1257" y="189"/>
 
 	<high-memory>
 		<sprite x="590" scroll="1.35" sprite="fence" y="55" type="none" scalex="2.08" scaley="1.67" name="fg"/>

@@ -3605,7 +3605,8 @@
 			"strumLinePos": 0.5
 		}
 	],
-	"scrollSpeed": 2.6,
+	"codenameChart": true,
+	"scrollSpeed": 1.8,
 	"chartVersion": "1.6.0",
 	"stage": "Dearest-Bar",
 	"noteTypes": []
