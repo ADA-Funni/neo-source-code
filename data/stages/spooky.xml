@@ -19,9 +19,9 @@
 	<boyfriend camxoffset="-25" x="650" y="-382"/>
 
 	<high-memory>
-		<sprite x="-304" sprite="stage thingy" y="-350" type="none" scale="2.32" name="poles"/>
-
 		<sprite x="1221" scroll="0.8" sprite="web" y="-106" type="none" scale="2.15" name="webs"/>
+
+		<sprite x="-304" sprite="stage thingy" y="-350" type="none" scale="2.32" name="poles"/>
 	</high-memory>
 
 	<sprite x="-710" sprite="grass" y="-401" scale="1.66" name="grass"/>
