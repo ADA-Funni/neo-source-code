@@ -356,6 +356,18 @@
 		},
 		{
 			"params": [
+				true,
+				3,
+				2,
+				"smootherStep",
+				"Out",
+				false
+			],
+			"time": 56500,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
 				0,
 				80,
 				true,
@@ -471,6 +483,18 @@
 		},
 		{
 			"params": [
+				true,
+				2.4,
+				16,
+				"smootherStep",
+				"Out",
+				false
+			],
+			"time": 86000,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
 				0,
 				true,
 				4,
@@ -534,22 +558,12 @@
 		},
 		{
 			"params": [
-				true,
-				-1,
-				2,
-				"camGame"
-			],
-			"time": 95500,
-			"name": "Camera Flash"
-		},
-		{
-			"params": [
 				false,
 				-16777216,
 				9999,
 				"camHUD"
 			],
-			"time": 95500,
+			"time": 95562.5,
 			"name": "Camera Flash"
 		}
 	]
