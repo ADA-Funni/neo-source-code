@@ -34,19 +34,25 @@ function create():Void {
 		insert(members.indexOf(stage.getSprite(stage.extra.get('phillyLights_particleLayerAsset'))), particles);
 	else add(particles);
 
-	for (strumline in strumLines.members) {
+	for (i => strumline in strumLines.members) {
+		var chartData = SONG.strumLines[i];
 		var chars = strumline.characters.copy();
 		for (char in chars) {
 			char.extra.set('isDarkChar', false);
-			var darkChar = new Character(char.x, char.y, char.curCharacter + "-dark", char.isPlayer);
+			var darkChar = new Character(0, 0, char.curCharacter + "-dark", char.isPlayer);
 			darkChar.extra.set('isDarkChar', true);
 			if (darkChar.curCharacter == 'bf' && char.curCharacter != 'bf') {
 				darkChar.destroy();
 				char.extra.set('hasDarkLoaded', false);
 				continue;
 			}
+			// handles positioning and shit for us
+			stage.applyCharStuff(darkChar, chartData.position == null ? (switch(chartData.type) {
+				case 0: 'dad';
+				case 1: 'boyfriend';
+				case 2: 'girlfriend';
+			}) : chartData.position, 0);
 			char.extra.set('hasDarkLoaded', true);
-			darkChar.cameraOffset.set(char.cameraOffset.x, char.cameraOffset.y);
 			darkChar.visible = false;
 			darkCharacters.push(darkChar);
 			strumline.characters.push(darkChar);
@@ -118,8 +124,8 @@ function onEvent(event):Void {
 							if (total > 40) break;
 							var particle:Particle = particles.recycle(Particle, () -> return new Particle());
 							particle.setPosition(
-								FlxG.random.float(camera.scroll.x * camera.zoom, camera.width / camera.zoom),
-								FlxG.random.float(camera.scroll.y * camera.zoom, camera.height / camera.zoom)
+								FlxG.random.float(camera.scroll.x * camera.getActualZoom(), camera.width / camera.getActualZoom()),
+								FlxG.random.float(camera.scroll.y * camera.getActualZoom(), camera.height / camera.getActualZoom())
 							);
 							if (!particles.members.contains(particle))
 								particles.add(particle);
