@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="Perfect badge.png" width="4488" height="4116">
+	<SubTexture name="Perfect badge0001" x="1" y="1" width="372" height="374" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0002" x="375" y="1" width="372" height="374" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0003" x="1" y="377" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0004" x="377" y="377" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0005" x="749" y="1" width="372" height="374" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0006" x="1" y="751" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0007" x="377" y="751" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0008" x="1123" y="1" width="372" height="374" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0009" x="753" y="377" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0010" x="753" y="751" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0011" x="1" y="1125" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0012" x="377" y="1125" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0013" x="753" y="1125" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0014" x="1497" y="1" width="372" height="374" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0015" x="1129" y="377" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0016" x="1129" y="751" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0017" x="1129" y="1125" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0018" x="1" y="1499" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0019" x="377" y="1499" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0020" x="753" y="1499" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0021" x="1129" y="1499" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0022" x="1871" y="1" width="372" height="374" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0023" x="1505" y="377" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0024" x="1505" y="751" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0025" x="1505" y="1125" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0026" x="1505" y="1499" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0027" x="1" y="1873" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0028" x="377" y="1873" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0029" x="753" y="1873" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0030" x="1129" y="1873" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0031" x="1505" y="1873" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0032" x="2245" y="1" width="372" height="374" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0033" x="1881" y="377" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0034" x="1881" y="751" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0035" x="1881" y="1125" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0036" x="1881" y="1499" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0037" x="1881" y="1873" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0038" x="1" y="2247" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0039" x="377" y="2247" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0040" x="753" y="2247" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0041" x="1129" y="2247" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0042" x="1505" y="2247" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0043" x="1881" y="2247" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0044" x="2619" y="1" width="372" height="374" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0045" x="2257" y="377" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0046" x="2257" y="751" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0047" x="2257" y="1125" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0048" x="2257" y="1499" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0049" x="2257" y="1873" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0050" x="2257" y="2247" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0051" x="1" y="2621" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0052" x="377" y="2621" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0053" x="753" y="2621" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0054" x="1129" y="2621" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0055" x="1505" y="2621" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0056" x="1881" y="2621" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0057" x="2257" y="2621" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0058" x="2993" y="1" width="372" height="374" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0059" x="2633" y="377" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0060" x="2633" y="751" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0061" x="2633" y="1125" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0062" x="2633" y="1499" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0063" x="2633" y="1873" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0064" x="2633" y="2247" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0065" x="2633" y="2621" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0066" x="1" y="2995" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0067" x="377" y="2995" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0068" x="753" y="2995" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0069" x="1129" y="2995" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0070" x="1505" y="2995" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0071" x="1881" y="2995" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0072" x="2257" y="2995" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0073" x="2633" y="2995" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0074" x="3367" y="1" width="372" height="374" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0075" x="3009" y="377" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0076" x="3009" y="751" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0077" x="3009" y="1125" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0078" x="3009" y="1499" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0079" x="3009" y="1873" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0080" x="3009" y="2247" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0081" x="3009" y="2621" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0082" x="3009" y="2995" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0083" x="1" y="3369" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0084" x="377" y="3369" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0085" x="753" y="3369" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0086" x="1129" y="3369" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0087" x="1505" y="3369" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0088" x="1881" y="3369" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0089" x="2257" y="3369" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0090" x="2633" y="3369" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0091" x="3009" y="3369" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0092" x="3741" y="1" width="372" height="374" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0093" x="3385" y="377" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0094" x="3385" y="751" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0095" x="3385" y="1125" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0096" x="3385" y="1499" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0097" x="3385" y="1873" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0098" x="3385" y="2247" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0099" x="3385" y="2621" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0100" x="3385" y="2995" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0101" x="3385" y="3369" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0102" x="1" y="3743" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0103" x="377" y="3743" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0104" x="753" y="3743" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0105" x="1129" y="3743" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0106" x="1505" y="3743" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0107" x="1881" y="3743" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0108" x="2257" y="3743" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0109" x="2633" y="3743" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0110" x="3009" y="3743" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0111" x="3385" y="3743" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0112" x="4115" y="1" width="372" height="374" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0113" x="3761" y="377" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0114" x="3761" y="751" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0115" x="3761" y="1125" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0116" x="1" y="1" width="372" height="374" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0117" x="3761" y="1125" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0118" x="1" y="1" width="372" height="374" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0119" x="3761" y="1125" width="374" height="372" rotated="true" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+	<SubTexture name="Perfect badge0120" x="1" y="1" width="372" height="374" frameX="-10" frameY="-18" frameWidth="397" frameHeight="415"/>
+</TextureAtlas>
