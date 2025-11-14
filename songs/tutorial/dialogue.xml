@@ -3,7 +3,7 @@
 	<char name="gf" position="left"/>
 	<char name="bf" position="right"/>
 
-	<line char="bf" changeMusic="breakfast">
+	<line char="bf" changeMusic="dialogue/tutorial">
 		Hot damn!
 	</line>
 	<line char="bf">

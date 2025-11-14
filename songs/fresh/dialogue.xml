@@ -4,7 +4,7 @@
 	<char name="gf" position="middle"/>
 	<char name="bf" position="right"/>
 
-	<line char="dad" changeMusic="breakfast" changeDefAnim="crossed-arms">
+	<line char="dad" changeMusic="dialogue/fresh" changeDefAnim="crossed-arms">
 		Not bad.
 	</line>
 	<line char="dad" callback="pauseMusic" changeDefAnim="mad">

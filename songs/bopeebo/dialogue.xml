@@ -3,7 +3,7 @@
 	<char name="dad" position="left"/>
 	<char name="bf" position="right"/>
 
-	<line char="dad" changeMusic="breakfast" changeDefAnim="crossed-arms">
+	<line char="dad" changeMusic="dialogue/bopeebo" changeDefAnim="crossed-arms">
 		So BF, you're the punk who thinks he's got what it takes the next big thing, huh?
 	</line>
 	<line char="dad">

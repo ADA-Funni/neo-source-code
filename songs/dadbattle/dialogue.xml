@@ -4,7 +4,7 @@
 	<char name="gf" position="middle"/>
 	<char name="bf" position="right"/>
 
-	<line char="dad" changeMusic="breakfast" musicVolume="0.2" speed="0.08" changeDefAnim="mad">
+	<line char="dad" changeMusic="dialogue/dadbattle" musicVolume="0.2" speed="0.08" changeDefAnim="mad">
 		Be warned boy.
 	</line>
 	<line char="dad" speed="0.08">

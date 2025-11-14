@@ -4,7 +4,7 @@
 	<char name="gf" position="middle"/>
 	<char name="bf" position="right"/>
 
-	<line char="dad" changeMusic="breakfast" changeDefAnim="mad">
+	<line char="dad" changeMusic="dialogue/dadbattle" changeDefAnim="mad">
 		You insolate son of a bitch.
 	</line>
 	<line char="dad">
