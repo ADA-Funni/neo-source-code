@@ -37,3 +37,23 @@ function checkBadgeVisibility():Void {
 
 function onUpdateOptionsAlpha(event):Void
 	checkBadgeVisibility();
+
+function onChangeDiff(event):Void {
+	event.cancel();
+	var validDifficulties = curDifficulties.length > 0;
+
+	var prevSong = curSong;
+	curDifficulty = event.value;
+	updateCurSong();
+	updateScore();
+
+	#if PRELOAD_ALL
+	if (curSong != prevSong) {
+		autoplayElapsed = 0;
+		songInstPlaying = false;
+	}
+	#end
+
+	var text = validDifficulties ? curDifficulties[curDifficulty].toUpperCase() : '-';
+	diffText.text = curDifficulties.length > 1 ? '< ' + text + ' >' : text;
+}
