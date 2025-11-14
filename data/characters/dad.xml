@@ -1,8 +1,8 @@
 <!DOCTYPE codename-engine-character>
-<character icon="dad" color="#FF00FF" holdTime="6.1">
-	<anim name="idle" anim="Dad idle instance 1"/>
-	<anim name="singUP" anim="Dad up instance 1" x="-15" y="48"/>
-	<anim name="singLEFT" anim="Dad left instance 1" x="44" y="-19"/>
-	<anim name="singRIGHT" anim="Dad right instance 1" x="-2" y="4"/>
-	<anim name="singDOWN" anim="Dad down instance 1" x="9" y="-18"/>
+<character camx="-120" color="#FF00FF" holdTime="6.1">
+	<anim name="idle" anim="Dad idle"/>
+	<anim name="singLEFT" anim="Dad left" x="51" y="-16"/>
+	<anim name="singDOWN" anim="Dad down" x="9" y="-18"/>
+	<anim name="singUP" anim="Dad up" x="-16" y="56"/>
+	<anim name="singRIGHT" anim="Dad right" x="-5" y="5"/>
 </character>

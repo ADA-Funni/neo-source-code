@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-character>
-<character sprite="jolly rancher" scale="1.65" camy="-100" icon="monster" color="#FF0054" causesAfterImagesOnJumps="true">
+<character sprite="jolly rancher" scale="1.65" camy="-100" icon="monster" color="#FF0055" causesAfterImagesOnJumps="true">
 	<anim name="idle" anim="Monster idle instance 1"/>
 	<anim name="singDOWN" anim="Monster down instance 1" x="80" y="-42"/>
 	<anim name="singRIGHT" anim="Monster Right instance 1" x="11" y="55"/>

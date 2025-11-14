@@ -1,12 +1,12 @@
 <!DOCTYPE codename-engine-character>
-<character x="-50" y="-10" sprite="gfneo" icon="gf" color="#FF00FD">
+<character x="-50" y="-10" sprite="gfneo" camx="-125" icon="gf" color="#FF00FF">
 	<anim name="danceLeft" anim="GF Dancing Beat" indices="0..14"/>
 	<anim name="danceRight" anim="GF Dancing Beat" indices="15..30"/>
-	<anim name="cheer" anim="GF Cheer" x="-23" y="-8"/>
-	<anim name="singLEFT" anim="GF left note" x="-25"/>
-	<anim name="singUP" anim="GF Up Note" x="-24" y="3"/>
+	<anim name="singLEFT" anim="GF left note" x="-24"/>
 	<anim name="singDOWN" anim="GF Down Note" x="-24" y="-17"/>
+	<anim name="singUP" anim="GF Up Note" x="-24" y="2"/>
 	<anim name="singRIGHT" anim="GF Right Note" x="-24" y="-24"/>
-	<anim name="scared" anim="GF FEAR" x="-27" y="-34" loop="true"/>
-	<anim name="sad" anim="gf sad" x="-26" y="-1" loop="true" indices="0..12"/>
+	<anim name="cheer" anim="GF Cheer" x="-23" y="-8"/>
+	<anim name="scared" anim="GF FEAR" x="-25" y="-34" loop="true"/>
+	<anim name="sad" anim="gf sad" x="-25" y="-2" loop="true" indices="0..12"/>
 </character>

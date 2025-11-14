@@ -1,6 +1,6 @@
 <!DOCTYPE codename-engine-character>
-<character x="-50" y="-10" icon="gf" color="#FF00FD" sprite="GF dark" causesAfterImagesOnJumps="true">
+<character x="-53" y="-13" sprite="GF dark" camx="-150" icon="gf" color="#FF00FF" causesAfterImagesOnJumps="true">
 	<anim name="danceLeft" anim="GF Dancing Beat" indices="0..14"/>
 	<anim name="danceRight" anim="GF Dancing Beat" indices="15..30"/>
-	<anim name="sad" anim="gf sad" x="-26" y="-1" loop="true" indices="0..12"/>
+	<anim name="sad" anim="gf sad" x="-26" y="-2" loop="true" indices="0..12"/>
 </character>
