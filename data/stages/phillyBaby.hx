@@ -13,6 +13,9 @@ function postCreate():Void {
 }
 
 function postUpdate(elapsed:Float):Void {
-	if (!Options.lowMemoryMode)
-		fg_light.alpha = fg.alpha = lerp(fg.alpha, camGame.zoom < 0.75 ? 1 : 0.3, 0.05);
+	if (!Options.lowMemoryMode) {
+		var isBelowY = camGame.scroll.y > 280;
+		var isZoomedIn = camGame.getActualZoom() > 0.75;
+		fg.alpha = lerp(fg.alpha, isBelowY || isZoomedIn ? 0.3 : 1, 0.2);
+	}
 }
