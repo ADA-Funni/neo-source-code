@@ -8,7 +8,7 @@
 		Be warned boy.
 	</line>
 	<line char="dad" speed="0.08">
-		Nobody, and I mean not one single <format italic="true" color="black" borderColor="red">FUNKIN'</format> individual has ever beaten me when I'm at <format color="magenta">my peak.</format>
+		Nobody, and I mean not one single <format italic="true" color="black" borderColor="red">FUCKIN'</format> individual has ever beaten me when I'm at <format color="magenta">my peak.</format>
 	</line>
 
 	<line char="bf" musicVolume="0.8">
@@ -23,7 +23,7 @@
 	</line>
 
 	<line char="bf" changeDefAnim="annoyed">
-		<format italic="true" size="170">GF!</format>
+		<format italic="true" size="170">BABE, WTF!</format>
 	</line>
 
 	<line char="gf" callback="resumeMusic" musicVolume="0.2">
