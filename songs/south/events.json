@@ -408,6 +408,15 @@
 		},
 		{
 			"params": [
+				true,
+				false,
+				1
+			],
+			"time": 71856.2874251497,
+			"name": "Alt Animation Toggle"
+		},
+		{
+			"params": [
 				"funnyBops",
 				"true"
 			],
@@ -544,6 +553,15 @@
 			],
 			"time": 80479.0419161676,
 			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				false,
+				false,
+				1
+			],
+			"time": 80479.0419161676,
+			"name": "Alt Animation Toggle"
 		},
 		{
 			"params": [
