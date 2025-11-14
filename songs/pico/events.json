@@ -208,7 +208,7 @@
 		{
 			"params": [
 				60,
-				0,
+				130,
 				true,
 				8,
 				"expo",
@@ -223,8 +223,8 @@
 				2,
 				true,
 				4,
-				"circ",
-				"Out"
+				"CLASSIC",
+				"In"
 			],
 			"name": "Camera Movement",
 			"time": 86400

@@ -139,6 +139,16 @@
 		},
 		{
 			"params": [
+				false,
+				-1,
+				4,
+				"camGame"
+			],
+			"time": 17454.5454545455,
+			"name": "Camera Flash"
+		},
+		{
+			"params": [
 				1,
 				true,
 				4,
@@ -172,6 +182,29 @@
 		},
 		{
 			"params": [
+				true,
+				1.2,
+				"camGame",
+				47,
+				"smoothStep",
+				"InOut",
+				"direct",
+				true
+			],
+			"time": 24000,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				false,
+				1
+			],
+			"time": 26181.8181818182,
+			"name": "Alt Animation Toggle"
+		},
+		{
+			"params": [
 				0,
 				80,
 				true,
@@ -196,10 +229,47 @@
 		},
 		{
 			"params": [
+				true,
+				0.8,
+				"camGame",
+				4,
+				"linear",
+				"In",
+				"direct",
+				true
+			],
+			"time": 30545.4545454545,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				false,
+				false,
+				1
+			],
+			"time": 31363.6363636364,
+			"name": "Alt Animation Toggle"
+		},
+		{
+			"params": [
 				120
 			],
 			"time": 34909.0909090909,
 			"name": "BPM Change"
+		},
+		{
+			"params": [
+				true,
+				1,
+				"camGame",
+				4,
+				"back",
+				"InOut",
+				"direct",
+				true
+			],
+			"time": 34909.0909090909,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -211,6 +281,34 @@
 			],
 			"time": 40909.0909090909,
 			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				true,
+				1.2,
+				"camGame",
+				4,
+				"back",
+				"InOut",
+				"direct",
+				true
+			],
+			"time": 40909.0909090909,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				0.8,
+				"camGame",
+				4,
+				"back",
+				"InOut",
+				"direct",
+				true
+			],
+			"time": 42909.0909090909,
+			"name": "Camera Zoom"
 		},
 		{
 			"params": [
@@ -261,7 +359,7 @@
 		{
 			"params": [
 				true,
-				3.3,
+				2.6,
 				128,
 				"smootherStep",
 				"Out",
@@ -318,6 +416,29 @@
 		},
 		{
 			"params": [
+				true,
+				1.3,
+				"camGame",
+				4,
+				"back",
+				"InOut",
+				"direct",
+				true
+			],
+			"time": 58909.0909090909,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
+				true,
+				false,
+				1
+			],
+			"time": 58909.0909090909,
+			"name": "Alt Animation Toggle"
+		},
+		{
+			"params": [
 				0,
 				80,
 				true,
@@ -342,6 +463,29 @@
 		},
 		{
 			"params": [
+				false,
+				false,
+				1
+			],
+			"time": 66909.0909090909,
+			"name": "Alt Animation Toggle"
+		},
+		{
+			"params": [
+				true,
+				0.8,
+				"camGame",
+				4,
+				"linear",
+				"In",
+				"direct",
+				true
+			],
+			"time": 66909.0909090909,
+			"name": "Camera Zoom"
+		},
+		{
+			"params": [
 				1,
 				true,
 				4,
@@ -350,6 +494,53 @@
 			],
 			"time": 70909.0909090909,
 			"name": "Camera Movement"
+		},
+		{
+			"params": [
+				0,
+				80,
+				true,
+				4,
+				"CLASSIC",
+				"In",
+				true
+			],
+			"name": "Camera Position",
+			"time": 74909.0909090909
+		},
+		{
+			"params": [
+				2,
+				true,
+				4,
+				"CLASSIC",
+				"In"
+			],
+			"name": "Camera Movement",
+			"time": 74909.0909090909
+		},
+		{
+			"params": [
+				true,
+				false,
+				1
+			],
+			"time": 74909.0909090909,
+			"name": "Alt Animation Toggle"
+		},
+		{
+			"params": [
+				true,
+				0.8,
+				"camGame",
+				4,
+				"back",
+				"InOut",
+				"direct",
+				true
+			],
+			"time": 74909.0909090909,
+			"name": "Camera Zoom"
 		}
 	]
 }

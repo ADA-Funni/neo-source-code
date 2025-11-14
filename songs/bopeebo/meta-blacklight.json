@@ -1,20 +1,20 @@
 {
-	"opponentModeAllowed": true,
+	"color": "#9271FD",
 	"customValues": {
 		"composer": "Pf0r",
 		"charter": "SONICSTRONG"
 	},
+	"instSuffix": "-blacklight",
+	"opponentModeAllowed": true,
 	"icon": "dad",
 	"difficulties": [
 		"blacklight"
 	],
-	"color": "#9271FD",
 	"coopAllowed": true,
 	"stepsPerBeat": 4,
 	"displayName": "Bopeebo (Blacklight)",
 	"needsVoices": true,
 	"beatsPerMeasure": 4,
-	"bpm": 110,
-	"instSuffix": "-blacklight",
-	"vocalsSuffix": "-blacklight"
+	"vocalsSuffix": "-blacklight",
+	"bpm": 110
 }
