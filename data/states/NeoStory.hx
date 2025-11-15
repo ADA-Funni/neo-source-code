@@ -39,7 +39,7 @@ function create() {
 
 		for (obj in dadCharTrail.members)
 			obj.setColorTransform(0, 0, 0, obj.alpha, dadColor.red, dadColor.green, dadColor.blue, 1);
-	};
+	}
 	dadCharTrail.maxSize = 15;
 	bfChar = new FlxSprite();
 	bfCharTrail = new FlxTrail(bfChar, null, 15, 12, 0.3, 0.09);
@@ -49,7 +49,7 @@ function create() {
 
 		for (obj in bfCharTrail.members)
 			obj.setColorTransform(0, 0, 0, obj.alpha, bfColor.red, bfColor.green, bfColor.blue, 1);
-	};
+	}
 
 	for (spr in [
 		video,
