@@ -14,7 +14,7 @@ public function hideHUD(visible:Bool):Bool {
         icon.visible = visible;
     accuracyTxt.visible = missesTxt.visible = scoreTxt.visible = healthBarBG.visible = visible;
     if (FlxG.save.data.neoui)
-        thingiebf.visible = thingiedad.visible = neoHealthBarBF.visible = neoHealthBarDad.visible = visible;
+        songTimeTxt.visible = thingiebf.visible = thingiedad.visible = neoHealthBarBF.visible = neoHealthBarDad.visible = visible;
     else healthBar.visible = visible;
     return visible;
 }
