@@ -1,0 +1,4 @@
+<!DOCTYPE codename-engine-dialogue-character>
+<character sprite="neo tankman" scale="0.75" x="70" y="40">
+	<anim name="prowler" anim="tankman phone"/>
+</character>

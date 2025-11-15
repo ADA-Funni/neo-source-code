@@ -1,5 +1,6 @@
 <!DOCTYPE codename-engine-dialogue>
 <dialogue box="default">
+	<char name="tankman" position="left"/>
 	<char name="dad" position="left"/>
 	<char name="gf" position="middle"/>
 	<char name="bf" position="right"/>
@@ -79,11 +80,11 @@
 		<format color="cyan" borderColor="magenta" size="80">BF IS ON HIS WAY TO THE TOP!</format>
 	</line>
 
-	<line char="dad" musicVolume="0.6" changeDefAnim="normal">
+	<line char="dad" musicVolume="0.6" changeDefAnim="mad">
 		...
 	</line>
-	<line char="dad" musicVolume="0.4">
-		*picks up phone* ...Yeah.
+	<line char="dad" changeDefAnim="phone" musicVolume="0.4">
+		...Yeah.
 	</line>
 	<line char="dad" musicVolume="0.2">
 		He's on his way.
@@ -92,5 +93,7 @@
 		He's your problem now.
 	</line>
 
-	<line> Wonderful, I'll be waiting. </line>
+	<line char="tankman" changeDefAnim="prowler">
+		Wonderful, I'll be waiting.
+	</line>
 </dialogue>

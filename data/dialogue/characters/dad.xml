@@ -1,8 +1,9 @@
 <!DOCTYPE codename-engine-dialogue-character>
 <character sprite="neo dad" scale="0.85" x="30" y="50">
 	<anim name="normal" anim="dad talk"/>
-	<anim name="mad" anim="dad mad" x="3" y="-2"/>
-	<anim name="fist" anim="dad fist" x="56"/>
-	<anim name="point" anim="dad point" x="89"/>
-	<anim name="crossed-arms" anim="dad crossed arms" x="-17" y="2"/>
+	<anim name="mad" anim="dad mad" x="9" y="-4"/>
+	<anim name="fist" anim="dad fist" x="-1" y="-1"/>
+	<anim name="point" anim="dad point" x="-1" y="-1"/>
+	<anim name="crossed-arms" anim="dad crossed arms" x="-17" y="1"/>
+	<anim name="phone" anim="dad phone"/>
 </character>
