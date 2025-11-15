@@ -2,7 +2,11 @@
 	"events": [
 		{
 			"params": [
-				1
+				1,
+				true,
+				4,
+				"CLASSIC",
+				"In"
 			],
 			"time": 0,
 			"name": "Camera Movement"
@@ -10,7 +14,7 @@
 		{
 			"params": [
 				true,
-				1.7,
+				1.5,
 				"camGame",
 				58,
 				"smootherStep",
@@ -593,6 +597,20 @@
 			],
 			"time": 91976.0479041916,
 			"name": "Camera Modulo Change"
+		},
+		{
+			"params": [
+				true,
+				1,
+				"camGame",
+				20,
+				"smootherStep",
+				"Out",
+				"stage",
+				false
+			],
+			"time": 91976.0479041916,
+			"name": "Camera Zoom"
 		}
 	]
 }
