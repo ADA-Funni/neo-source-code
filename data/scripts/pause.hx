@@ -19,4 +19,6 @@ function postCreate():Void {
 		FlxTween.tween(label, {alpha: 1, y: label.y + 5}, 0.4, {ease: FlxEase.quartInOut, startDelay: 0.3 * (k + 1)});
 		add(label);
 	}
+	deathCounter.text = 'Deaths: ' + PlayState.deathCounter;
+	deathCounter.x = FlxG.width - (deathCounter.width + 20);
 }
