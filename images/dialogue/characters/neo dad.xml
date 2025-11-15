@@ -1,10 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="neo dad.png">
-	<!-- Created with Adobe Animate version 24.0.10.14 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="dad crossed arms0000" x="3" y="3" width="395" height="510"/>
-	<SubTexture name="dad fist0000" x="408" y="3" width="484" height="508"/>
-	<SubTexture name="dad mad0000" x="902" y="3" width="440" height="505"/>
-	<SubTexture name="dad point0000" x="1352" y="3" width="517" height="508"/>
-	<SubTexture name="dad talk0000" x="3" y="523" width="428" height="512"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="neo dad.png" width="1025" height="1415">
+	<SubTexture name="dad crossed arms0000" x="515" y="1017" width="509" height="395" rotated="true" frameX="-0" frameY="-0" frameWidth="395" frameHeight="510"/>
+	<SubTexture name="dad fist0000" x="520" y="1" width="484" height="508" frameX="-0" frameY="-0" frameWidth="484" frameHeight="508"/>
+	<SubTexture name="dad mad0000" x="551" y="511" width="440" height="504" frameX="-0" frameY="-0" frameWidth="440" frameHeight="505"/>
+	<SubTexture name="dad point0000" x="1" y="1" width="517" height="508" frameX="-0" frameY="-0" frameWidth="517" frameHeight="508"/>
+	<SubTexture name="dad talk0000" x="1" y="986" width="512" height="428" rotated="true" frameX="-0" frameY="-0" frameWidth="428" frameHeight="512"/>
+	<SubTexture name="dad phone" x="1" y="511" width="548" height="473" rotated="true" frameX="-0" frameY="-0" frameWidth="473" frameHeight="548"/>
 </TextureAtlas>
