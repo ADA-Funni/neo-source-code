@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-dialogue-character>
+<character sprite="neo skid" x="-10" y="-30">
+	<anim name="normal" anim="skid talk"/>
+	<anim name="normal-embarrassed" anim="skid talk" y="-160"/>
+	<anim name="point" anim="skid pump" x="-6" y="-7"/>
+	<anim name="point-angry" anim="skid point angry" x="66" y="-7"/>
+	<anim name="sweat" anim="skid sweat" x="-2" y="-2"/>
+</character>

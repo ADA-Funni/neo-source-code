@@ -8,16 +8,18 @@ function funnyBops(backItUp):Void {
 	camZoomingInterval = backup ? 3 : 1;
 }
 
-var canEnd:Bool = !PlayState.isStoryMode;
+var canEnd:Bool = !playCutscenes;
 function onSongEnd(event):Void {
 	if (!canEnd)
 		event.cancel();
 	else return;
-
-	camGame.visible = camHUD.visible = false;
-	var sound = FlxG.sound.play(Paths.sound('Lights_Shut_off'), 0.7);
-	sound.onComplete = () -> {
-		canEnd = true;
-		endSong();
-	}
+	// this is why it starts with "post" instead lol
+	startCutscene("post-", endCutscene, () -> {
+		camGame.visible = camHUD.visible = false;
+		var sound = FlxG.sound.play(Paths.sound('Lights_Shut_off'), 0.7);
+		sound.onComplete = () -> {
+			canEnd = true;
+			endSong();
+		}
+	}, false, false);
 }

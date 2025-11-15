@@ -1,0 +1,110 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="default">
+	<char name="skid" position="left"/>
+	<char name="pump" position="left"/>
+	<char name="gf" position="middle"/>
+	<char name="bf" position="right"/>
+
+	<line char="bf" changeMusic="breakfast">
+		Yo, the Raveyard! Neon lights, cheap drinks, spooky-ass vibes… easy w tonight, right babe?
+	</line>
+
+	<line char="gf">
+		Total wipe. Whoever's up next won't know what hit 'em. *giggles*
+	</line>
+
+	<line char="bf">
+		Let's find these "Spookeez" already--get this over with.
+	</line>
+	<line char="bf" changeDefAnim="annoyed">
+		HEY! We're here for a rap battle! Where the hell are the Spookeez?
+	</line>
+
+	<line char="skid" musicVolume="0.2">
+		<format italic="true">Right here, asshole.</format> You blind or just stupid?
+	</line>
+	<line char="skid">
+		We were literally about to hit the stage!
+	</line>
+
+	<line char="pump">
+		Yeah, dumbass!
+	</line>
+
+	<line char="bf" changeDefAnim="sweat" speed="0.8">
+		...              Damn.
+	</line>
+	<line char="bf" changeDefAnim="angry" musicVolume="0.8">
+		Y'all got some filthy little mouths for kids in face paint.
+	</line>
+
+	<line char="skid" changeDefAnim="point">
+		And you got a punchable face for someone lookin' to <format color="cyan">lose!</format>
+	</line>
+
+	<line char="pump" changeDefAnim="excited">
+		Yeah! And you're <format color="magenta">ugly <format italic="true">and</format> cocky!</format>
+	</line>
+
+	<line char="bf" changeDefAnim="angry">
+		Ya know what else is <format color="magenta">ugly and cocky?</format>
+	</line>
+	<line char="bf" changeDefAnim="normal">
+		Y'all thinking those outfits <format color="magenta">look badass.</format>
+	</line>
+	<line char="bf">
+		Like seriously, did you get those from <format color="cyan">Walmart</format> or something?
+	</line>
+
+	<line char="skid" musicVolume="0.2" changeDefAnim="sweat" speed="0.8">
+		...
+	</line>
+	<line char="skid" callback="pauseMusic" speed="0.3">
+		Uhh, no?
+	</line>
+
+	<line char="pump" changeDefAnim="normal">
+		<format size="27">But <format color="magenta">we did</format> tho, Skid-</format>
+	</line>
+
+	<line char="skid" changeDefAnim="normal-embarrassed">
+		<format size="27">Please stop talking.</format>
+	</line>
+
+	<line char="pump" callback="resumeMusic">
+		<format size="27">Wait, Skid--didn't he say he wanted to battle?</format>
+	</line>
+
+	<line char="bf" changeDefAnim="angry" musicVolume="0.8">
+		Finally, one of you has ears.
+	</line>
+	<line char="bf" changeDefAnim="normal-mic">
+		I'm here to end y'all's lil' haunted house act.
+	</line>
+
+	<line char="skid" changeDefAnim="point-angry">
+		Tch. Fine! You want smoke? You got it!
+		We'll drop you so hard you'll be dead twice over!
+	</line>
+
+	<line char="pump" changeDefAnim="excited">
+		Six feet under, baby! Let's GO!
+	</line>
+	<line char="pump" musicVolume="0.2" changeDefAnim="normal">
+		<format size="27">...Skid, the crowd's waiting.</format>
+	</line>
+
+	<line char="skid" musicVolume="0.8" changeDefAnim="sweat">
+		Oh--shit, yeah.
+	</line>
+	<line char="skid" changeDefAnim="normal">
+		<format size="70" italic="true">AHEM!</format>
+	</line>
+	<line char="skid">
+		Ladies and gentlemen! Thanks for your patience! Time to melt some faces!
+	</line>
+
+	<line char="bf">
+		Hope they're ready for a fuckin' <format italic="true">show.</format>
+	</line>
+</dialogue>

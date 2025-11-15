@@ -1,0 +1,21 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="default">
+	<char name="skid" position="left"/>
+	<char name="bf" position="right"/>
+
+	<line char="skid" changeMusic="breakfast">
+		Okay... okay, you didn't totally suck.
+	</line>
+	<line char="skid" changeDefAnim="point">
+		But that was <format color="magenta">beginner's luck!</format>
+		You're <format color="magenta"> toast</format> after the next track.
+	</line>
+
+	<line char="bf" changeDefAnim="normal-mic">
+		Uh huh, whatever helps you sleep at night.
+	</line>
+
+	<line char="skid" changeDefAnim="point-angry">
+		Pump! Next song, <format color="magenta">NOW!</format>
+	</line>
+</dialogue>

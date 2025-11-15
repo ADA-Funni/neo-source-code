@@ -1,0 +1,6 @@
+<!DOCTYPE codename-engine-dialogue-character>
+<character sprite="neo pump" x="-30" y="-30">
+	<anim name="normal" anim="pump talk"/>
+	<anim name="excited" anim="pump mic" x="16" y="-8"/>
+	<anim name="scared" anim="pump scared" x="9" y="-4"/>
+</character>

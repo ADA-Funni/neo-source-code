@@ -1,0 +1,38 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="default">
+	<char name="skid" position="left"/>
+	<char name="pump" position="left"/>
+	<char name="bf" position="right"/>
+
+	<line char="bf" changeMusic="breakfast" changeDefAnim="normal-mic">
+		Sooo... was that one also "beginner's luck"?
+	</line>
+
+	<line char="skid" changeDefAnim="point-angry">
+		Tch--
+	</line>
+	<line char="skid">
+		W-we were just going <format color="magenta">medium on you!</format>
+		You haven't seen our <format color="cyan"> real shit</format> yet!
+	</line>
+
+	<line char="pump">
+		<format size="27">Skid... my throat hurts.</format>
+	</line>
+
+	<line char="skid" changeDefAnim="normal">
+		<format size="27">One more... we finish this.</format>
+	</line>
+
+	<line char="bf">
+		Mm hmm... so you're actually gonna stop fuckin' around this time?
+	</line>
+
+	<line char="skid" changeDefAnim="point-angry">
+		<format color="magenta">You're dead,</format> dude! No more holding back!
+	</line>
+
+	<line char="pump" changeDefAnim="excited">
+		Yeah! You're getting smoked!
+	</line>
+</dialogue>
