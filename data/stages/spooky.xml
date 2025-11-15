@@ -1,15 +1,32 @@
 <!DOCTYPE codename-engine-stage>
-<stage folder="stages/spooky/" name="spooky" zoom="0.5">
+<stage folder="stages/spooky/" name="spooky" zoom="0.6" startCamPosX="420" startCamPosY="60">
 	<sprite x="-293" scroll="0.4" sprite="sky" y="-20" type="none" scale="2.01" name="skys"/>
-	<sprite x="175" scroll="0.4" sprite="buildings" y="70" type="none" scale="1.42" name="buildings"/>
+
+	<high-memory>
+		<sprite x="175" scroll="0.4" sprite="buildings" y="70" type="none" scale="1.42" name="buildings"/>
+	</high-memory>
+
 	<sprite x="-394" sprite="stage" y="-353" type="none" scale="2.12" name="stage"/>
+
+	<high-memory>
+		<sprite x="1164" sprite="web" y="-226" type="none" scale="2.15" name="webs"/>
+	</high-memory>
+
 	<sprite x="-660" sprite="speakerbutvloo" y="-281" type="beat" scale="2.05" name="speakerl"/>
+
 	<sprite x="1158" sprite="speakerbutourple" y="-261" type="beat" scale="2.05" name="speakerr"/>
+
 	<girlfriend x="27" scroll="1" y="-340"/>
+
 	<dad x="-388" y="-437"/>
+
 	<boyfriend x="650" y="-382"/>
-	<sprite x="1221" scroll="0.8" sprite="web" y="-106" type="none" scale="2.15" name="webs"/>
-	<sprite x="-284.901866703872" sprite="stage thingy" y="-620.546171475198" type="none" scale="2.32" name="poles"/>
-	<sprite x="-710" sprite="grass" y="-401" scale="1.66" name="grass"/>
-	<sprite x="-282" sprite="crowd" y="474" type="none" scale="2.74" name="crowd"/>
+
+	<sprite x="-293" sprite="stage thingy" y="-541" type="none" scale="2.32" name="poles"/>
+
+	<sprite x="-751" sprite="grass" y="-375" scalex="1.72" scaley="1.66" name="grass"/>
+
+	<high-memory>
+		<sprite x="-294" sprite="crowd" y="542" type="none" scale="2.74" name="crowd" blacklightTint="true"/>
+	</high-memory>
 </stage>
