@@ -1,17 +1,13 @@
 <credits>
-
-	<!-- ===== CREATIVE OVERSIGHT & ASSET SUPPORT ===== -->
-	<role name="Creative Oversight & Asset Support">
+	<role name="Creative Oversight &amp; Asset Support">
 		<member name="Jellyfish!"/>
 		<member name="NoLime"/>
 	</role>
 
-	<!-- ===== DIRECTOR ===== -->
 	<role name="Director">
 		<member name="SONICSTRONG"/>
 	</role>
 
-	<!-- ===== PROGRAMMING ===== -->
 	<role name="Programming">
 		<member name="KittySleeper"/>
 		<member name="Milo"/>
@@ -19,7 +15,6 @@
 		<member name="lavy_cat"/>
 	</role>
 
-	<!-- ===== ART & DESIGN ===== -->
 	<role name="Mod Logo">
 		<member name="Ema15"/>
 	</role>
@@ -54,7 +49,6 @@
 		<member name="SONICSTRONG"/>
 	</role>
 
-	<!-- ===== MUSIC ===== -->
 	<role name="Music">
 		<member name="SONICSTRONG"/>
 		<member name="Tagamikun"/>
@@ -66,15 +60,14 @@
 		<member name="MementoVGM"/>
 	</role>
 
-	<!-- ===== CHARTING ===== -->
 	<role name="Charting">
 		<member name="AcrobatPlus"/>
 		<member name="!Huntine!"/>
 		<member name="JaidenBoyfriend"/>
 		<member name="gripou"/>
+		<member name="SONICSTRONG"/>
 	</role>
 
-	<!-- ===== WRITING ===== -->
 	<role name="Writing">
 		<member name="SONICSTRONG"/>
 		<member name="BlerpZone"/>
@@ -82,7 +75,6 @@
 		<member name="X-Zayvia"/>
 	</role>
 
-	<!-- ===== VOICE ACTING ===== -->
 	<role name="Voice Acting">
 		<member name="JaidenBoyfriend"/>
 		<member name="Taya"/>
@@ -92,7 +84,6 @@
 		<member name="KAI"/>
 	</role>
 
-	<!-- ===== CAMEOS ===== -->
 	<role name="Cameos">
 		<member name="LiMACro"/>
 		<member name="Edd"/>
@@ -107,6 +98,4 @@
 		<member name="Mario"/>
 		<member name="Jellyfish!"/>
 	</role>
-
 </credits>
-
