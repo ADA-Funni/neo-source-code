@@ -41,31 +41,34 @@ function postCreate() {
 
         remove(healthBarBG);
         healthBarBG.destroy();
-        healthBarBG = insert(members.indexOf(iconP1), new FunkinSprite(0, FlxG.height * 0.78, Paths.image("game/neoHealthBarBG")));
+        healthBarBG = insert(members.indexOf(iconP1), new FunkinSprite(0, FlxG.height * 0.75, Paths.image("game/neoHealthBarBG")));
         healthBarBG.setGraphicSize(healthBarBG.width * 0.68);
         healthBarBG.updateHitbox();
         healthBarBG.screenCenter(FlxAxes.X);
         healthBarBG.cameras = [camHUD];
+        healthBarBG.flipY = downscroll;
 
         neoHealthBarBF = insert(members.indexOf(healthBarBG), new FunkinSprite(0, 0, Paths.image("game/neoHealthBar")));
         neoHealthBarBF.setGraphicSize(neoHealthBarBF.width * 0.68);
         neoHealthBarBF.setPosition(((healthBarBG.width - neoHealthBarBF.width) / 2) + healthBarBG.x, ((healthBarBG.height * 1.1 - neoHealthBarBF.height) / 2) + healthBarBG.y);
         neoHealthBarBF.color = rightColor;
         neoHealthBarBF.cameras = [camHUD];
+        neoHealthBarBF.flipY = downscroll;
 
         neoHealthBarDad = insert(members.indexOf(healthBarBG), new FunkinSprite(0, 0, Paths.image("game/neoHealthBar")));
         neoHealthBarDad.setGraphicSize(neoHealthBarDad.width * 0.68);
         neoHealthBarDad.setPosition(((healthBarBG.width - neoHealthBarDad.width) / 2) + healthBarBG.x, ((healthBarBG.height * 1.1 - neoHealthBarDad.height) / 2) + healthBarBG.y);
         neoHealthBarDad.color = leftColor;
         neoHealthBarDad.cameras = [camHUD];
+        neoHealthBarDad.flipY = downscroll;
         neoHealthBarDad.onDraw = (spr) -> {
             neoHealthBarDad.clipRect = new FlxRect(0, 0, ((1 - (smoothHealthEpik / 2)) / 1) * neoHealthBarDad.width, healthBarBG.height);
             neoHealthBarDad.draw();
         }
 
-        for (meowmeow in [neoHealthBarBF, neoHealthBarDad])
-            if (downscroll)
-                meowmeow.y -= 13;
+        // for (meowmeow in [neoHealthBarBF, neoHealthBarDad])
+        //     if (downscroll)
+        //         meowmeow.y -= 13;
 
         thingiebf = insert(members.indexOf(iconP1), new FunkinSprite(0, 0, Paths.image("game/thingiebf")));
         thingiebf.setGraphicSize(thingiebf.width * 0.68);
@@ -73,6 +76,7 @@ function postCreate() {
         thingiebf.color = rightColor;
         thingiebf.setPosition(((healthBarBG.width * 1.856 - thingiebf.width) / 2) + healthBarBG.x, ((healthBarBG.height - thingiebf.height) / 2) + healthBarBG.y);
         thingiebf.cameras = [camHUD];
+        thingiebf.flipY = downscroll;
 
         thingiedad = insert(members.indexOf(iconP2), new FunkinSprite(0, 0, Paths.image("game/thingiedad")));
         thingiedad.setGraphicSize(thingiedad.width * 0.68);
@@ -80,8 +84,9 @@ function postCreate() {
         thingiedad.color = leftColor;
         thingiedad.setPosition(((healthBarBG.width * 0.1456 - thingiedad.width) / 2) + healthBarBG.x, ((healthBarBG.height - thingiedad.height) / 2) + healthBarBG.y);
         thingiedad.cameras = [camHUD];
+        thingiedad.flipY = downscroll;
 
-        songTimeTxt = insert(members.indexOf(healthBarBG), new FunkinText(0, healthBarBG.y - 40, FlxG.width, '0:00', 16));
+        songTimeTxt = insert(members.indexOf(healthBarBG), new FunkinText(0, healthBarBG.y + 15, FlxG.width, '0:00', 16));
         songTimeTxt.alignment = 'center';
         songTimeTxt.cameras = [camHUD];
 
