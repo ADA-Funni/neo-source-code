@@ -23,7 +23,7 @@ function create() {
 	var line = add(new FunkinSprite(0, 0, Paths.image("menus/titlescreen/neon_line")));
 	line.screenCenter();
 
-	var introTextText = add(new FunkinText(0, 0, 0, StringTools.replace(FlxG.random.getObject(CoolUtil.coolTextFile(Paths.txt("titlescreen/introText"))), '[USER]', DiscordUtil.user.globalName) + '  < >  ', 40));
+	var introTextText = add(new FunkinText(0, 0, 0, StringTools.replace(FlxG.random.getObject(CoolUtil.coolTextFile(Paths.txt("titlescreen/introText")))), 40));
 
 	new FlxTimer().start(0.005, function() { // needs too have a delay, idk why honestly :/
 		var introText = add(new FlxBackdrop(introTextText.pixels, FlxAxes.X)); //top 10 kittysleeper janky codes
