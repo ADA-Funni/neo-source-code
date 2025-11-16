@@ -7,6 +7,7 @@ var thingiedad:FunkinSprite;
 var neoHealthBarBF:FunkinSprite;
 var neoHealthBarDad:FunkinSprite;
 
+var songNameTxt:FunkinText;
 var songTimeTxt:FunkinText;
 
 public function hideHUD(visible:Bool):Bool {
@@ -23,7 +24,7 @@ var smoothHealthEpik:Float = 1;
 var smoothScoreEpik:Float = 0;
 
 function onPostCountdown(e)
-	e?.sprite?.zoomFactor = 0; // It says there's an error in the terminal but is still works
+    e?.sprite?.zoomFactor = 0;
 
 function create() {
     PauseSubState.script = 'data/scripts/pause';
@@ -66,10 +67,6 @@ function postCreate() {
             neoHealthBarDad.draw();
         }
 
-        // for (meowmeow in [neoHealthBarBF, neoHealthBarDad])
-        //     if (downscroll)
-        //         meowmeow.y -= 13;
-
         thingiebf = insert(members.indexOf(iconP1), new FunkinSprite(0, 0, Paths.image("game/thingiebf")));
         thingiebf.setGraphicSize(thingiebf.width * 0.68);
         thingiebf.updateHitbox();
@@ -86,9 +83,28 @@ function postCreate() {
         thingiedad.cameras = [camHUD];
         thingiedad.flipY = downscroll;
 
-        songTimeTxt = insert(members.indexOf(healthBarBG), new FunkinText(0, healthBarBG.y + 15, FlxG.width, '0:00', 16));
+        var baseSize = 23;
+        var lengthFactor = Math.max(0.8, 1 - (SONG.meta.displayName.length * 0.015));
+        var finalNameSize = Std.int(baseSize * lengthFactor);
+
+        songNameTxt = insert(
+            members.indexOf(healthBarBG),
+            new FunkinText(0, healthBarBG.y - 490, FlxG.width, SONG.meta.displayName, finalNameSize)
+        );
+        songNameTxt.alignment = 'center';
+        songNameTxt.cameras = [camHUD];
+        songNameTxt.color = leftColor; // dad color
+
+        var baseTimeSize = 21;
+        var finalTimeSize = Std.int(baseTimeSize * lengthFactor);
+
+        songTimeTxt = insert(
+            members.indexOf(healthBarBG),
+            new FunkinText(0, songNameTxt.y + 22, FlxG.width, "0:00", finalTimeSize)
+        );
         songTimeTxt.alignment = 'center';
         songTimeTxt.cameras = [camHUD];
+        songTimeTxt.color = leftColor; // dad color
 
         updateIconPositions = () -> {
             for (icon in iconArray) {
@@ -101,7 +117,12 @@ function postCreate() {
 
 function postUpdate(elapsed) {
     if (FlxG.save.data.neoui) {
-        songTimeTxt.text = SONG.meta.displayName + ': ' + FlxStringUtil.formatTime((inst.length / 1000) - (inst.time / 1000));
+        songNameTxt.text = SONG.meta.displayName;
+
+        songTimeTxt.text = FlxStringUtil.formatTime(
+            (inst.length / 1000) - (inst.time / 1000)
+        );
+
         smoothHealthEpik = lerp(smoothHealthEpik, health, 0.25);
         smoothScoreEpik = lerp(smoothScoreEpik, songScore, 0.25);
 
@@ -115,6 +136,7 @@ function onNoteHit(event):Void {
     event.ratingScale *= 0.7;
     event.numScale *= 0.7;
 }
+
 function onPostNoteHit(event):Void {
     for (item in comboGroup)
         item.cameras = comboGroup.cameras;
