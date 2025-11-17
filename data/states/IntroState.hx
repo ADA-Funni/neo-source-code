@@ -1,7 +1,7 @@
 import hxvlc.flixel.FlxVideoSprite;
 
 function create() {
-    FlxG.sound.music.stop();
+    FlxG?.sound?.music?.stop();
 
     var video = new FlxVideoSprite(0, 0);
     video.antialiasing = true;

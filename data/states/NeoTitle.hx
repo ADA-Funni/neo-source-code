@@ -23,12 +23,20 @@ function create() {
 	var line = add(new FunkinSprite(0, 0, Paths.image("menus/titlescreen/neon_line")));
 	line.screenCenter();
 
-	var discordDisplayName = 'there';
-	try {
-		discordDisplayName = DiscordUtil.user.globalName;
-	} catch(e:Dynamic)
-		trace(e);
-	var introTextText = add(new FunkinText(0, 0, 0, StringTools.replace(FlxG.random.getObject(CoolUtil.coolTextFile(Paths.txt("titlescreen/introText"))), '[USER]', discordDisplayName), 40));
+
+	function getIntroText():String {
+		var text:String = FlxG.random.getObject(CoolUtil.coolTextFile(Paths.txt("titlescreen/introText")));
+		var discordDisplayName = '[Unknown User]'; // not using sys name cause personally, me no think good idea, cause privacy reasons be like
+		try {
+			discordDisplayName = DiscordUtil.user.globalName;
+		} catch(e:Dynamic) {
+			if (text == 'Hello [USER] >:)')
+				discordDisplayName = 'there';
+			trace(e);
+		}
+		return StringTools.replace(text, '[USER]', discordDisplayName);
+	}
+	var introTextText = add(new FunkinText(0, 0, 0, getIntroText(), 40));
 
 	new FlxTimer().start(0.005, function() { // needs too have a delay, idk why honestly :/
 		var introText = add(new FlxBackdrop(introTextText.pixels, FlxAxes.X, 35)); //top 10 kittysleeper janky codes
