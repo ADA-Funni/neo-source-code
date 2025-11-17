@@ -1,9 +1,9 @@
 import flixel.effects.FlxFlicker;
 import funkin.backend.system.Flags;
-import funkin.backend.utils.XMLUtil;
 import funkin.editors.EditorPicker;
 import funkin.menus.ModSwitchMenu;
 import funkin.menus.credits.CreditsMain;
+import funkin.backend.system.Flags;
 import funkin.options.OptionsMenu;
 
 var menuItems:Array<{name:String, pos:Array<Float>, selectOffset:Array<Float>, callback:Void->FlxState, left:Bool}> = [
@@ -48,6 +48,11 @@ var menuObjects:FlxTypedGroup;
 var curSelected:Int = 0;
 var canSelect:Bool = true;
 
+var timerUntilTheEarthEndsAndEverythingDies:FlxTimer = new FlxTimer().start(5, () -> {
+	Flags.DISABLE_TRANSITIONS = true;
+	FlxG.switchState(new ModState("JellyState"));
+});
+
 function create() {
 	CoolUtil.playMenuSong();
 
@@ -60,32 +65,18 @@ function create() {
 	sunset.setGraphicSize(sunset.width * 1.05);
 	sunset.updateHitbox();
 
-	if (FlxG.random.bool((1 / 1000) * 100)) { // 1 in 1000
-		var logo:FunkinSprite = new FunkinSprite(FlxG.width, FlxG.height);
+	if (FlxG.random.bool(0.001)) {
+		var logo:FunkinSprite = new FunkinSprite(FlxG.width * 0.62, FlxG.height * 0.23);
 		logo.frames = Paths.getFrames('menus/mainmenu/jellyfish logo');
-		XMLUtil.addAnimToSprite(logo, {
-			name: 'idle',
-			anim: 'Jellyfish logo',
-			fps: 24,
-			loop: true
-		});
-		logo.playAnim('idle', true);
-		logo.x -= logo.width + 150;
-		logo.y -= logo.height + 150;
+		logo.addAnim("idle", "Jellyfish logo", 24, true);
+		logo.playAnim('idle');
 		add(logo);
-	} else if (FlxG.random.bool(1)) { // 1 in 100
-		var jellyfish:FunkinSprite = new FunkinSprite(FlxG.width, FlxG.height);
+	} else if (FlxG.random.bool(1)) {
+		var jellyfish:FunkinSprite = new FunkinSprite(FlxG.width * 0.52, FlxG.height * 0.2);
 		jellyfish.frames = Paths.getFrames('menus/mainmenu/jellyfish');
-		XMLUtil.addAnimToSprite(jellyfish, {
-			name: 'idle',
-			anim: 'jelly throne',
-			fps: 24,
-			loop: true
-		});
-		jellyfish.playAnim('idle', true);
+		jellyfish.addAnim("idle", "jelly throne", 24, true);
+		jellyfish.playAnim('idle');
 		jellyfish.flipX = true;
-		jellyfish.x -= jellyfish.width + 40;
-		jellyfish.y -= jellyfish.height - 5;
 		add(jellyfish);
 	}
 
@@ -119,11 +110,13 @@ function update(elapsed) {
 
 	if (controls.UP_P) {
 		CoolUtil.playMenuSFX();
+		timerUntilTheEarthEndsAndEverythingDies.reset(300);
 		curSelected = FlxMath.wrap(curSelected - 1, 0, menuObjects.length - 1);
 	}
 
 	if (controls.DOWN_P){
 		CoolUtil.playMenuSFX();
+		timerUntilTheEarthEndsAndEverythingDies.reset(300);
 		curSelected = FlxMath.wrap(curSelected + 1, 0, menuObjects.length - 1);
 	}
 
@@ -153,6 +146,7 @@ function update(elapsed) {
 	for (i => obj in menuObjects.members) {
 		if (curSelected != i && FlxG.mouse.overlaps(obj) && canSelect) {
 			curSelected = i;
+			timerUntilTheEarthEndsAndEverythingDies.reset(300);
 			CoolUtil.playMenuSFX();
 		}
 
@@ -161,4 +155,6 @@ function update(elapsed) {
 		if (obj.animation.curAnim.name != animToPlay)
 			obj.playAnim(animToPlay);
 	}
+
+	trace(timerUntilTheEarthEndsAndEverythingDies.timeLeft);
 }

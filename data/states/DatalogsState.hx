@@ -1,4 +1,4 @@
-var chars:Array<String> = ["Boyfriend", "Girlfriend", "Daddy Dearest"];
+var chars:Array<String> = ["Boyfriend", "Girlfriend", "Daddy Dearest", "Pico", "KittySleeper"];
 var curSelected:Int = 0;
 
 var pink_box:FunkinSprite;
@@ -29,11 +29,14 @@ function create() {
 
     charTxt = add(new FunkinText(0, 62, blue_box.width - 145, "", 30));
     charTxt.alignment = "center";
+    charTxt.alpha = 0.001;
 
     bioTxt = add(new FunkinText(pink_box.x + 72, pink_box.y + 70, pink_box.width - 170, "", 20));
     bioTxt.alignment = "center";
+    bioTxt.alpha = 0.001;
 
     charRender = add(new FunkinSprite());
+    charRender.alpha = 0.001;
 
     changeSelection();
 }
@@ -44,11 +47,31 @@ function update(elapsed) {
     if (controls.BACK) FlxG.switchState(new MainMenuState());
 }
 
+var epicTimer:FlxTimer = new FlxTimer();
+
 function changeSelection(amt:Int = 0) {
     curSelected = FlxMath.wrap(curSelected + amt, 0, chars.length - 1);
-    charRender.loadGraphic(Paths.image("menus/datalogs/characters/" + chars[curSelected].toLowerCase()));
-    charRender.setPosition(blue_box.x + ((blue_box.width - charRender.width) / 2), blue_box.y + ((blue_box.height - charRender.height) / 2));
-    charTxt.text = chars[curSelected];
-    bioTxt.text = Assets.getText(Paths.txt("datalogs/" + chars[curSelected].toLowerCase()));
-    bioTxt.y = (blue_box.y + (blue_box.height - bioTxt.height) - 100);
+
+    if (capsule.animation.curAnim.name != "close") capsule.playAnim("close");
+    for (byebye in [charRender, charTxt, bioTxt]) {
+        FlxTween.cancelTweensOf(byebye);
+        FlxTween.tween(byebye, {alpha: 0.001}, 0.35, {ease: FlxEase.circOut});
+    }
+
+    epicTimer.cancel();
+
+    epicTimer.start(0.35, () -> {
+        capsule.playAnim("open");
+
+        for (byebye in [charRender, charTxt, bioTxt]) {
+            FlxTween.cancelTweensOf(byebye);
+            FlxTween.tween(byebye, {alpha: 1}, 0.35, {ease: FlxEase.circOut});
+        }
+
+        charRender.loadGraphic(Paths.image("menus/datalogs/characters/" + chars[curSelected].toLowerCase()));
+        charRender.setPosition(blue_box.x + ((blue_box.width - charRender.width) / 2), blue_box.y + ((blue_box.height - charRender.height) / 2));
+        charTxt.text = chars[curSelected];
+        bioTxt.text = Assets.getText(Paths.txt("datalogs/" + chars[curSelected].toLowerCase()));
+        bioTxt.y = (blue_box.y + (blue_box.height - bioTxt.height) - 100);
+    });
 }

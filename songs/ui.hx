@@ -2,12 +2,14 @@
 import flixel.math.FlxRect;
 import flixel.util.FlxStringUtil;
 
+import flixel.util.FlxGradient;
+import flixel.util.FlxSpriteUtil;
+
 var thingiebf:FunkinSprite;
 var thingiedad:FunkinSprite;
 var neoHealthBarBF:FunkinSprite;
 var neoHealthBarDad:FunkinSprite;
 
-var songNameTxt:FunkinText;
 var songTimeTxt:FunkinText;
 
 public function hideHUD(visible:Bool):Bool {
@@ -23,6 +25,9 @@ public function hideHUD(visible:Bool):Bool {
 var smoothHealthEpik:Float = 1;
 var smoothScoreEpik:Float = 0;
 
+var leftColor:Int;
+var rightColor:Int;
+
 function onPostCountdown(e)
     e?.sprite?.zoomFactor = 0;
 
@@ -35,8 +40,8 @@ function create() {
 
 function postCreate() {
     if (FlxG.save.data.neoui) {
-        var leftColor:Int = dad != null && dad.iconColor != null && Options.colorHealthBar ? dad.iconColor : (opponentMode ? 0xFF66FF33 : 0xFFFF0000);
-        var rightColor:Int = boyfriend != null && boyfriend.iconColor != null && Options.colorHealthBar ? boyfriend.iconColor : (opponentMode ? 0xFFFF0000 : 0xFF66FF33);
+        leftColor = dad != null && dad.iconColor != null && Options.colorHealthBar ? dad.iconColor : (opponentMode ? 0xFF66FF33 : 0xFFFF0000);
+        rightColor = boyfriend != null && boyfriend.iconColor != null && Options.colorHealthBar ? boyfriend.iconColor : (opponentMode ? 0xFFFF0000 : 0xFF66FF33);
 
         for (fuckyou in [healthBar, healthBarBG]) fuckyou.visible = false;
 
@@ -83,28 +88,10 @@ function postCreate() {
         thingiedad.cameras = [camHUD];
         thingiedad.flipY = downscroll;
 
-        var baseSize = 23;
-        var lengthFactor = Math.max(0.8, 1 - (SONG.meta.displayName.length * 0.015));
-        var finalNameSize = Std.int(baseSize * lengthFactor);
-
-        songNameTxt = insert(
-            members.indexOf(healthBarBG),
-            new FunkinText(0, healthBarBG.y - 490, FlxG.width, SONG.meta.displayName, finalNameSize)
-        );
-        songNameTxt.alignment = 'center';
-        songNameTxt.cameras = [camHUD];
-        songNameTxt.color = leftColor; // dad color
-
-        var baseTimeSize = 21;
-        var finalTimeSize = Std.int(baseTimeSize * lengthFactor);
-
-        songTimeTxt = insert(
-            members.indexOf(healthBarBG),
-            new FunkinText(0, songNameTxt.y + 22, FlxG.width, "0:00", finalTimeSize)
-        );
+        songTimeTxt = insert(members.indexOf(healthBarBG), new FunkinText(0, FlxG.height * 0.05, FlxG.width, "Ligma Balls\n0:00", 21));
         songTimeTxt.alignment = 'center';
         songTimeTxt.cameras = [camHUD];
-        songTimeTxt.color = leftColor; // dad color
+        songTimeTxt.color = leftColor;
 
         updateIconPositions = () -> {
             for (icon in iconArray) {
@@ -117,11 +104,7 @@ function postCreate() {
 
 function postUpdate(elapsed) {
     if (FlxG.save.data.neoui) {
-        songNameTxt.text = SONG.meta.displayName;
-
-        songTimeTxt.text = FlxStringUtil.formatTime(
-            (inst.length / 1000) - (inst.time / 1000)
-        );
+        songTimeTxt.text = SONG.meta.displayName + "\n" + FlxStringUtil.formatTime(inst.time / 1000) + " - " + FlxStringUtil.formatTime(inst.length / 1000);
 
         smoothHealthEpik = lerp(smoothHealthEpik, health, 0.25);
         smoothScoreEpik = lerp(smoothScoreEpik, songScore, 0.25);
