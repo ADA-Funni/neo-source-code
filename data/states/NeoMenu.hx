@@ -48,7 +48,7 @@ var menuObjects:FlxTypedGroup;
 var curSelected:Int = 0;
 var canSelect:Bool = true;
 
-var timerUntilTheEarthEndsAndEverythingDies:FlxTimer = new FlxTimer().start(5, () -> {
+var timerUntilTheEarthEndsAndEverythingDies:FlxTimer = new FlxTimer().start(300, () -> {
 	Flags.DISABLE_TRANSITIONS = true;
 	FlxG.switchState(new ModState("JellyState"));
 });
