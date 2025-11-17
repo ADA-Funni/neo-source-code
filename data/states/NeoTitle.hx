@@ -23,9 +23,11 @@ function create() {
 	var line = add(new FunkinSprite(0, 0, Paths.image("menus/titlescreen/neon_line")));
 	line.screenCenter();
 
-	var discordDisplayName = DiscordUtil.ready ? DiscordUtil.user.globalName : Sys.environment()["USERNAME"] == null ? "Unknown User" : Sys.environment()["USERNAME"];
-	trace(discordDisplayName);
-
+	var discordDisplayName = 'there';
+	try {
+		discordDisplayName = DiscordUtil.user.globalName;
+	} catch(e:Dynamic)
+		trace(e);
 	var introTextText = add(new FunkinText(0, 0, 0, StringTools.replace(FlxG.random.getObject(CoolUtil.coolTextFile(Paths.txt("titlescreen/introText"))), '[USER]', discordDisplayName), 40));
 
 	new FlxTimer().start(0.005, function() { // needs too have a delay, idk why honestly :/
