@@ -104,7 +104,7 @@ function postCreate() {
 
 function postUpdate(elapsed) {
     if (FlxG.save.data.neoui) {
-        songTimeTxt.text = SONG.meta.displayName + "\n" + FlxStringUtil.formatTime(inst.time / 1000) + " - " + FlxStringUtil.formatTime(inst.length / 1000);
+        songTimeTxt.text = SONG.meta.displayName + "\n" + generatedMusic ? (FlxStringUtil.formatTime(0) + " - " + FlxStringUtil.formatTime(0)) : FlxStringUtil.formatTime(inst.time / 1000) + " - " + FlxStringUtil.formatTime(inst.length / 1000);
 
         smoothHealthEpik = lerp(smoothHealthEpik, health, 0.25);
         smoothScoreEpik = lerp(smoothScoreEpik, songScore, 0.25);
