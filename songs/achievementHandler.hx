@@ -1,9 +1,8 @@
 var gaveAchievements:Bool = false;
 
 function update(elapsed) {
-	if (FlxG.keys.pressed.F4) {
-		set_maxHealth(9000000);
-		health = 9000000;
+	if (FlxG.keys.pressed.F10) {
+		canDie = canDadDie = false;
 		vocals.time = inst.time = inst.length - 1500;
 	}
 }
