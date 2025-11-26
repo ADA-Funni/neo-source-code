@@ -1,0 +1,52 @@
+[
+	{
+		"id": "openGame",
+		"name": "Welcome back!",
+		"description": "Open the game!"
+	},
+	{
+		"id": "tutorial",
+		"name": "Gettin freaky tonight!",
+		"unlock": "WEEK:tutorial",
+		"description": "Beat Tutorial."
+	},
+	{
+		"id": "week1",
+		"name": "Bow down to the new king!",
+		"unlock": "WEEK:week_1",
+		"description": "Beat Week 1."
+	},
+	{
+		"id": "week2",
+		"name": "Thank you for shopping at walmart.",
+		"description": "Beat Week 2."
+	},
+	{
+		"id": "week2-illusion",
+		"name": "Remember kids! Don't do drugs!!",
+		"unlock": "WEEK:week_2",
+		"description": "Encounter monster!",
+		"hidden": true
+	},
+	{
+		"id": "week3",
+		"name": "Blammit!",
+		"unlock": "WEEK:week_3",
+		"description": "Beat week3."
+	},
+	{
+		"id": "gameover",
+		"name": "Cracked",
+		"description": "Get a gameover."
+	},
+	{
+		"id": "gameover_tutorial",
+		"name": "Take your viargra.",
+		"description": "Somehow gameover in Tutorial."
+	},
+	{
+		"id": "jellyfish",
+		"name": "The king is watching.",
+		"description": "Find the jellyfish throne easter egg!"
+	}
+]

@@ -1,8 +1,8 @@
 import flixel.effects.FlxFlicker;
+import funkin.backend.system.Flags;
 import funkin.editors.EditorPicker;
 import funkin.menus.ModSwitchMenu;
 import funkin.menus.credits.CreditsMain;
-import funkin.backend.system.Flags;
 import funkin.options.OptionsMenu;
 
 var menuItems:Array<{name:String, pos:Array<Float>, selectOffset:Array<Float>, callback:Void->FlxState, left:Bool}> = [
@@ -104,6 +104,7 @@ function create() {
 		jellyfish.playAnim('idle');
 		jellyfish.flipX = true;
 		add(jellyfish);
+		giveAchievement('jellyfish');
 	}
 
 	var versionText = add(new FunkinText(5, 0, 0, neoVersion + "\n" + Flags.VERSION_MESSAGE, 22));

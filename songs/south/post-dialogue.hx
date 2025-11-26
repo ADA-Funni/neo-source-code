@@ -1,3 +1,2 @@
-function postCreate() {
-    giveAchievement("Thank you for shopping at walmart.");
-}
+function postCreate()
+    giveAchievement('week2');

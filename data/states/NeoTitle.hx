@@ -52,7 +52,7 @@ function create() {
 	start.updateHitbox();
 	start.screenCenter(FlxAxes.X);
 
-	giveAchievement("Welcome back!");
+	giveAchievement('openGame');
 }
 
 var trans:Bool = false;

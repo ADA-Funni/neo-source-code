@@ -1,36 +1,37 @@
 import funkin.backend.utils.WindowUtils;
-import flixel.group.FlxTypedSpriteGroup;
 
-public static var neoVersion:String = "Neo R DEMO";
+function makeMap() {
+	var map = ['init' => null];
+	map.remove('init');
+	return map;
+}
 
-public static var achievements:Map<String, Bool> = [
-	"Welcome back!" => false,
-	"Gettin freaky tonight!" => false,
-	"Bow down to the new king!" => false,
-	"Thank you for shopping at walmart." => false,
-	"Remember kids! Don't do drugs!!" => false,
-	"Blammit!" => false,
-	"Cracked" => false,
-	"Take your viargra" => false, 
-	"The king is watching" => false
-];
-public static var achievementDescriptions:Map<String, String> = [
-	"Welcome back!" => "Open the game",
-	"Gettin freaky tonight!" => "Beat tutorial",
-	"Bow down to the new king!" => "Beat week1",
-	"Thank you for shopping at walmart." => "Beat week2",
-	"Remember kids! Don't do drugs!!" => "Encounter monster",
-	"Blammit!" => "Beat week3",
-	"Cracked" => "Die",
-	"Take your viargra" => "Somehow fail tutorial",
-	"The king is watching" => "Find the jellyfish throne easter egg"
-];
+static var neoVersion:String = "Neo R DEMO";
+
+static var achievementsJson = Json.parse(Assets.getText(Paths.json('achievements')));
+static var achievements = { // will make less stupid some other time
+	data: makeMap(),
+	names: makeMap(),
+	unlockTypes: makeMap(),
+	descriptions: makeMap(),
+	hidden: makeMap()
+}
+var achievementsTimer:FlxTimer = new FlxTimer();
 var achievementsLength:Int = -1;
-public static var achievementsTimer:FlxTimer = new FlxTimer();
 
 function new() {
-	FlxG.save.data.achievements ??= achievements;
-	achievements = FlxG.save.data.achievements;
+	// FlxG.save.data.achievements = null;
+	FlxG.save.data.achievements ??= achievements.data;
+	achievements.data = FlxG.save.data.achievements;
+	for (achievement in achievementsJson) {
+		if (!(achievements.data.exists(achievement.id) || achievements.data.get(achievement.id) == true)) // jic
+			achievements.data.set(achievement.id, false);
+		achievements.names.set(achievement.id, achievement.name ?? achievement.id);
+		achievements.unlockTypes.set(achievement.id, achievement.unlock ?? 'none');
+		achievements.descriptions.set(achievement.id, achievement.description);
+		achievements.hidden.set(achievement.id, achievement.hidden ?? false);
+	}
+	trace(FlxG.save.data.achievements);
 
 	FlxG.save.data.neoui ??= true;
 	FlxG.save.data.neoFirstTime ??= true;
@@ -52,16 +53,21 @@ function preStateSwitch() {
 	WindowUtils.setWindow("Friday Night Funkin' - Neo", "icon");
 }
 
-public static function giveAchievement(achievementName:String = "faggot", callback:Void = () -> {}) {
-	trace(achievementName);
-	if (achievements.get(achievementName)) return;
-	achievements.set(achievementName, true);
-	FlxG.save.data.achievements = achievements;
-	trace(achievements);
+static function giveAchievement(achievementName:String = "faggot", callback:Void = () -> {}) {
+	if (!achievements.data.exists(achievementName)) {
+		trace('Achievement "' + achievementName + '", doesn\'t exist.');
+		return;
+	} else if (achievements.data.get(achievementName)) {
+		trace('Achievement "' + achievementName + '", is already unlocked.');
+		return;
+	}
+	achievements.data.set(achievementName, true);
+	achievements.data = FlxG.save.data.achievements;
+	trace('Unlocked "' + achievementName + '"!');
 
 	achievementsLength++;
 
-	var epicAchievementGroup = FlxG.state.add(new FlxTypedSpriteGroup(-150, achievementsLength * 180));
+	var epicAchievementGroup = FlxG.state.add(new FlxSpriteGroup(-150, achievementsLength * 180));
 	epicAchievementGroup.camera = FlxG.cameras.list[FlxG.cameras.list.length - 1];
 	epicAchievementGroup.alpha = 0.0001;
 	FlxTween.tween(epicAchievementGroup, {x: 0, alpha: 1}, 0.5, {ease: FlxEase.expoInOut, onComplete: () -> {
@@ -69,18 +75,13 @@ public static function giveAchievement(achievementName:String = "faggot", callba
 		achievementsLength--;
 	}});
 
-	var timerLeft:Float = achievementsTimer.elapsedTime;
-
 	achievementsTimer.cancel();
-	achievementsTimer.start(timerLeft + 6, callback);
+	achievementsTimer.start(achievementsTimer.elapsedTime + 6, callback);
 
 	var coolBG = epicAchievementGroup.add(new FunkinSprite(120, 20, Paths.image("menus/achievements/achievment-unlock")));
-
-	var achievementText = epicAchievementGroup.add(new FunkinText(150, 50, coolBG.width, achievementName + "\n" + achievementDescriptions.get(achievementName), 25));
-
+	var achievementText = epicAchievementGroup.add(new FunkinText(150, 50, coolBG.width, achievements.names.get(achievementName) + "\n" + achievements.descriptions.get(achievementName), 25));
 	var epicAchievement = epicAchievementGroup.add(new FunkinSprite(0, 0, Paths.image("menus/achievements/achievements/" + achievementName)));
 	epicAchievement.setGraphicSize(150, 150);
 	epicAchievement.updateHitbox();
-
 	coolBG.scrollFactor.x = coolBG.scrollFactor.y = epicAchievement.zoomFactor = epicAchievement.scrollFactor.x = epicAchievement.scrollFactor.y = epicAchievement.zoomFactor = 0;
 }
