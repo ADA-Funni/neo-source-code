@@ -91,14 +91,14 @@ function create() {
 		obj.playAnim("idle");
 	}
 
-		if (FlxG.random.bool(0.001)) {
-		var logo:FunkinSprite = new FunkinSprite(FlxG.width * 0.62, FlxG.height * 0.23);
+	if (FlxG.random.bool(0.001)) { // 1 in 1000
+		var logo:FunkinSprite = new FunkinSprite(FlxG.width * 0.6, FlxG.height * 0.23);
 		logo.frames = Paths.getFrames('menus/mainmenu/jellyfish logo');
 		logo.addAnim("idle", "Jellyfish logo", 24, true);
 		logo.playAnim('idle');
 		add(logo);
-	} else if (FlxG.random.bool(1)) {
-		var jellyfish:FunkinSprite = new FunkinSprite(FlxG.width * 0.52, FlxG.height * 0.2);
+	} else if (FlxG.random.bool(1)) { // 1 in 100
+		var jellyfish:FunkinSprite = new FunkinSprite(FlxG.width * 0.48, FlxG.height * 0.2);
 		jellyfish.frames = Paths.getFrames('menus/mainmenu/jellyfish');
 		jellyfish.addAnim("idle", "jelly throne", 24, true);
 		jellyfish.playAnim('idle');
