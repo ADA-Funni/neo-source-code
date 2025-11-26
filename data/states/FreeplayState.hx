@@ -1,18 +1,12 @@
-import funkin.backend.utils.XMLUtil;
 import funkin.savedata.FunkinSave;
 
 var badgeSprite:FunkinSprite;
 function postCreate():Void {
 	badgeSprite = new FunkinSprite(FlxG.width - 280, -30);
 	badgeSprite.frames = Paths.getFrames('menus/freeplay/perfect_badge');
-	XMLUtil.addAnimToSprite(badgeSprite, {
-		name: 'idle',
-		anim: 'Perfect badge',
-		fps: 24,
-		loop: true
-	});
-	badgeSprite.scale.set(0.3, 0.3);
+	badgeSprite.addAnim("idle", "Perfect Badge", 24, true);
 	badgeSprite.playAnim('idle', true);
+	badgeSprite.scale.set(0.3, 0.3);
 	badgeSprite.scrollFactor.set();
 	add(badgeSprite);
 }
@@ -30,6 +24,7 @@ function getSongScoreData(name:String, difficulty:String, ?variation:String, ?op
 	if (coopMode ?? false) changes.push(Type.resolveEnum('funkin.savedata.HighscoreChange').CCoopMode);
 	return FunkinSave.getSongHighscore(name, difficulty, variation, changes);
 }
+
 function checkBadgeVisibility():Void {
 	var score = getSongScoreData(curSong.name, curDifficulties[curDifficulty], curSong.variant, __opponentMode, __coopMode);
 	badgeSprite.visible = score.accuracy == 100;

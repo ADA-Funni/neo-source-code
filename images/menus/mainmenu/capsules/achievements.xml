@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="achievements badge.png" width="1032" height="1105">
+	<SubTexture name="achievements capsule0001" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0002" x="130" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0003" x="1" y="203" width="200" height="127" rotated="true" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0004" x="259" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0005" x="1" y="332" width="200" height="127" rotated="true" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0006" x="203" y="203" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0007" x="388" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0008" x="332" y="203" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0009" x="1" y="461" width="200" height="127" rotated="true" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0010" x="203" y="405" width="200" height="127" rotated="true" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0011" x="517" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0012" x="405" y="405" width="200" height="127" rotated="true" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0013" x="461" y="203" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0014" x="1" y="590" width="200" height="127" rotated="true" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0015" x="203" y="534" width="200" height="127" rotated="true" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0016" x="405" y="534" width="200" height="127" rotated="true" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0017" x="590" y="203" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0018" x="646" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0019" x="607" y="405" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0020" x="1" y="719" width="200" height="127" rotated="true" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0021" x="607" y="607" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0022" x="203" y="663" width="200" height="127" rotated="true" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0023" x="405" y="663" width="200" height="127" rotated="true" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0024" x="719" y="203" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0025" x="775" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0026" x="736" y="405" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0027" x="736" y="607" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0028" x="1" y="848" width="200" height="127" rotated="true" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0029" x="203" y="809" width="200" height="127" rotated="true" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0030" x="405" y="792" width="200" height="127" rotated="true" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0031" x="607" y="809" width="200" height="127" rotated="true" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0032" x="848" y="203" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0033" x="904" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0034" x="809" y="809" width="200" height="127" rotated="true" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0035" x="865" y="405" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0036" x="865" y="607" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0037" x="405" y="921" width="200" height="127" rotated="true" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0038" x="203" y="938" width="200" height="127" rotated="true" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0039" x="1" y="977" width="200" height="127" rotated="true" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0040" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0041" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0042" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0043" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0044" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0045" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0046" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0047" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0048" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0049" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0050" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0051" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0052" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0053" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0054" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0055" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0056" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0057" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0058" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0059" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0060" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0061" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0062" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0063" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0064" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0065" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0066" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0067" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0068" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0069" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0070" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0071" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0072" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0073" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0074" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0075" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0076" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0077" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0078" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0079" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements capsule0080" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="212"/>
+	<SubTexture name="achievements select0001" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="222"/>
+	<SubTexture name="achievements select0002" x="1" y="1" width="127" height="200" frameX="-5" frameY="-7" frameWidth="146" frameHeight="222"/>
+	<SubTexture name="achievements select0003" x="1" y="1" width="127" height="200" frameX="-5" frameY="-17" frameWidth="146" frameHeight="222"/>
+	<SubTexture name="achievements select0004" x="1" y="1" width="127" height="200" frameX="-5" frameY="-17" frameWidth="146" frameHeight="222"/>
+	<SubTexture name="achievements select0005" x="1" y="1" width="127" height="200" frameX="-5" frameY="-14" frameWidth="146" frameHeight="222"/>
+</TextureAtlas>

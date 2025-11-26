@@ -33,7 +33,6 @@ function onPostCountdown(e)
 
 function create() {
     PauseSubState.script = 'data/scripts/pause';
-    playCutscenes = true;
     comboGroup.cameras = [camHUD];
     comboGroup.setPosition(FlxG.width / 2 - 50, 200);
 }

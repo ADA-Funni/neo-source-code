@@ -22,15 +22,15 @@ function postCreate():Void {
 	}
 	if (PlayState.isStoryMode ? PlayState.storyWeek.songs[0].name != PlayState.SONG.meta.name : false) return;
 
-	bg = game.add(new FunkinSprite(0, 0, FlxGradient.createGradientBitmapData(FlxG.width, FlxG.height, [leftColor, rightColor])));
-	bg.scrollFactor.x = bg.scrollFactor.y = bg.zoomFactor = 0;
-	bg.alpha = 0.25;
+	// bg = game.add(new FunkinSprite(0, 0, FlxGradient.createGradientBitmapData(FlxG.width, FlxG.height, [leftColor, rightColor])));
+	// bg.scrollFactor.x = bg.scrollFactor.y = bg.zoomFactor = 0;
+	// bg.alpha = 0.25;
 }
 
 var epicTimer:FlxTimer;
 
 function destroy():Void {
 	if (!isStart) return;
-	FlxTween.tween(bg, {alpha: 0}, 2, {ease: FlxEase.backOut});
+	// FlxTween.tween(bg, {alpha: 0}, 2, {ease: FlxEase.backOut});
 	if (game != null) FlxTween.tween(game.camHUD, {alpha: 1}, 2, {ease: FlxEase.backOut});
 }

@@ -26,16 +26,10 @@ function create() {
 
 	function getIntroText():String {
 		var text:String = FlxG.random.getObject(CoolUtil.coolTextFile(Paths.txt("titlescreen/introText")));
-		var discordDisplayName = '[Unknown User]'; // not using sys name cause personally, me no think good idea, cause privacy reasons be like
-		try {
-			discordDisplayName = DiscordUtil.user.globalName;
-		} catch(e:Dynamic) {
-			if (text == 'Hello [USER] >:)')
-				discordDisplayName = 'there';
-			trace(e);
-		}
+		var discordDisplayName = DiscordUtil.ready ? DiscordUtil.user.globalName : 'Person';
 		return StringTools.replace(text, '[USER]', discordDisplayName);
 	}
+
 	var introTextText = add(new FunkinText(0, 0, 0, getIntroText(), 40));
 
 	new FlxTimer().start(0.005, function() { // needs too have a delay, idk why honestly :/
@@ -57,6 +51,8 @@ function create() {
 	start.setGraphicSize(start.width * 0.9);
 	start.updateHitbox();
 	start.screenCenter(FlxAxes.X);
+
+	giveAchievement("Welcome back!");
 }
 
 var trans:Bool = false;
