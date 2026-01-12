@@ -1,3 +1,5 @@
+// script by @rodney528
+
 var PARSE_ERROR:String = '[Parse Error --- Field Empty]';
 
 function getCharterText():String {
