@@ -29,6 +29,7 @@ function create() {
 		var obj = achievementSprites.add(new FunkinSprite(col * 170, row * 170, Paths.image("menus/achievements/achievements/" + (useImg ? achievement : "locked"))));
 		obj.setGraphicSize(150, 150);
 		obj.updateHitbox();
+		obj.antialiasing = true;
 		curI++;
 	}
 
