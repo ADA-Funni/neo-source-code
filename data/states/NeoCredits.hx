@@ -25,7 +25,7 @@ function update(elapsed) {
     FlxG.camera.zoom = lerp(FlxG.camera.zoom, 1, 0.15);
     FlxG.camera.angle = lerp(FlxG.camera.angle, 0, 0.15);
     creditsTxt.y += (FlxG.mouse.wheel > 0) ? -30 : (FlxG.mouse.wheel < 0 ? 30 : -0.5) * 60 * elapsed;
-    if (creditsTxt.y < (creditsTxt.height - FlxG.height) * -3.2) creditsTxt.y = FlxG.height; //should probs softcode this math at some point... oh well!
+    if (creditsTxt.y < (creditsTxt.height - FlxG.height) * -3.2) FlxG.switchState(new MainMenuState()); //should probs softcode this math at some point... oh well!
 }
 
 var bleh:Bool = true;

@@ -16,7 +16,6 @@ function create() {
 	CoolUtil.playMenuSong();
 	weekList = StoryWeeklist.get(true, false);
 
-	// var bgSpr = new FlxSprite(0, 0, Paths.image("menus/storymenu/story_bg"));
 	var video = new FlxVideoSprite(0, 0);
 	video.load(Assets.getPath(Paths.video("vaperwave")), [':input-repeat=65535', ':no-audio']);
 	video.play();

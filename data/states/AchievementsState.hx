@@ -3,19 +3,21 @@ import funkin.backend.system.Flags;
 var achievementSprites:FlxSpriteGroup;
 var achievementName:FunkinText;
 var achievementDesc:FunkinText;
+
 static var achievementsCurSelected:Int = 0;
 var achievementsList:Array<String> = [for (achievement in achievementsJson) achievement.id];
 
 function create() {
-	achievementName = add(new FunkinText(1600, 30, FlxG.width, "meow", 35));
+	achievementName = add(new FunkinText(1500, 30, 1279, "meow", 35));
 	achievementName.alignment = "center";
 
 	achievementSprites = add(new FlxSpriteGroup(1680, 130));
 
-	achievementsList.push('locked'); // :trollface:
+	// achievementsList.push('locked'); // :trollface:
+
 	var curI:Int = 0;
+
 	for (i => achievement in achievementsList) {
-		if (!achievements.data.get(achievement) && achievements.hidden.get(achievement)) continue;
 		var col = curI % 5;
 		var row = Std.int(curI / 5);
 
@@ -24,8 +26,8 @@ function create() {
 		obj.updateHitbox();
 		curI++;
 	}
-	achievementName.text = achievements.names.get(achievementsList[achievementsCurSelected]);
-	// achievementDesc.text = achievements.descriptions.get(achievementsList[achievementsCurSelected]);
+
+	changeSelection(0);
 }
 
 function update(elapsed) {
@@ -47,6 +49,5 @@ function update(elapsed) {
 function changeSelection(amt:Int = 0) {
 	CoolUtil.playMenuSFX();
 	achievementsCurSelected = FlxMath.wrap(achievementsCurSelected + amt, 0, achievementsList.length - 1);
-	achievementName.text = achievements.names.get(achievementsList[achievementsCurSelected]);
-	// achievementDesc.text = achievements.descriptions.get(achievementsList[achievementsCurSelected]);
+	achievementName.text = achievements.data.get(achievementsList[achievementsCurSelected]) ? achievements.names.get(achievementsList[achievementsCurSelected]) : "???";
 }
