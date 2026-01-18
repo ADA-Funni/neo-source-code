@@ -1,7 +1,7 @@
 # -- TUTORIAL --
 ### -- TUTORIAL --
 BF: Hot Damn!
-BF: I **can't** believe I finally have the chance to meet your dad.
+BF: I can't believe I finally have the chance to meet your dad.
 BF: If i do well….then this….this could be it!. My one-way ticket into the big league!
 BF: Uumm you said he books shows, gets rappers and singers like contracts and labels all that fun stuff in-between right?
 
