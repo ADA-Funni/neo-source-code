@@ -17,3 +17,8 @@ function next(event):Void {
 		dialogueLine.autoDestroy = false;
 	}
 }
+
+function close(event):Void {
+	if (event.cancelled) return;
+	if (dialogueLine != null) dialogueLine.destroy();
+}
