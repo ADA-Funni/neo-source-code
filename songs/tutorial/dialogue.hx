@@ -11,7 +11,7 @@ function next(event):Void {
 	if (dialogueLine != null) dialogueLine.stop();
 	if (event.cancelled || !canProceed) return;
 
-	var soundPath = Paths.sound('dialogue-lines/tutorial/' + lineInt);
+	var soundPath = Paths.sound('voicelines/tutorial/' + lineInt);
 	if (Assets.exists(soundPath)) {
 		dialogueLine = FlxG.sound.play(soundPath);
 		dialogueLine.autoDestroy = false;
