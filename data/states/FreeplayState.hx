@@ -19,15 +19,19 @@ function postUpdate(elapsed:Float):Void {
 }
 
 function getSongScoreData(name:String, difficulty:String, ?variation:String, ?opponentMode:Bool, ?coopMode:Bool):{score:Int, accuracy:Float, misses:Int, hits:Map<String, Int>, date:String} {
-	var changes = [];
-	if (opponentMode ?? false) changes.push(Type.resolveEnum('funkin.savedata.HighscoreChange').COpponentMode);
-	if (coopMode ?? false) changes.push(Type.resolveEnum('funkin.savedata.HighscoreChange').CCoopMode);
-	return FunkinSave.getSongHighscore(name, difficulty, variation, changes);
+	try {
+		var changes = [];
+		if (opponentMode ?? false) changes.push(Type.resolveEnum('funkin.savedata.HighscoreChange').COpponentMode);
+		if (coopMode ?? false) changes.push(Type.resolveEnum('funkin.savedata.HighscoreChange').CCoopMode);
+		return FunkinSave.getSongHighscore(name, difficulty, variation, changes);
+	} catch(e:Dynamic) {
+		return {score: 0, accuracy: 0, misses: 0, hits: [], date: ''}
+	}
 }
 
 function checkBadgeVisibility():Void {
 	var score = getSongScoreData(curSong.name, curDifficulties[curDifficulty], curSong.variant, __opponentMode, __coopMode);
-	badgeSprite.visible = score.accuracy == 100;
+	badgeSprite.visible = score.accuracy == 1;
 }
 
 function onUpdateOptionsAlpha(event):Void
