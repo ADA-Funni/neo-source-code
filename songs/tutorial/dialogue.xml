@@ -3,17 +3,17 @@
 	<char name="gf" position="left"/>
 	<char name="bf" position="right"/>
 
-	<line char="bf" changeMusic="dialogue/tutorial">
+	<line char="bf" changeMusic="dialogue/tutorial" speed="0.07">
 		Hot damn!
 	</line>
-	<line char="bf">
+	<line char="bf" speed="0.035">
 		I can't believe I finally have the chance to meet <format color="cyan">your dad!</format>
 	</line>
-	<line char="bf">
+	<line char="bf" speed="0.06">
 		If I do well... than this... <format italic="true">this could be it!</format> My one-way ticket into the <format color="cyan">big league!</format>
 	</line>
-	<line char="bf" changeDefAnim="annoyed">
-		Umm, you said he books shows, gets rappers and singers contracts and labels n' all that fun stuff in-between right?
+	<line char="bf" changeDefAnim="annoyed" speed="0.055">
+		Umm, you said he books shows, gets rappers and singers like contracts and labels. All that stuff in-between right?
 	</line>
 
 	<line char="gf">
@@ -25,23 +25,23 @@
 	<line char="gf">
 		But I would keep in mind that he doesn't hold back whatsoever and speaks his mind no matter what ssssoooo...
 	</line>
-	<line char="gf">
-		If you suck he won't hesitate to tear you into a new one!
+	<line char="gf" speed="0.04">
+		If you suck he won't hesitate to tear your ass into a new one!
 	</line>
-	<line char="gf">
-		All those followers you got on Soundcloud might just leave! *giggles*
+	<line char="gf" speed="0.06">
+		And all those followers you get on Soundcloud might just leave! *giggles*
 	</line>
 
 	<line char="bf" changeDefAnim="normal-mic">
 		Pfft, as if I'd fail. I know for a <format color="magenta">FACT</format> I don't suck!
 	</line>
 
-	<line char="gf" callback="pauseMusic" speed="0.08">
+	<line char="gf" callback="pauseMusic" speed="0.05">
 		<format italic="true" size="50">A l l e g e d l y .</format>
 	</line>
 
-	<line char="bf" callback="resumeMusic" changeDefAnim="sweat">
-		<format italic="true" bold="true">Hey!</format> Ouch my pride!
+	<line char="bf" callback="resumeMusic" changeDefAnim="sweat" speed="0.1">
+		<format italic="true" bold="true">Hey!</format> Ouch, my pride.
 	</line>
 
 	<line char="gf" nextSound="vineBoom">
@@ -49,17 +49,17 @@
 	</line>
 
 	<line char="bf">
-		<format italic="true">Anyway...</format>
+		*growls frustratedly* <format italic="true">Anyways...</format>
 	</line>
 	<line char="bf" changeDefAnim="normal-mic">
 		I'm gonna blow his dusty old ass off the stage! And straight into next week... or the next 5 weeks. I don't know for sure.
 	</line>
-	<line char="bf">
+	<line char="bf" speed="0.05">
 		<format color="magenta">BUT</format> I will surpass your father and become the greatest rapper this city has ever seen!
 	</line>
 
-	<line char="gf" changeDefAnim="blush">
-		Confident huh? Well, before you get wrecked, how about we warm up a little first?
+	<line char="gf" speed="0.06">
+		Confident huh? Well, before you get wrecked, how about a warm up?
 	</line>
 
 	<line char="bf">
