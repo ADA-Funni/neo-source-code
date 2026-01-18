@@ -2,9 +2,6 @@
 import flixel.math.FlxRect;
 import flixel.util.FlxStringUtil;
 
-import flixel.util.FlxGradient;
-import flixel.util.FlxSpriteUtil;
-
 var thingiebf:FunkinSprite;
 var thingiedad:FunkinSprite;
 var neoHealthBarBF:FunkinSprite;
