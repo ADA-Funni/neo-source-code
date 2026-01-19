@@ -4,34 +4,34 @@
 	<char name="gf" position="middle"/>
 	<char name="bf" position="right"/>
 
-	<line char="dad" changeMusic="dialogue/dadbattle" musicVolume="0.2" speed="0.08" changeDefAnim="mad">
+	<line char="dad" changeMusic="dialogue/dadbattle" musicVolume="0.2" speed="0.07" changeDefAnim="mad">
 		Be warned boy.
 	</line>
-	<line char="dad" speed="0.08">
-		Nobody, and I mean not one single <format italic="true" color="black" borderColor="red">FUCKIN'</format> individual has ever beaten me when I'm at <format color="magenta">my peak.</format>
+	<line char="dad" speed="0.085">
+		Nobody, and I mean not one single <format italic="true" color="black" borderColor="red">FUCKIN'</format> individual has ever beaten me when I'm at <format color="magenta">my peak!</format>
 	</line>
 
 	<line char="bf" musicVolume="0.8">
-		First time for everything gramps!
+		First time for everything!
 	</line>
-	<line char="bf">
+	<line char="bf" speed="0.045">
 		Hope your wife prepared a way to recover that fragile pride of yours. Because I'm about to show you the animal I've become!
 	</line>
 
-	<line char="gf" speed="0.1" callback="pauseMusic" changeDefAnim="blush">
+	<line char="gf" callback="pauseMusic" changeDefAnim="blush">
 		You're an animal in bed alright~
 	</line>
 
 	<line char="bf" changeDefAnim="annoyed">
-		<format italic="true" size="170">BABE, WTF!</format>
+		<format italic="true" size="150">GIRLFRIEND!</format>
 	</line>
 
 	<line char="gf" callback="resumeMusic" musicVolume="0.2">
 		*giggles mischievously*
 	</line>
 
-	<line char="dad" musicVolume="0.8">
-		Hope you're ready for a beatdown from the one and only greatest rockstar in the world!
+	<line char="dad" musicVolume="0.8" speed="0.06">
+		Hope you're ready for a beatdown, from the one and only, greatest rockstar in the world!
 	</line>
 	<line char="dad" musicVolume="0.5">
 		<format size="79">DADDY</format>
@@ -43,7 +43,7 @@
 		<format size="175">DEAREST</format>
 	</line>
 
-	<line char="bf" musicVolume="0.8" changeDefAnim="normal">
+	<line char="bf" musicVolume="0.8" changeDefAnim="normal" speed="0.04">
 		You won't be talking so high and mighty when I take that <format color="cyan">title</format> for myself.
 	</line>
 	<line char="bf" changeDefAnim="normal-mic">

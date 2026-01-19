@@ -5,17 +5,17 @@
 	<char name="gf" position="middle"/>
 	<char name="bf" position="right"/>
 
-	<line char="dad" changeMusic="dialogue/dadbattle" changeDefAnim="mad">
-		You insolate son of a bitch.
+	<line char="dad" changeMusic="dialogue/post-dadbattle" musicVolume="0.4" changeDefAnim="mad" speed="0.06">
+		You insolate, son of a <format italic="true" color="red">bitch!</format>
 	</line>
-	<line char="dad">
+	<line char="dad" speed="0.06">
 		How the <format italic="true" color="magenta">fuck</format> did you beat me?
 	</line>
 	<line char="dad" callback="pauseMusic">
 		ME!
 	</line>
-	<line char="dad" speed="0.03">
-		<format italic="true" color="black" borderColor="red">THE GREATEST ROCKSTAR THIS WHOLE FUCKING PIECE OF SHIT WORLD HAS EVER SEEN! HOW DID THE WORTHLESS SON OF A WHORE BEAT ME!?</format>
+	<line char="dad" speed="0.075">
+		<format italic="true" color="black" borderColor="red">THE GREATEST ROCKSTAR, THIS WHOLE FUCKING PIECE OF SHIT WORLD, HAS EVER SEEN! HOW DID THIS WORTHLESS SON OF A WHORE, BEAT, ME!?</format>
 	</line>
 
 	<line char="bf" callback="resumeMusic">
@@ -33,8 +33,8 @@
 	<line char="bf">
 		<format size="175">GOOD!</format>
 	</line>
-	<line char="bf">
-		Also I don't have to rely on autotune to do the work for me.
+	<line char="bf" speed="0.04">
+		Also, I don't have to rely on autotune to do the work for me.
 	</line>
 	<line char="bf">
 		Because unlike you, I have <format color="magenta">real talent!</format>
@@ -54,21 +54,21 @@
 	</line>
 
 	<line char="bf">
-		Good boy, now do your damn job and get me my gig and record label!
+		Good boy, now do your damn job and get me my gig and record label.
 	</line>
 
-	<line char="dad">
+	<line char="dad" speed="0.12">
 		*growls* Fine jackass.
 	</line>
-	<line char="dad" changeDefAnim="fist">
+	<line char="dad" changeDefAnim="fist" speed="0.06">
 		There's a party going down <format color="magenta">in the Raveyard.</format>
 		Some freaky kids, call themselves the <format color="cyan"> Spookeez.</format>
 	</line>
-	<line char="dad">
+	<line char="dad" speed="0.06">
 		Been tearing through every act that steps up.
 		You'll probably get your clock cleaned.
 	</line>
-	<line char="dad" changeDefAnim="crossed-arms">
+	<line char="dad" changeDefAnim="crossed-arms" speed="0.07">
 		But hell, I could use a laugh.
 		I'll get you a slot with them...
 	</line>
@@ -76,24 +76,24 @@
 	<line char="bf" changeDefAnim="normal-mic">
 		Sweet, I'll go mop the floor with them too, later bitches!
 	</line>
-	<line char="bf">
-		<format color="cyan" borderColor="magenta" size="80">BF IS ON HIS WAY TO THE TOP!</format>
+	<line char="bf" speed="0.04">
+		<format color="cyan" borderColor="magenta" size="80">BOYFRIEND'S ON HIS WAY TO THE TOP!</format>
 	</line>
 
-	<line char="dad" musicVolume="0.6" changeDefAnim="mad">
+	<line char="dad" musicVolume="0.2" changeDefAnim="mad">
 		...
 	</line>
-	<line char="dad" changeDefAnim="phone" musicVolume="0.4">
+	<line char="dad" changeDefAnim="phone" musicVolume="0.15">
 		...Yeah.
 	</line>
-	<line char="dad" musicVolume="0.2">
+	<line char="dad" musicVolume="0.1">
 		He's on his way.
 	</line>
-	<line char="dad" callback="pauseMusic">
+	<line char="dad" callback="pauseMusic" speed="0.06">
 		He's your problem now.
 	</line>
 
-	<line char="tankman" changeDefAnim="prowler">
+	<line char="tankman" changeDefAnim="prowler" speed="0.09">
 		Wonderful, I'll be waiting.
 	</line>
 </dialogue>
