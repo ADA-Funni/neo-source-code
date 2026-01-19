@@ -3,13 +3,15 @@ function pauseMusic():Void
 function resumeMusic():Void
 	curMusic?.resume();
 
+function update(elapsed:Float):Void
+	if (controls.ACCEPT && !dialogueBox.dialogueEnded && dialogueLine != null)
+		dialogueLine.stop();
+
 var lineInt:Int = 0;
 var dialogueLine:FlxSound;
 function next(event):Void {
-	lineInt++;
-	trace(lineInt);
-	if (dialogueLine != null) dialogueLine.stop();
 	if (event.cancelled || !canProceed) return;
+	lineInt++; trace(lineInt);
 
 	var soundPath = Paths.sound('voicelines/tutorial/' + lineInt);
 	if (Assets.exists(soundPath)) {
