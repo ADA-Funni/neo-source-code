@@ -7,35 +7,35 @@
 	<line char="dad" changeMusic="dialogue/fresh" changeDefAnim="crossed-arms">
 		Not bad.
 	</line>
-	<line char="dad" callback="pauseMusic" changeDefAnim="mad">
+	<line char="dad" callback="pauseMusic" changeDefAnim="mad" speed="0.07">
 		For a low rank amateur.
 	</line>
-	<line char="dad" callback="resumeMusic">
-		I was expecting more for self proclaimed next greatest thing in the city. How utterly disappointing.
+	<line char="dad" callback="resumeMusic" speed="0.07">
+		I was expecting more, from the self-proclaimed next greatest thing in the city. How utterly disappointing.
 	</line>
 
 	<line char="bf" changeDefAnim="normal">
 		It's not my fault you can't keep up gramps. Fine then? You want something real, something new and fresh!?
 	</line>
-	<line char="bf" musicVolume="0.2">
+	<line char="bf" musicVolume="0.2" speed="0.04">
 		Then I'll give you something raw you can choke on.
 	</line>
-	<line char="bf" callback="pauseMusic">
-		Just like I plan to do your daughter later tonight!
+	<line char="bf" callback="pauseMusic" speed="0.04">
+		Just like I plan to do your daughter later tonight.
 	</line>
 
 	<line char="gf" speed="0.1" changeDefAnim="blush">
 		Ooooo! Please do~
 	</line>
 
-	<line char="dad" speed="0.03">
+	<line char="dad" speed="0.06">
 		<format italic="true" color="black" borderColor="red">I WILL TEAR YOUR FUCKING DICK OFF AND SHOVE IT SO FAR DOWN YOUR THROAT IT WILL RIP A HOLE THROUGH YOUR ASS!</format>
 	</line>
 
-	<line char="bf" callback="resumeMusic" musicVolume="0.8" changeDefAnim="angry">
+	<line char="bf" callback="resumeMusic" musicVolume="0.8" changeDefAnim="angry" speed="0.045">
 		Oh please, your fragile brittle bones would snap like a twig before you could even lay a hand on me.
 	</line>
-	<line char="bf" changeDefAnim="normal-mic">
-		Now stop your stalling and start your singing!
+	<line char="bf" changeDefAnim="normal-mic" speed="0.04">
+		Now stop your stalling and start your singin'!
 	</line>
 </dialogue>
