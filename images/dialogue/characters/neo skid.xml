@@ -1,9 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="neo skid.png">
-	<!-- Created with Adobe Animate version 24.0.10.14 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="skid talk0000" x="3" y="3" width="298" height="478"/>
-	<SubTexture name="skid point angry0000" x="311" y="3" width="524" height="471"/>
-	<SubTexture name="skid pump0000" x="3" y="491" width="452" height="471"/>
-	<SubTexture name="skid sweat0000" x="465" y="491" width="335" height="478"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="neo skid.png" width="980" height="1272">
+	<SubTexture name="skid talk0000" x="1" y="973" width="477" height="298" rotated="true" frameX="-0" frameY="-0" frameWidth="298" frameHeight="478"/>
+	<SubTexture name="skid point angry0000" x="1" y="501" width="524" height="470" frameX="-0" frameY="-0" frameWidth="524" frameHeight="471"/>
+	<SubTexture name="skid pump0000" x="527" y="501" width="452" height="470" frameX="-0" frameY="-0" frameWidth="452" frameHeight="471"/>
+	<SubTexture name="skid sweat0000" x="549" y="1" width="335" height="478" frameX="-0" frameY="-0" frameWidth="335" frameHeight="478"/>
+	<SubTexture name="skid shouting" x="1" y="1" width="546" height="498" frameX="-0" frameY="-0" frameWidth="546" frameHeight="498"/>
 </TextureAtlas>
