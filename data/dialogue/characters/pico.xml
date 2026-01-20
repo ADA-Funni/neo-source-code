@@ -1,0 +1,11 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="neo pico" x="0" y="-20">
+	<anim name="bruh" anim="pico bruh" x="8" y="5"/>
+	<anim name="confused" anim="pico confused" x="1" y="-1"/>
+	<anim name="cry" anim="pico cry" x="-4" y="-2"/>
+	<anim name="eyebrow-raise" anim="pico eyebrow rise"/>
+	<anim name="gun" anim="pico gun"/>
+	<anim name="sigh" anim="pico sigh" x="-2"/>
+	<anim name="talk" anim="pico talk"/>
+	<anim name="yell" anim="pico yell"/>
+</character>

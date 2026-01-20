@@ -1,0 +1,7 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="monster" x="0" y="40" scale="0.8">
+	<anim name="talk" anim="monster talk"/>
+	<anim name="hand-out" anim="monster arm up" x="-2" y="1"/>
+	<anim name="shake" anim="monster shake0" x="-2" y="2"/>
+	<anim name="shake-alt" anim="monster shake alt" x="-2" y="3"/>
+</character>

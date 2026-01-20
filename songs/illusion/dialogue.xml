@@ -1,0 +1,59 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="default">
+	<char name="monster" position="left"/>
+	<char name="skid" position="left"/>
+	<char name="pump" position="left"/>
+	<char name="bf" position="right"/>
+
+	<line char="pump" changeDefAnim="scared">
+		WHAT THE HELL WAS THAT?!
+	</line>
+
+	<line char="skid" changeDefAnim="sweat">
+		WE GOTTA GET OUTTA OF HERE!!
+	</line>
+
+	<line char="monster" changeDefAnim="shake" changeMusic="dialogue/illusion" musicVolume="0.1" speed="0.07">
+		Aww... did I ruin your cute little concert?
+	</line>
+	<line char="monster" changeDefAnim="talk">
+		What a shame...
+	</line>
+	<line char="monster">
+		Guess this'll be the last show you ever see.
+	</line>
+	<line char="monster">
+		Because if you knew the pain I've carried for seven years...
+	</line>
+	<line char="monster" changeDefAnim="shake">
+		You'd be running too.
+	</line>
+
+	<line char="bf" changeDefAnim="confused" speed="0.06">
+		Wh-what the hell??
+	</line>
+	<line char="bf" changeDefAnim="annoyed">
+		Who the fuck are you!?
+	</line>
+
+	<line char="monster" changeDefAnim="talk">
+		No need for names.
+	</line>
+	<line char="monster" changeDefAnim="hand-out">
+		Come with me... and none of them have to suffer.
+	</line>
+	<line char="monster" speed="0.07">
+		Do the smart thing, and maybe... just maybe... you'll make it out of this alive, son.
+	</line>
+
+	<line char="bf" changeDefAnim="angry" speed="0.08">
+		Eat shit...
+	</line>
+	<line char="bf" changeDefAnim="angry-mic" speed="0.07">
+		I don't do "smart", I fight.
+	</line>
+
+	<line char="monster" changeDefAnim="shake-alt" speed="0.11">
+		*siiighhh* A foolish choice... so be it.
+	</line>
+</dialogue>

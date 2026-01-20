@@ -1,0 +1,22 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="default">
+	<char name="pico" position="left"/>
+	<char name="gf" position="middle"/>
+	<char name="bf" position="right"/>
+
+	<line char="bf" changeDefAnim="annoyed" speed="0.08">
+		Fuck!! Babe, we need to move. NOW! Take my hand!
+	</line>
+
+	<line char="gf" changeDefAnim="wut" speed="0.13">
+		Huh? O-okay!
+	</line>
+
+	<line char="pico" changeDefAnim="eyebrow-raise" speed="0.1">
+		...
+	</line>
+
+	<line char="bf" changeDefAnim="sweat" speed="0.13">
+		Ah fuck.
+	</line>
+</dialogue>
