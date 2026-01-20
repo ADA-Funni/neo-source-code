@@ -1,5 +1,5 @@
 <!DOCTYPE codename-engine-dialogue-character>
-<character sprite="neo bf">
+<character sprite="neo bf" x="60">
 	<anim name="normal" anim="bf talk normal"/>
 	<anim name="normal-mic" anim="bf talk with mic" x="70"/>
 	<anim name="angry" anim="bf angry0" x="7" y="-7"/>
