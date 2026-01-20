@@ -3,7 +3,7 @@
 	<char name="skid" position="left"/>
 	<char name="bf" position="right"/>
 
-	<line char="skid" changeMusic="breakfast">
+	<line char="skid" changeMusic="dialogue/south" musicVolume="0.4" speed="0.1">
 		Okay... okay, you didn't totally suck.
 	</line>
 	<line char="skid" changeDefAnim="point">
@@ -11,11 +11,11 @@
 		You're <format color="magenta"> toast</format> after the next track.
 	</line>
 
-	<line char="bf" changeDefAnim="normal-mic">
+	<line char="bf" changeDefAnim="normal-mic" speed="0.04">
 		Uh huh, whatever helps you sleep at night.
 	</line>
 
-	<line char="skid" changeDefAnim="point-angry">
+	<line char="skid" changeDefAnim="point-angry" speed="0.12">
 		Pump! Next song, <format color="magenta">NOW!</format>
 	</line>
 </dialogue>

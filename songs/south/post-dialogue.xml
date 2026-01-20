@@ -4,32 +4,32 @@
 	<char name="pump" position="left"/>
 	<char name="bf" position="right"/>
 
-	<line char="bf" changeMusic="breakfast" changeDefAnim="normal-mic">
-		Sooo... was that one also "beginner's luck"?
+	<line char="bf" changeMusic="dialogue/south" musicVolume="0.4" changeDefAnim="normal-mic" speed="0.07">
+		Sooo... that ones also "beginner's luck"?
 	</line>
 
 	<line char="skid" changeDefAnim="point-angry">
 		Tch--
 	</line>
-	<line char="skid">
-		W-we were just going <format color="magenta">medium on you!</format>
+	<line char="skid" speed="0.07">
+		*coping* We were just... going <format color="magenta">medium on you!</format>
 		You haven't seen our <format color="cyan"> real shit</format> yet!
 	</line>
 
-	<line char="pump">
+	<line char="pump" speed="0.07">
 		<format size="27">Skid... my throat hurts.</format>
 	</line>
 
-	<line char="skid" changeDefAnim="normal">
+	<line char="skid" changeDefAnim="normal" speed="0.09">
 		<format size="27">One more... we finish this.</format>
 	</line>
 
-	<line char="bf">
-		Mm hmm... so you're actually gonna stop fuckin' around this time?
+	<line char="bf" speed="0.04">
+		So you guys gonna stop fuckin' around this time?
 	</line>
 
-	<line char="skid" changeDefAnim="point-angry">
-		<format color="magenta">You're dead,</format> dude! No more holding back!
+	<line char="skid" changeDefAnim="point-angry" speed="0.07">
+		Oh <format color="magenta">you're DEAD</format> dude! No more holding back!
 	</line>
 
 	<line char="pump" changeDefAnim="excited">

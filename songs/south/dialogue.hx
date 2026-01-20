@@ -1,6 +1,3 @@
-function postCreate()
-    giveAchievement('week2');
-
 function update(elapsed:Float):Void
 	if (controls.ACCEPT && !dialogueBox.dialogueEnded && dialogueLine != null)
 		dialogueLine.stop();
@@ -11,7 +8,7 @@ function next(event):Void {
 	if (event.cancelled || !canProceed) return;
 	lineInt++; trace(lineInt);
 
-	var soundPath = Paths.sound('voicelines/post-south/' + lineInt);
+	var soundPath = Paths.sound('voicelines/south/' + lineInt);
 	if (Assets.exists(soundPath)) {
 		dialogueLine = FlxG.sound.play(soundPath);
 		dialogueLine.autoDestroy = false;
