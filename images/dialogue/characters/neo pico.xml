@@ -1,13 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<TextureAtlas imagePath="neo pico.png">
-	<!-- Created with Adobe Animate version 24.0.10.14 -->
-	<!-- http://www.adobe.com/products/animate.html -->
-	<SubTexture name="pico bruh0000" x="3" y="3" width="335" height="449"/>
-	<SubTexture name="pico confused0000" x="348" y="3" width="363" height="443"/>
-	<SubTexture name="pico cry0000" x="721" y="3" width="324" height="442"/>
-	<SubTexture name="pico eyebrow rise0000" x="1055" y="3" width="328" height="444"/>
-	<SubTexture name="pico gun0000" x="1393" y="3" width="513" height="444"/>
-	<SubTexture name="pico sigh0000" x="3" y="462" width="325" height="444"/>
-	<SubTexture name="pico talk0000" x="338" y="462" width="328" height="444"/>
-	<SubTexture name="pico yell0000" x="676" y="462" width="328" height="444"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+-->
+<TextureAtlas imagePath="neo pico.png" width="1519" height="1482">
+	<SubTexture name="pico bruh0000" x="1" y="816" width="449" height="335" rotated="true" frameX="-0" frameY="-0" frameWidth="335" frameHeight="449"/>
+	<SubTexture name="pico confused0000" x="499" y="457" width="363" height="443" frameX="-0" frameY="-0" frameWidth="363" frameHeight="443"/>
+	<SubTexture name="pico cry0000" x="1194" y="446" width="324" height="442" frameX="-0" frameY="-0" frameWidth="324" frameHeight="442"/>
+	<SubTexture name="pico eyebrow rise0000" x="864" y="457" width="328" height="443" frameX="-0" frameY="-0" frameWidth="328" frameHeight="444"/>
+	<SubTexture name="pico gun0000" x="1" y="1" width="513" height="443" frameX="-0" frameY="-0" frameWidth="513" frameHeight="444"/>
+	<SubTexture name="pico sigh0000" x="446" y="1153" width="444" height="325" rotated="true" frameX="-0" frameY="-0" frameWidth="325" frameHeight="444"/>
+	<SubTexture name="pico talk0000" x="883" y="1" width="328" height="443" frameX="-0" frameY="-0" frameWidth="328" frameHeight="444"/>
+	<SubTexture name="pico yell0000" x="1" y="1153" width="443" height="328" rotated="true" frameX="-0" frameY="-0" frameWidth="328" frameHeight="444"/>
+	<SubTexture name="pico laugh" x="516" y="1" width="365" height="454" frameX="-0" frameY="-0" frameWidth="365" frameHeight="454"/>
+	<SubTexture name="pico smile" x="1" y="446" width="496" height="368" rotated="true" frameX="-0" frameY="-0" frameWidth="368" frameHeight="496"/>
 </TextureAtlas>

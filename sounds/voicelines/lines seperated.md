@@ -340,7 +340,7 @@ PICO: do you?!
 BF: i...
 
 PICO: And when I FINALLY get a chance, a chance to so something useful, and to prove myself to be worth more than this insufferable HELL hole…
-PICO: : You continue to resist, taking away my only chance!
+PICO: You continue to resist, taking away my only chance!
 PICO: nah……not anymore.
 
 BF: Dude calm down!

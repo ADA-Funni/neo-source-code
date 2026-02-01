@@ -35,6 +35,12 @@
 		"description": "Beat week3."
 	},
 	{
+		"id": "shoot-out",
+		"name": "Dielogue",
+		"description": "Get the secret *fake* gameover in Blammed's dialogue!",
+		"hidden": true
+	},
+	{
 		"id": "gameover",
 		"name": "Cracked",
 		"description": "Get a gameover."

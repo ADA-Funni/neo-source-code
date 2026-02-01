@@ -1,0 +1,92 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="default">
+	<char name="pico" position="left"/>
+	<char name="gf" position="middle"/>
+	<char name="bf" position="right"/>
+
+	<line char="pico" changeDefAnim="sigh" changeMusic="dialogue/blammed" musicVolume="0.2" speed="0.09">
+		*sighhh*
+	</line>
+	<line char="pico" changeDefAnim="talk">
+		You sure put up a good fight eh?
+	</line>
+	<line char="pico">
+		I'd ALMOST respect you if you weren't my main target of interest.
+	</line>
+
+	<line char="bf" changeDefAnim="annoyed">
+		Dude come on, we can work this out man.
+	</line>
+	<line char="bf" speed="0.04">
+		I don't get this whole switchup! You seemed to be a good dude when we met.
+	</line>
+
+	<line char="pico" changeDefAnim="cry" speed="0.07">
+		Why won't you just let this happen!
+	</line>
+	<line char="pico">
+		You're too stubborn!
+	</line>
+	<line char="pico" speed="0.09">
+		Too DAMN stubborn!
+	</line>
+	<line char="pico" changeDefAnim="sigh" speed="0.09">
+		*sigh* Look...
+	</line>
+	<line char="pico" changeDefAnim="talk">
+		I ain't tryna hurt you like that.
+	</line>
+	<line char="pico">
+		I promise I'll explain everything if you just listen and follow.
+	</line>
+	<line char="pico">
+		This is serious and I don't wanna make the big man angry.
+	</line>
+
+	<line char="bf" changeDefAnim="angry">
+		HOW can you even expect me to even TRUST you!?
+	</line>
+	<line char="bf">
+		I don't know ANY of you!
+	</line>
+	<line char="bf">
+		I have ZERO idea what your intentions even ARE!
+	</line>
+	<line char="bf">
+		Stay back and just leave my girlfriend and I ALONE!
+	</line>
+	<line char="bf">
+		We don't need you or anyone else.
+	</line>
+	<line char="bf">
+		You actually tried to SHOOT me even!
+	</line>
+
+	<line char="pico" changeDefAnim="sigh" speed="0.09">
+		*sigh* Forget about that...
+	</line>
+	<line char="pico" speed="0.07">
+		LISTEN to me... I'll tell you this, ONE, more, time.
+	</line>
+	<line char="pico">
+		This is not an ask.
+	</line>
+	<line char="pico">
+		This is a command.
+	</line>
+	<line char="pico">
+		And it's for your own good...
+	</line>
+	<line char="pico" changeDefAnim="talk">
+		just
+	</line>
+	<line char="pico">
+		<format size="60">come</format>
+	</line>
+	<line char="pico">
+		<format size="70">with</format>
+	</line>
+	<line char="pico" changeDefAnim="yell">
+		<format size="150">US!</format>
+	</line>
+</dialogue>

@@ -1,0 +1,193 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="default">
+	<char name="mom" position="left"/>
+	<char name="tabi" position="left"/>
+	<char name="pico" position="left"/>
+	<char name="gf" position="middle"/>
+	<char name="bf" position="right"/>
+
+	<line char="pico" changeDefAnim="sigh" changeMusic="dialogue/blammed" musicVolume="0.2" speed="0.08">
+		*scoffs* I'm done playin' nice, you're REALLY startin' to piss me off!
+	</line>
+	<line char="pico" changeDefAnim="yell" speed="0.07">
+		*scoffs* You know what? Screw it, maybe I SHOULD just shoot you two!
+	</line>
+	<line char="pico" changeDefAnim="gun" speed="0.08">
+		I'M DONE PLAYING GAMES.
+	</line>
+
+	<line char="bf" changeDefAnim="sweat" speed="0.07">
+		NOT to be a Debbie downer buuuut... according to you, it never WAS a game.
+	</line>
+
+	<line char="pico" changeDefAnim="bruh" speed="0.1">
+		Do you understand...
+	</line>
+
+	<line char="bf" changeDefAnim="confused">
+		Understand wha-
+	</line>
+
+	<line char="pico" changeDefAnim="yell" speed="0.08">
+		HOW INSANELY HARD IT IS... to go day by day, night after night... in this GOD forsaken, SHIT-sack, dumpter fire of a city?!
+	</line>
+	<line char="pico">
+		*inhales* DO YOU?!
+	</line>
+
+	<line char="bf" changeDefAnim="sweat">
+		I...
+	</line>
+
+	<line char="pico" speed="0.06">
+		And when I FINALLY get a chance, a chance to be something useful, and to prove myself to be worth more than this insufferable HELL hole...
+	</line>
+	<!-- bro's been in the city for too long, he needs to touch some grass -->
+	<line char="pico" speed="0.13">
+		You continue to resist, taking away my only chance!
+	</line>
+	<line char="pico" speed="0.06">
+		Nah... *seeths* not anymore.
+	</line>
+
+	<line char="bf">
+		Dude calm down!
+	</line>
+
+	<line char="pico" changeDefAnim="gun" speed="0.08">
+		NO... IM GOING TO KILL YOU, right here... right now.
+	</line>
+	<line char="pico" speed="0.06">
+		Your body full of lead and that damn serum in your blood draining from that thick skull of yours!
+	</line>
+	<line char="pico">
+		And I'll make sure your girlfriend gets to watch as you die before I end HER too.
+	</line>
+
+	<line char="tabi">
+		Pico!!
+	</line>
+
+	<line char="pico" changeDefAnim="sigh" speed="0.07">
+		Ugh... WHAT.
+	</line>
+
+	<line char="tabi" speed="0.06">
+		PLEASE tell me you weren't gonna do what I think you were gonna do!
+	</line>
+	<line char="tabi">
+		We need them ALIVE.
+	</line>
+	<line char="tabi">
+		You can't jeopardize this!
+	</line>
+	<line char="tabi" speed="0.06">
+		We need to regroup, come on.
+	</line>
+	<line char="tabi">
+		Let him go.
+	</line>
+	<line char="tabi">
+		We'll catch him soon enough... when the time is right.
+	</line>
+	<line char="tabi">
+		Keep it together, P.
+	</line>
+
+	<line char="pico">
+		*sigh*
+	</line>
+	<line char="pico" speed="0.07">
+		Don't call me, P.
+	</line>
+	<line char="pico">
+		But fine.
+	</line>
+	<line char="pico" changeDefAnim="yell">
+		Screw you two!
+	</line>
+
+	<line char="bf">
+		Whatever man, let's get outta here babe.
+	</line>
+
+	<line char="gf">
+		Finally, we BLOWN' this popsicle stand...
+	</line>
+
+	<line char="mom" changeMusic="dialogue/post-blammed-mm" musicVolume="0.1" speed="0.07">
+		Oh HIIIIII you two~!
+	</line>
+
+	<line char="gf" changeDefAnim="yell">
+		Wha- MOM!?
+	</line>
+
+	<line char="bf" changeDefAnim="normal">
+		Uh... you're related to this chick babe?
+	</line>
+
+	<line char="mom" speed="0.06">
+		Hey you! I took a peek at your performance in the raveyard~
+	</line>
+	<line char="mom" speed="0.07">
+		You've got balls kid! And a hot PIPING load of nice thick skill to go with em.
+	</line>
+
+	<line char="gf" changeDefAnim="wut">
+		I suddenly feel extremely uncomfortable.
+	</line>
+
+	<!-- gf: What about me?? -->
+	<line char="bf" changeDefAnim="normal-mic">
+		FINALLY, someone who understands my talent!
+	</line>
+
+	<line char="mom">
+		Tell ya what, I'm bout shoot a quick lil music vid before I get to this party I gotta head to...
+	</line>
+	<line char="mom" speed="0.08">
+		SADLLLYY, I don't have ANYYYONE to duet with.
+	</line>
+	<line char="mom" speed="0.06">
+		But YOU seem like a REAL good boy when it comes to this sorta thing, eh?
+	</line>
+
+	<line char="bf">
+		Aw shucks, glad you're such a big fan of my sick rappin'.
+	</line>
+
+	<line char="gf" changeDefAnim="yell">
+		She is LITERALLY flirting with you!
+	</line>
+
+	<line char="bf">
+		Jealous much?
+	</line>
+
+	<line char="gf">
+		No cuddles tonight!!
+	</line>
+
+	<line char="bf" changeDefAnim="sweat-mic" speed="0.04">
+		Uhh, excuse me Mrs. Mearest but I'm going to need you to settle down with your flirtatious advances.
+	</line>
+	<line char="bf" speed="0.04">
+		For I must allow myself to be cuddled soon in the late hours of a sleepless night.
+	</line>
+
+	<line char="mom">
+		What?
+	</line>
+
+	<line char="bf" changeDefAnim="normal-mic">
+		That being said, LET'S ROOOOOOOOOCK!!!
+	</line>
+
+	<line char="gf" changeDefAnim="wut">
+		Can already tell this is gonna be a weird ride...
+	</line>
+	<line char="gf" changeDefAnim="normal">
+		*sigh*... Here we go.
+	</line>
+</dialogue>

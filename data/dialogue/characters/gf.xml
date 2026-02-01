@@ -3,4 +3,5 @@
 	<anim name="normal" anim="gf talk"/>
 	<anim name="wut" anim="gf wut" x="-7"/>
 	<anim name="blush" anim="gf blush" x="-10" y="-2"/>
+	<anim name="yell" anim="gf yell"/>
 </character>

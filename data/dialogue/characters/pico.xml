@@ -8,4 +8,6 @@
 	<anim name="sigh" anim="pico sigh" x="-2"/>
 	<anim name="talk" anim="pico talk"/>
 	<anim name="yell" anim="pico yell"/>
+	<anim name="laugh" anim="pico laugh"/>
+	<anim name="smile" anim="pico smile"/>
 </character>

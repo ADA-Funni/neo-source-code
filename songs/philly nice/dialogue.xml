@@ -1,0 +1,82 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="default">
+	<char name="pico" position="left"/>
+	<char name="gf" position="middle"/>
+	<char name="bf" position="right"/>
+
+	<line char="pico" changeDefAnim="sigh" changeMusic="dialogue/philly-nice" musicVolume="0.2" speed="0.09">
+		Wow... you have got to be kidding me!
+	</line>
+
+	<line char="bf" changeDefAnim="angry" speed="0.045">
+		What?! You're the one that started this by pointing a damn gun at my forehead!
+	</line>
+
+	<line char="pico" speed="0.06">
+		Yeah, well, sorry glowsdick.
+	</line>
+	<line char="pico" changeDefAnim="talk">
+		But the big man wants ya.
+	</line>
+
+	<line char="gf" changeDefAnim="wut" speed="0.07">
+		Woah woah, how did you know it glows?!
+	</line>
+
+	<line char="pico" changeDefAnim="confused" speed="0.08">
+		I... what?
+	</line>
+	<line char="pico" changeDefAnim="yell" speed="0.06">
+		HEY!! WAIT, IM NOT HERE FOR SMALL TALK!
+	</line>
+	<line char="pico" changeDefAnim="sigh">
+		ESPECIALLY WITH YOU LOSERS!
+	</line>
+
+	<line char="bf" changeDefAnim="annoyed">
+		Jerk...
+	</line>
+
+	<line char="pico" changeDefAnim="bruh" speed="0.065">
+		OH and that horrible rappin' you spat at the raveyard!
+	</line>
+	<line char="pico" changeDefAnim="yell">
+		Your bitch ass finally decided to step up your game now?!
+	</line>
+	<line char="pico" changeDefAnim="bruh">
+		Pure load of bull if you ask me!
+	</line>
+
+	<line char="bf" changeDefAnim="normal-mic">
+		Actually that had to be one of my BEST performances!
+	</line>
+	<line char="bf">
+		Don't hate the player, hate the game, P.
+	</line>
+
+	<line char="pico" changeDefAnim="yell" speed="0.08">
+		DON'T, call me P!
+	</line>
+	<line char="pico" changeDefAnim="gun" speed="0.065">
+		I'm ONE trigger away from murkin' you, AND your girl.
+	</line>
+
+	<line char="gf">
+		GULP
+	</line>
+	<line char="gf">
+		My heebies have been jeebied and my timbers have been shivered!
+	</line>
+
+	<line char="pico" changeDefAnim="eyebrow-raise">
+		Are you messing with me?
+	</line>
+
+	<line char="gf" changeDefAnim="normal" callback="pauseMusic">
+		Yes.
+	</line>
+
+	<line char="pico" changeDefAnim="sigh">
+		*groans*
+	</line>
+</dialogue>

@@ -1,0 +1,53 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="default">
+	<char name="pico" position="left"/>
+	<char name="gf" position="middle"/>
+	<char name="bf" position="right"/>
+
+	<line char="pico" changeDefAnim="laugh" changeMusic="dialogue/pico" speed="0.075">
+		Ah ah ah, caught you're ass lackin!
+	</line>
+	<line char="pico" changeDefAnim="smile">
+		You thought this was a game huh?
+	</line>
+	<line char="pico">
+		Well, sorry to burst your TINY little bubble but it ain't gonna be THAT easy, punk!
+	</line>
+
+	<line char="bf" changeDefAnim="sweat" speed="0.09">
+		*sighhhh* Oh, great...
+	</line>
+
+	<line char="gf" changeDefAnim="yell">
+		Yeah screw you!
+	</line>
+	<line char="gf">
+		Think you're all tough and stuff? You ain't worth a penny!
+	</line>
+	<line char="gf">
+		That weird lemon dude was insanely slow.
+	</line>
+	<line char="gf">
+		I don't think he even moved a muscle when we ran.
+	</line>
+	<line char="gf">
+		We would have escaped if it wasn't for YOU!
+	</line>
+	<line char="gf" speed="0.06">
+		Ya gun-slinging freak!
+	</line>
+
+	<line char="pico" changeDefAnim="yell" speed="0.06">
+		PIPE down demon! Sure he MAY be slow and all that jazz.
+	</line>
+	<line char="pico" changeDefAnim="gun" speed="0.04">
+		But what you ain't account for are these bullets!
+	</line>
+	<line char="pico" speed="0.04">
+		See if you can outrun THEM!
+	</line>
+
+	<line char="bf" speed="0.09">
+		Shit... Pico, come on man...
+	</line>
+</dialogue>
