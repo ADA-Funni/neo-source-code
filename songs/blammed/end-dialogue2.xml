@@ -1,0 +1,47 @@
+<!DOCTYPE codename-engine-dialogue>
+<dialogue box="default">
+	<char name="tankman" position="left"/>
+
+	<line char="tankman" changeDefAnim="prowler" speed="0.07">
+		Seriously? You lost him?
+	</line>
+	<line char="tankman" speed="0.03">
+		All you had to do was keep eyes on the little green idiot.
+	</line>
+	<line char="tankman">
+		You know the big man's gonna lose his mind over this--
+	</line>
+	<line char="tankman" speed="0.04">
+		And you know what that means for us.
+	</line>
+	<line char="tankman" speed="0.1">
+		*sigh* Whatever...
+	</line>
+	<line char="tankman">
+		We'll track him down again...
+	</line>
+	<line char="tankman">
+		That kid's impossible to miss anyways...
+	</line>
+	<line char="tankman" speed="0.055">
+		Loud and, glowing and, running around like he owns the place... can't stand him, he's annoying!
+	</line>
+	<line char="tankman">
+		He'll pop up sooner or later...
+	</line>
+	<line char="tankman">
+		Probably at that New Year's party those demon's throw every year--
+	</line>
+	<line char="tankman" speed="0.07">
+		All those people packed into ooonne spot.
+	</line>
+	<line char="tankman">
+		Perfect place for something nasty to crawl back out...
+	</line>
+	<line char="tankman" speed="0.07">
+		And for us to grab him before he screws up anything else.
+	</line>
+	<line char="tankman">
+		We'll check there...
+	</line>
+</dialogue>

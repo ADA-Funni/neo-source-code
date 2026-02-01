@@ -48,7 +48,6 @@ function next(event):Void {
 					openSubState(state);
 				}
 			} else dialogueLine.onComplete = () -> FlxG.sound.play(Paths.sound('pew'), 0.015);
-		// 52
 	}
 }
 
