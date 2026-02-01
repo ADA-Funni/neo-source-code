@@ -16,7 +16,8 @@ function create():Void {
 			cam.scroll.y = cam.height;
 			FlxTween.tween(cam.scroll, {y: -cam.height}, 2 / 3, {
 				ease: FlxEase.sineOut,
-				onComplete: () -> startDialogue(Paths.file('songs/blammed/end-dialogue2.xml'), () -> close())
+				onComplete: () ->
+					new FlxTimer().start(FlxG.random.float(0.3, 0.7), () -> startDialogue(Paths.file('songs/blammed/end-dialogue2.xml'), () -> close()))
 			});
 
 		}
