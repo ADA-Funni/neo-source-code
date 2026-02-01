@@ -1,0 +1,8 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="neo mom" scale="0.9">
+	<anim name="talk" anim="mom talk"/>
+	<anim name="mad" anim="Mom mad"/>
+	<anim name="laugh" anim="mom laugh" y="-10"/>
+	<anim name="point" anim="mom point" y="-10"/>
+	<anim name="smile" anim="mom smile"/>
+</character>

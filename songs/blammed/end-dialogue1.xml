@@ -64,7 +64,7 @@
 		And I'll make sure your girlfriend gets to watch as you die before I end HER too.
 	</line>
 
-	<line char="tabi">
+	<line char="tabi" changeDefAnim="talk">
 		Pico!!
 	</line>
 
@@ -81,13 +81,13 @@
 	<line char="tabi">
 		You can't jeopardize this!
 	</line>
-	<line char="tabi" speed="0.06">
+	<line char="tabi" changeDefAnim="wave" speed="0.06">
 		We need to regroup, come on.
 	</line>
 	<line char="tabi">
 		Let him go.
 	</line>
-	<line char="tabi">
+	<line char="tabi" changeDefAnim="talk">
 		We'll catch him soon enough... when the time is right.
 	</line>
 	<line char="tabi">
@@ -115,7 +115,7 @@
 		Finally, we BLOWN' this popsicle stand...
 	</line>
 
-	<line char="mom" changeMusic="dialogue/post-blammed-mm" musicVolume="0.1" speed="0.07">
+	<line char="mom" changeDefAnim="talk" changeMusic="dialogue/post-blammed-mm" musicVolume="0.1" speed="0.07">
 		Oh HIIIIII you two~!
 	</line>
 
@@ -127,7 +127,7 @@
 		Uh... you're related to this chick babe?
 	</line>
 
-	<line char="mom" speed="0.06">
+	<line char="mom" changeDefAnim="point" speed="0.06">
 		Hey you! I took a peek at your performance in the raveyard~
 	</line>
 	<line char="mom" speed="0.07">
@@ -146,10 +146,10 @@
 	<line char="mom">
 		Tell ya what, I'm bout shoot a quick lil music vid before I get to this party I gotta head to...
 	</line>
-	<line char="mom" speed="0.08">
+	<line char="mom" changeDefAnim="mad" speed="0.08">
 		SADLLLYY, I don't have ANYYYONE to duet with.
 	</line>
-	<line char="mom" speed="0.06">
+	<line char="mom" changeDefAnim="smile" speed="0.06">
 		But YOU seem like a REAL good boy when it comes to this sorta thing, eh?
 	</line>
 
@@ -176,7 +176,7 @@
 		For I must allow myself to be cuddled soon in the late hours of a sleepless night.
 	</line>
 
-	<line char="mom">
+	<line char="mom" changeDefAnim="mad">
 		What?
 	</line>
 

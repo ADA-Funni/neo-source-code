@@ -1,0 +1,5 @@
+<!DOCTYPE codename-engine-character>
+<character sprite="neo tabi" scale="0.8">
+	<anim name="talk" anim="tabi talk"/>
+	<anim name="wave" anim="tabi wave"/>
+</character>
