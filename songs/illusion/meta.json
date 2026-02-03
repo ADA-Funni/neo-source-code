@@ -7,8 +7,6 @@
 	"opponentModeAllowed": true,
 	"icon": "monster",
 	"difficulties": [
-		"chill",
-		"basic",
 		"neo"
 	],
 	"coopAllowed": true,

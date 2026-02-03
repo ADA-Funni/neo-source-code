@@ -5,7 +5,7 @@ import hxvlc.flixel.FlxVideoSprite;
 import utils.ColorHelp;
 
 var weekTxt, dadCharTrail, bfCharTrail, dadChar, bfChar;
-var diffs = ["chill", "basic", "neo"];
+var diffs = ["neo"];
 var weekList:StoryWeeklist;
 var curSelected = 0;
 var selectedWeek;
