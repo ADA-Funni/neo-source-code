@@ -7,6 +7,8 @@
 	"opponentModeAllowed": true,
 	"icon": "dad",
 	"difficulties": [
+		"chill",
+		"basic",
 		"neo"
 	],
 	"coopAllowed": true,

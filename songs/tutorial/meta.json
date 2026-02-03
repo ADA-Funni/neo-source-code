@@ -7,6 +7,8 @@
 	"opponentModeAllowed": true,
 	"icon": "gf",
 	"difficulties": [
+		"chill",
+		"basic",
 		"neo"
 	],
 	"coopAllowed": true,
