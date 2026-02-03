@@ -7,8 +7,6 @@
 	"opponentModeAllowed": true,
 	"icon": "spooky",
 	"difficulties": [
-		"chill",
-		"basic",
 		"neo"
 	],
 	"coopAllowed": true,

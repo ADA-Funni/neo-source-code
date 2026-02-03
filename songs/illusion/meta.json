@@ -7,9 +7,7 @@
 	"opponentModeAllowed": true,
 	"icon": "monster",
 	"difficulties": [
-		"chill",
-		"basic",
-		"neo"
+	    "neo"
 	],
 	"coopAllowed": true,
 	"stepsPerBeat": 4,
