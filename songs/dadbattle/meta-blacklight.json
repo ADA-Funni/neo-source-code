@@ -15,6 +15,6 @@
 	"displayName": "Dadbattle (Blacklight)",
 	"beatsPerMeasure": 4,
 	"needsVoices": true,
-	"vocalsSuffix": "-blacklight",
-	"bpm": 180
+	"bpm": 180,
+	"vocalsSuffix": "-blacklight"
 }

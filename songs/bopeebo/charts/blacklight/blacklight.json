@@ -1,8 +1,11 @@
 {
 	"events": [],
+	"codenameChart": true,
 	"strumLines": [
 		{
 			"keyCount": 4,
+			"strumScale": 1,
+			"position": "dad",
 			"notes": [
 				{
 					"id": 2,
@@ -1445,25 +1448,21 @@
 					"type": 0
 				}
 			],
-			"position": "dad",
-			"strumScale": 1,
-			"strumSpacing": 1,
-			"visible": true,
-			"type": 0,
 			"characters": [
 				"dad"
 			],
+			"type": 0,
+			"visible": true,
+			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"vocalsSuffix": "-blacklight-Dad",
-			"strumLinePos": 0.25
+			"strumLinePos": 0.25,
+			"vocalsSuffix": "-blacklight-Dad"
 		},
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "boyfriend",
 			"notes": [
 				{
 					"id": 2,
@@ -3326,13 +3325,13 @@
 					"type": 0
 				},
 				{
-					"id": 3,
+					"id": 1,
 					"sLen": 0,
 					"time": 66784.0909090909,
 					"type": 0
 				},
 				{
-					"id": 1,
+					"id": 3,
 					"sLen": 0,
 					"time": 66784.0909090909,
 					"type": 0
@@ -3578,39 +3577,40 @@
 					"type": 0
 				}
 			],
+			"position": "boyfriend",
+			"strumScale": 1,
+			"strumSpacing": 1,
+			"visible": true,
+			"type": 1,
 			"characters": [
 				"bf"
 			],
-			"type": 1,
-			"visible": true,
-			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.75,
-			"vocalsSuffix": "-blacklight-BF"
+			"vocalsSuffix": "-blacklight-BF",
+			"strumLinePos": 0.75
 		},
 		{
 			"keyCount": 4,
-			"strumScale": 1,
-			"position": "girlfriend",
 			"notes": [],
+			"position": "girlfriend",
+			"strumScale": 1,
+			"strumSpacing": 1,
+			"visible": false,
+			"type": 2,
 			"characters": [
 				"gf"
 			],
-			"type": 2,
-			"visible": false,
-			"strumSpacing": 1,
 			"strumPos": [
 				0,
 				50
 			],
-			"strumLinePos": 0.5,
-			"vocalsSuffix": ""
+			"vocalsSuffix": "",
+			"strumLinePos": 0.5
 		}
 	],
-	"codenameChart": true,
 	"scrollSpeed": 1.8,
 	"chartVersion": "1.6.0",
 	"stage": "Dearest-Bar",

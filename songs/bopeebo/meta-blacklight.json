@@ -15,6 +15,6 @@
 	"displayName": "Bopeebo (Blacklight)",
 	"needsVoices": true,
 	"beatsPerMeasure": 4,
-	"vocalsSuffix": "-blacklight",
-	"bpm": 110
+	"bpm": 110,
+	"vocalsSuffix": "-blacklight"
 }

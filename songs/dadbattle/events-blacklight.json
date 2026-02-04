@@ -391,6 +391,18 @@
 		},
 		{
 			"params": [
+				true,
+				3,
+				200,
+				"linear",
+				"Out",
+				false
+			],
+			"time": 53416.6666666667,
+			"name": "Scroll Speed Change"
+		},
+		{
+			"params": [
 				0,
 				80,
 				true,
