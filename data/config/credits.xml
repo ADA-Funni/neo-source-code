@@ -30,7 +30,7 @@
 
 	<role name="Story Mode Portraits">
 		<member name="gripou"/>
-		<member name="OQ_LiMACro"/>
+		<member name="LiMACro"/>
 	</role>
 
 	<role name="Dialogue Portraits">
@@ -42,6 +42,7 @@
 		<member name="SONICSTRONG"/>
 		<member name="A3therbl@zer892"/>
 		<member name="Ema15"/>
+		<member name="LiMACro"/>
 	</role>
 
 	<role name="Backgrounds">
