@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+Created with Funkin Packer v0.1.3 https://neeeoo.github.io/funkin-packer/
+--><TextureAtlas imagePath="discord" width="313" height="278">
+	<SubTexture name="discord capsule0000" x="0" y="0" width="136" height="173" rotated="true" frameX="-0" frameY="-0" frameWidth="173" frameHeight="145"/>
+	<SubTexture name="discord select0000" x="0" y="0" width="136" height="173" rotated="true" frameX="-0" frameY="-0" frameWidth="173" frameHeight="145"/>
+	<SubTexture name="discord select0001" x="0" y="173" width="173" height="137" frameX="-0" frameY="-8" frameWidth="173" frameHeight="145"/>
+	<SubTexture name="discord select0002" x="0" y="173" width="173" height="137" frameX="-0" frameY="-8" frameWidth="173" frameHeight="145"/>
+	<SubTexture name="discord select0003" x="0" y="310" width="173" height="137" frameX="-0" frameY="-5" frameWidth="173" frameHeight="145"/>
+	<SubTexture name="discord select0004" x="0" y="310" width="173" height="137" frameX="-0" frameY="-5" frameWidth="173" frameHeight="145"/>
+</TextureAtlas>

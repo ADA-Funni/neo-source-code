@@ -1,4 +1,4 @@
-var chars:Array<String> = ["Boyfriend", "Girlfriend", "Daddy Dearest", "Pico", "KittySleeper"];
+var chars:Array<String> = ["Boyfriend", "Girlfriend", "Daddy Dearest", "Pico", "Spooky Kids", "Monster"];
 var curSelected:Int = 0;
 
 var pink_box:FunkinSprite;
@@ -9,6 +9,9 @@ var bioTxt:FunkinText;
 var charRender:FunkinSprite;
 
 function create() {
+    if (FlxG.random.bool(0.001))
+        chars.insert(0, "KittySleeper");
+
     var bg = add(new FunkinSprite(0, 0, Paths.image("menus/datalogs/Background_datalog")));
     bg.setGraphicSize(FlxG.width * 1.05, FlxG.height * 1.05);
     bg.screenCenter();

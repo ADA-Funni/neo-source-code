@@ -45,6 +45,13 @@ var menuItems:Array<{name:String, pos:Array<Float>, selectOffset:Array<Float>, c
 		left: false
 	},
 	{
+		name: "discord",
+		pos: [945, 575],
+		selectOffset: [0, 7.5],
+		callback: () -> FlxG.openURL("https://discord.gg/Tx5WXcT5E4"),
+		left: false
+	},
+	{
 		name: "options",
 		pos: [1130, 575],
 		selectOffset: [0, 5],
@@ -65,6 +72,7 @@ var timerUntilTheEarthEndsAndEverythingDies:FlxTimer = new FlxTimer().start(300,
 
 function create() {
 	CoolUtil.playMenuSong();
+	FlxG.mouse.enabled = FlxG.mouse.useSystemCursor = true;
 
 	var bg = add(new FunkinSprite(0, 0, Paths.image("menus/mainmenu/background_with_grid")));
 	bg.scale.x = 1.3;
@@ -140,16 +148,19 @@ function update(elapsed) {
 	}
 
 	if (canSelect && (controls.ACCEPT || (FlxG.mouse.justPressed && FlxG.mouse.overlaps(menuObjects.members[curSelected])))) {
-		canSelect = Flags.DISABLE_TRANSITIONS = false;
+		if (curSelected != 5) {
+			canSelect = Flags.DISABLE_TRANSITIONS = false;
+
+			for (i => obj in menuObjects.members)
+				FlxTween.tween(obj, {alpha: 0}, 1, {ease: FlxEase.expoInOut});
+
+			FlxTween.tween(sunset, {x: -FlxG.width * 2}, 1, {ease: FlxEase.quintIn});
+		}
+
 
 		CoolUtil.playMenuSFX(1);
 		FlxG.camera.flash(FlxG.random.bool(50) ? 0xFFFF00FF : 0xFF00FFFF, 0.5);
 		FlxFlicker.flicker(menuObjects.members[curSelected]);
-
-		for (i => obj in menuObjects.members)
-			FlxTween.tween(obj, {alpha: 0}, 1, {ease: FlxEase.expoInOut});
-
-		FlxTween.tween(sunset, {x: -FlxG.width * 2}, 1, {ease: FlxEase.quintIn});
 
 		new FlxTimer().start(1, () -> menuItems[curSelected].callback());
 	}

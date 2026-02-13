@@ -52,14 +52,14 @@ function create() {
 
 	for (spr in [
 		video,
+		dadCharTrail,
+		bfCharTrail,
+		dadChar,
+		bfChar,
 		innerBG,
 		weekTxt,
 		weekSprite,
 		diffSpr,
-		dadCharTrail,
-		bfCharTrail,
-		dadChar,
-		bfChar
 	])
 		add(spr);
 
