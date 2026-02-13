@@ -11,7 +11,6 @@ function onSongEnd(e) {
 	if (gaveAchievements || !PlayState.isStoryMode || PlayState.storyPlaylist.length > 1) return;
 	gaveAchievements = true;
 
-	e.cancel();
 	storyAchievements();
 }
 
