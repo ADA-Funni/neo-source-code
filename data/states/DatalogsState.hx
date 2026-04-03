@@ -1,4 +1,12 @@
-var chars:Array<String> = ["Boyfriend", "Girlfriend", "Daddy Dearest", "Pico", "Spooky Kids", "Monster"];
+var chars:Array<String> = [
+    "Boyfriend",
+    "Girlfriend",
+    "Daddy Dearest",
+    "spooky kids",
+    "Pico",
+    "Monster"
+];
+
 var curSelected:Int = 0;
 
 var pink_box:FunkinSprite;
@@ -9,13 +17,13 @@ var bioTxt:FunkinText;
 var charRender:FunkinSprite;
 
 function create() {
-    if (FlxG.random.bool(0.001))
-        chars.insert(0, "KittySleeper");
-
     var bg = add(new FunkinSprite(0, 0, Paths.image("menus/datalogs/Background_datalog")));
     bg.setGraphicSize(FlxG.width * 1.05, FlxG.height * 1.05);
     bg.screenCenter();
     bg.updateHitbox();
+
+    FlxG.sound.playMusic(Paths.music("Datalogs"), 1, true);
+
 
     pink_box = add(new FunkinSprite(FlxG.width * 0.035, 0, Paths.image("menus/datalogs/pink_box")));
     pink_box.screenCenter(FlxAxes.Y);
@@ -45,9 +53,25 @@ function create() {
 }
 
 function update(elapsed) {
-    if (controls.LEFT_P) changeSelection(-1);
-    if (controls.RIGHT_P) changeSelection(1);
-    if (controls.BACK) FlxG.switchState(new MainMenuState());
+    if (controls.LEFT_P) {
+    FlxG.sound.play(Paths.sound("menu/glitch scroll"));
+    changeSelection(-1);
+}
+
+if (controls.RIGHT_P) {
+    FlxG.sound.play(Paths.sound("menu/glitch scroll"));
+    changeSelection(1);
+}
+
+    if (controls.BACK) {
+    FlxG.sound.play(Paths.sound("menu/cancel"));
+
+    FlxG.sound.music.stop();
+
+    FlxG.switchState(new MainMenuState());
+}
+
+
 }
 
 var epicTimer:FlxTimer = new FlxTimer();
@@ -76,5 +100,22 @@ function changeSelection(amt:Int = 0) {
         charTxt.text = chars[curSelected];
         bioTxt.text = Assets.getText(Paths.txt("datalogs/" + chars[curSelected].toLowerCase()));
         bioTxt.y = (blue_box.y + (blue_box.height - bioTxt.height) - 100);
+        var baseY = (blue_box.y + (blue_box.height - bioTxt.height) - 100);
+
+// Adjust for specific characters
+switch (chars[curSelected])
+{
+    case "spooky kids":
+        bioTxt.y = baseY + 80;
+
+    case "Monster":
+        bioTxt.y = baseY - 80;
+
+    default:
+        bioTxt.y = baseY;
+} 
+
     });
-}
+
+
+ }

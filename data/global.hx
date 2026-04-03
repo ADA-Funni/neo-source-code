@@ -68,7 +68,8 @@ static function giveAchievement(achievementName:String = "faggot", callback:Void
 	achievementsLength++;
 
 	var epicAchievementGroup = FlxG.state.add(new FlxSpriteGroup(-150, achievementsLength * 180));
-	epicAchievementGroup.camera = FlxG.cameras.list[FlxG.cameras.list.length - 1];
+	epicAchievementGroup.camera = FlxG.cameras.add(new FlxCamera(), false);
+	epicAchievementGroup.camera.bgColor = FlxColor.TRANSPARENT;
 	epicAchievementGroup.alpha = 0.0001;
 	FlxTween.tween(epicAchievementGroup, {x: 0, alpha: 1}, 0.5, {ease: FlxEase.expoInOut, onComplete: () -> {
 		FlxTween.tween(epicAchievementGroup, {x: -150, alpha: 0}, 0.5, {ease: FlxEase.expoInOut, startDelay: 5});

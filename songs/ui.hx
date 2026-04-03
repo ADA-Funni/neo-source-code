@@ -88,13 +88,6 @@ function postCreate() {
 		songTimeTxt.alignment = 'center';
 		songTimeTxt.cameras = [camHUD];
 		songTimeTxt.color = leftColor;
-
-		updateIconPositions = () -> {
-			for (icon in iconArray) {
-				var thingy = icon.isPlayer ? thingiebf : thingiedad;
-				icon.setPosition(((thingy.width - icon.width) / 2) + thingy.x, ((thingy.height - icon.height) / 2) + thingy.y);
-			}
-		}
 	}
 }
 
@@ -106,6 +99,9 @@ function postUpdate(elapsed) {
 		smoothScoreEpik = lerp(smoothScoreEpik, songScore, 0.25);
 
 		scoreTxt.text = "Score:" + FlxStringUtil.formatMoney(smoothScoreEpik == 0 ? 0 : smoothScoreEpik + 1, false);
+
+		iconP1.setPosition(((thingiebf.width - iconP1.width) / 2) + thingiebf.x, ((thingiebf.height - iconP1.height) / 2) + thingiebf.y);
+		iconP2.setPosition(((thingiedad.width - iconP2.width) / 2) + thingiedad.x, ((thingiebf.height - iconP2.height) / 2) + thingiedad.y);
 	}
 }
 
