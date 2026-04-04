@@ -36,3 +36,7 @@ The FNF Neo R Voice Actors, for putting up with the horrible casting and voice d
 TechnikTil, for helping me rebase this repo.
 
 The [Funkin'](https://github.com/FunkinCrew/Funkin) Contributors, for teaching me how to merge without looking.
+
+# People who helped me research stuff for this
+TechnikTil
+TehPuertoRicanSpartan
