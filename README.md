@@ -18,6 +18,18 @@ Moreover, if any of the original developers want their assets removed from futur
 
 You can contact me at ada_funni on Discord.
 
+# How To Install
+> [!WARNING]
+> You must install [Codename Engine](https://codename-engine.com) to play FNF Neo R!
+
+1. Add the contents of this repository to a folder named "FNF Neo R".
+2. Put the "FNF Neo R" folder into Codename Engine/mods.
+3. Launch Codename Engine.
+4. Press Tab to open the Mod Picker.
+5. Select "FNF Neo R".
+
+If you have any problems with the mod, file a GitHub Issue for them, and I or a community member will try to help you with it.
+
 # Special Thanks
 The FNF Neo R Voice Actors, for putting up with the horrible casting and voice direction department.
 
